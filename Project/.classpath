@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/commons-codec-1.4.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/httpclient-cache-4.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/httpclient-4.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/httpmime-4.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/httpcore-4.1.2.jar"/>
-	<classpathentry kind="lib" path="/home/rchicoria/projects/is2011/xml/Project/src/pt/uc/dei/is/xml/jdom.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/httpclient-cache-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/httpmime-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="/home/ricardo/Dropbox/Faculdade/IS/Pratica/xml_xsl_/Project/src/pt/uc/dei/is/xml/jdom.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
