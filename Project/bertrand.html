@@ -1,0 +1,1520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+    <head>
+         <!-- Enable IE8 Standards mode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=8" ></meta>
+        <base href="http://www.bertrand.pt/" />
+        <title>Bertrand Livreiros - livraria online</title>
+    <meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="livraria online, livros online, livros, portugueses, eBooks, ebooks, ingleses, estrangeiros, literatura, ficção, ensino, livraria virtual" />
+<meta name="description" content="A Bertrand é a maior rede de livrarias de Portugal. De norte a sul do país, procuramos estar sempre perto de si.
+Na Bertrand online, para além de todos os livros portugueses, encontra edições estrangeiras e eBooks." />
+        
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-124829-51']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setLocalRemoteServerMode']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        <link rel="apple-touch-icon" href="/themes/bertrand/images/bertrandtouch-icon.png"/>
+        <script>
+              window.addEventListener("load",function() {
+                // Set a timeout...
+                setTimeout(function(){
+                    // Hide the address bar!
+                    window.scrollTo(0, 1);
+                }, 0);
+              },false);
+        </script>
+    <link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f1.css?m=1310044420" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/typography.css?m=1310044419" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/layout.css?m=1310044419" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/form.css?m=1310044419" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_shoppingcart/css/shoppingCartContadorWidget.css?m=1310044419" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/ui.all.css?m=1310044419" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/sectionfacetwidget.css?m=1310044420" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/Product2SC.css?m=1310044420" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f3.css?m=1310044420" />
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.min/jquery-1.5.min.js?m=1310044502"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.ui.min/jquery-ui-1.8.11.custom.min.js?m=1310044502"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/jquery.profile.js?m=1310044418"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/popup-window.js?m=1310044418"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/utils.js?m=1314343261"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/product2sc.js?m=1310044418"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/productpage.js?m=1310044493"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/product2sc.js?m=1314170753"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.validate.min/jquery.validate.min.js?m=1310044502"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/JQueryValidationSearch.js?m=1310044493"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/messages_pt.js?m=1310044493"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/slideshowBanner.js?m=1314343299"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/carousel.js?m=1314343299"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/jquery.smoothDivScroll-1.1-min.js?m=1314170753"></script>
+</head>
+
+    <body>
+
+        <div id="BgContainer">
+
+            <div id="Container">
+                <div id="Header">       
+    <div id="barraGPE"></div>
+    <div id="bertrandLogo" style="float: left;">
+        <a href="/">
+            <img alt="" src="themes/bertrand/images/bertrandLogo.gif"/>
+        </a>
+    </div>
+
+    <div id="caixa_pesquisa">
+        
+
+<form  id="Form_SearchForm" action="/home/SearchForm" method="post" enctype="application/x-www-form-urlencoded">
+
+    
+    <p id="Form_SearchForm_error" class="message " style="display: none"></p>
+    
+    
+    <fieldset>
+         
+        
+            <label id="Form_SearchForm_label">pesquisa</label>
+        
+            <div id="palavra" class="field text  nolabel"><div class="middleColumn"><input type="text" class="text nolabel" id="Form_SearchForm_palavra" name="palavra" value="" /></div></div>
+        
+            <input class="hidden nolabel" type="hidden" id="Form_SearchForm_restricts" name="restricts" value="" />
+        
+            <input class="hidden nolabel" type="hidden" id="Form_SearchForm_facetcode" name="facetcode" value="" />
+        
+        <div class="clear"><!-- --></div>
+    </fieldset>
+
+    
+    <div class="Actions">
+        
+            <input class="action " id="Form_SearchForm_action_doSearch" type="submit" name="action_doSearch" value="ok" title="ok" />
+        
+    </div>
+    
+
+</form>
+
+
+
+
+    </div>
+    
+        <div id="mouseInfo" style="top: 0px; left: 0px; position:absolute; width: 100px; height: 100px; display: none;">
+    <div>DivLogin.ss</div>
+    <div id="mousePosition"></div>
+</div>
+
+
+<div id="dialogCheckout" title="LOGIN" style="display:none; height: auto;">
+    <div id="commentTop">
+    Se já é um cliente registado preencha os seguintes dados:
+    </div>
+    <div id="formElements">
+        <form id="CheckoutLoginForm" action="" onsubmit="">
+                <label for="checkout_user">Email</label><br>
+                <input id="checkout_user_input" type="text" name="checkout_user_input" />
+                <input id="checkout_hiddenID" type="hidden" name="checkout_hiddenID" />
+                <input id="checkout_redirectUrl" type="hidden" name="checkout_redirectUrl" />
+                <div id="breaker"></div>
+                <label for="ckeckout_pass">Password</label><br>
+                <input id="checkout_password" type="password" name="checkout_password" /><br>
+                <div id="breaker"></div>
+                <input id="checkoutsubmit" type="submit" value="confirmar"/>
+                <div id="msgLoading" style="display:none;float: right;margin-top: 2px;"><img src="/themes/bertrand_emporium/images/ico_searching.gif" title="a processar..." alt="a processar..."></div>
+        </form>
+    </div>
+    <!--<div id="checkout_banner"></div>-->
+    <div id="msgNotifica" style="display:none;"></div>
+    <div id="comments" >
+        Se esqueceu a password, escreva o seu email e clique <a id="checkoutlink" onclick="sendRecoveryEmail();"><u>aqui</u>.</a>
+    </div>
+    <div id="footerFormLogin">
+        Se ainda não se encontra registado, faça-o
+        <a style="text-decoration:underline; font-weight: bold;" id="checkoutlink" href="areacliente/novoregisto">aqui</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/**
+ * Validar o endereço de email correto
+ * @param  - String
+ * @return boolean
+ */
+function validateEmailAddress(mail){
+    var patternEmail = /^(\w|\.|-)+@(\w|\.|-)+(\.[a-zA-Z]{2,3})$/;
+    
+    if(mail == null || mail == '' || !patternEmail.test(mail)){
+        return false;
+    }
+
+    return true;
+}
+
+
+    /**
+     * Chamada no poplogin para recuperação de password.
+     * @return
+     */
+    function sendRecoveryEmail() {
+        jQuery('#msgNotifica').hide();
+        jQuery('#msgNotifica').html('');
+        jQuery('#msgLoading').show();
+
+        var msgErroGeral = 'O endereço digitado não se encontra nos nossos registos.';
+        var msgSuccess = 'A sua password foi enviada para o mail ';
+
+        // Verifica o email submetido pelo utilizador
+        var email = trim(jQuery('#checkout_user_input').val());
+    
+        if (!validateEmailAddress(email)){
+           jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+           jQuery('#checkout_user_input').focus();
+           jQuery('#msgNotifica').show();
+           jQuery('#msgLoading').hide();
+           return false;
+        }
+       
+
+        var postURL = '/home/doRecoveryPassword';
+
+        jQuery.ajax({
+            cache:false,
+            async:false,
+            type: "POST",
+            data: {email: email},
+            url: postURL,
+            success:    function(msg)
+                        {
+                           
+
+                            if(msg == 1)
+                            {
+                                jQuery('#msgNotifica').html(msgSuccess + email);
+                            }
+                            else
+                            {
+                                jQuery('#msgNotifica').html(msgErroGeral);
+                            }
+
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+
+                        },
+            error:      function()
+                        {
+                           
+                            jQuery('#msgNotifica').html(msgErroGeral);
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+                        }
+
+        });
+    }
+
+
+    /*********************************************************************
+     * Posiciona o login e atribui a redirecao pretendida
+     */
+    function openLoginPop(areaDestino,jsInfo){
+        jQuery('#dialogCheckout').dialog('open');
+        if(areaDestino != null){
+            jQuery('#checkout_redirectUrl').val(areaDestino);
+        }
+        
+        if(jsInfo != null){
+            jQuery('#checkout_hiddenID').val(jsInfo);
+        }
+
+        jQuery("#dialogCheckout").dialog( "option", "position", [tempX,tempY]);
+        return false;
+    }
+
+    jQuery("#dialogCheckout").dialog({
+        bgiframe: true,
+        autoOpen: false,
+        width: 242,
+        closeText: "FECHAR",
+        close: function(ev, ui) {
+            jQuery("#checkout_user_input").val('');
+            jQuery("#checkout_password").val('');
+            jQuery("#checkout_banner").html('');
+
+            // Recuperar password
+            jQuery('#msgNotifica').html('');            
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgLoading').hide();
+        }
+    });
+
+    jQuery(function(){
+        jQuery("#CheckoutLoginForm").submit(function(){
+
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgNotifica').html('');
+            jQuery('#msgLoading').show();
+
+            // Verifica o email submetido pelo utilizador
+            if (!validateEmailAddress(jQuery('#checkout_user_input').val())){
+                jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+                jQuery('#checkout_user_input').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            // Verifica campo password
+            if ( (jQuery('#checkout_password').val() == null) || (jQuery('#checkout_password').val() == '') ){
+                jQuery('#msgNotifica').html('Necessário introduzir uma password.');
+                jQuery('#checkout_password').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            jQuery.post("http://www.bertrand.pt/"
+                + "home/doLogin", "checkout_user_input="
+                + jQuery("#checkout_user_input").val()
+                + "&checkout_redirectUrl="
+                + jQuery("#checkout_redirectUrl").val()
+                + "&checkout_password="
+                + jQuery("#checkout_password").val()
+                + "&checkout_hiddenID="
+                + jQuery("#checkout_hiddenID").val()+"&a=1",
+                function( data ) {
+                    jQuery('#msgLoading').hide();
+                    jQuery('#msgNotifica').html(data);
+                    jQuery('#msgNotifica').show();
+                });
+            return false;
+        });
+    });
+
+</script>
+        <!-- css no shoppingCartContadorwidget.css -->
+        <div id="contadorCesto" style="border: 0px solid red;">
+            <!-- chamar com JQUERY o Widget dos contadores do cesto e lista para não ficar em cache-->
+            <!-- resultado da chamada ajax é colocado aqui -->
+            <div id="resultContadores"></div>
+            <script type="text/javascript">
+                function getContadoresInfo(){
+                    // get some values from elements on the page:
+                    var url = "/cesto-de-compras/getContadores";
+
+                    // Send the data using post and put the results in a div
+                    jQuery.post( url,
+                    function( data ) {
+                        jQuery( "#resultContadores" ).html( data );
+                    });
+                }
+                getContadoresInfo();
+            </script>
+        </div>
+        <div id="menuPE"></div>
+
+</div>
+
+        <div id="Layout">
+
+                    <!--div-->
+                    <!--breadcrumbs-->
+                    
+    <div id="breadPE">
+        <ul id="Menu2">
+            
+                <li><a href="http://www.bertrand.pt/home/index/8066x5839/temas" class="link" title="Livros">INÍCIO</a></li>
+            
+                <li><a href="http://www.bertrand.pt/home/index/8066x8067/temas" class="link" title="Livros Ingleses">ED. INGLESAS</a></li>
+            
+                <li><a href="http://www.bertrand.pt/home/index/8066x8477/temas" class="link" title="Livros Espanhois">ED. ESPANHOLAS</a></li>
+            
+                <li><a href="http://www.bertrand.pt/home/index/8066x9482/temas" class="link" title="Livros Franceses">ED. FRANCESAS</a></li>
+            
+                <li><a href="http://www.bertrand.pt/home/index/11708x11709/temas" class="link" title="eBooks Portugueses">EBOOKS PT</a></li>
+            
+                <li><a href="http://www.bertrand.pt/home/index/11708x11710/temas" class="link" title="eBooks em Inglês">EBOOKS UK</a></li>
+            
+                <li><a href="http://www.bertrand.pt/livros-escolares" class="link" title="Escolares">ESCOLARES</a></li>
+            
+        </ul>
+    </div>
+
+                    <div id="Breadcrumbs" style="padding-left:158px";>
+    <p>
+        <a href="/" class="current">Início</a><span class="current"> &gt; </span>
+        
+            <!-- ## primeiro nivel de breadcrumbs (lê no menu de navegação) - controla por css o que aparece ## -->
+         
+            <a href="/?restricts=8066&facetcode=temas">Livros</a> > Livros em Português
+        
+    </p>
+ 
+    <!-- <div id="logout" title="" class="hidden"><a href="http://www.bertrand.pt/home/dologout" >logout</a></div> -->
+
+</div>
+
+                    <!--/div-->
+
+                    <!--div-->
+                    <div id="ContainerLeft">
+                    
+    <div id="Sidebarmenu">
+        <div id="facets">
+            <div id='facet_pai' class='tema'>Temas</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5840/temas">Arte</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x7485/temas">Autoajuda</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5855/temas">Banda Desenhada</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5867/temas">Ciências Exatas e Nat.</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6267/temas">Ciências Soc. e Humanas</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5888/temas">Desporto e Lazer</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5990/temas">Dicionários e Enciclopédias</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6061/temas">Direito</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5911/temas">Economia, Finanças e Contabilidade</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5919/temas">Engenharia</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5915/temas">Ensino e Educação</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5643/temas">Erotismo e Sexualidade</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5635/temas">Gastronomia e Vinhos</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5948/temas">Gestão</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6051/temas">Guias e Roteiros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5930/temas">História</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6013/temas">Infantojuvenil</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5957/temas">Informática</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5968/temas">Literatura</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x5600/temas">Mapas e Atlas</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6039/temas">Medicina e Saúde</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x7376/temas">Plano Nac. de Leitura</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6022/temas">Política</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6001/temas">Religião e Moral</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/8066x5839x6027/temas">Vida Prática</a></h3></div><div class='cleaner'></div>
+            
+            <div class="AllSectionFacetsWidget">
+    
+        <div class="SectionFacetWidget">
+    
+        <div id='sectionfacetarea' class='f3_1col'><div class='sectionfacettituloWidget'><br><br>NOVIDADES INFANTIS</div><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'>                <div id="f3">   <!-- div principal -->
+                <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/descobre-o-corpo-humano?id=10633911"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5ClsUwtZNjO0qvEEGV77My&width=50'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo">
+<a href="/ficha/descobre-o-corpo-humano?id=10633911" class="titulo_link">Descobre o Corpo Humano</a>        </div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/o-atlas-esmeralda?id=10120058"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7u6viygMkXzNw8FVyzzLGh&width=50'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo">
+<a href="/ficha/o-atlas-esmeralda?id=10120058" class="titulo_link">O Atlas Esmeralda</a>        </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de">de</span> John Stephens    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/ursa-tutu-estrela-de-ballet?id=11192764"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5fHe8IHv7K2WFuC%2FMXmGYM&width=50'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo">
+<a href="/ficha/ursa-tutu-estrela-de-ballet?id=11192764" class="titulo_link">Ursa Tutu, Estrela de Ballet</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de">de</span> Lee Krutop    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/o-livro-das-boas-noites?id=11220002"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4mURO%2BAID9ysc05ssx8n3t&width=50'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo">
+<a href="/ficha/o-livro-das-boas-noites?id=11220002" class="titulo_link">O Livro das Boas-Noites</a>        </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de">de</span> José Jorge Letria    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/tic-tac-tales-livro-de-actividades-da-camilla?id=11152266"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7q7fUi4aLpKwE%2BYoFHU2gG&width=50'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo">
+<a href="/ficha/tic-tac-tales-livro-de-actividades-da-camilla?id=11152266" class="titulo_link">Tic Tac Tales –Livro de</a>...       </div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div>                    <div id="ver_todos" style="float:right; border:0px solid green; margin-bottom: 5px;">
+                        <a style ="color: #654f48; font-size: 10px; font-family: verdana; text-decoration: none;"href="/home/vertodos/?local=meio&areaid=5839&facetcode=temas&sectionid=126">VER+ &gt;&gt;</a>
+                    </div>
+                    <div id='portlet_separador_horizontal'><div class='linha1'></div></div></div></div></div>
+    
+</div>
+
+    
+</div>
+
+    </div>
+    </div>
+
+
+                    </div>
+
+                    <div id="ContainerCenter">
+                        <!--conteudo principal-->
+            <div id="Maincontent">
+    <div class="typography">
+            <div id='sectionfacetarea' class='f1_4col'><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet' >                <div id="f1">    <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/lisboa-aos-seus-amores?id=10904022"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6E6FM6n0xKyFizSuMIjAVm&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/lisboa-aos-seus-amores?id=10904022" class="titulo_link">Lisboa aos seus amores</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Abel Neves    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">13,90€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6473672','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6473672\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/sabado?id=10950381"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5T62CiSjmPhULfOOTVvX7H&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/sabado?id=10950381" class="titulo_link">Sábado</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Ian McEwan    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">12,22€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6520710','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6520710\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/por-tras-do-silencio?id=10893929"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Vg6K43G8Ir01UmY%2BxqiV%2F&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/por-tras-do-silencio?id=10893929" class="titulo_link">Por Trás do Silêncio</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Heather Gudenkauf    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">13,50€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6463568','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6463568\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/o-ano-em-que-devia-morrer?id=10916323"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5pyeOKGABUhF0sPf93Itjj&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/o-ano-em-que-devia-morrer?id=10916323" class="titulo_link">O Ano em Que Devia Morrer</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Miguel Pinto    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">13,08€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6485972','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6485972\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet' >                <div id="f1"> <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/cinco-de-outubro?id=10916702"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5GdwI%2Fn8kzgtTB92JHFRBa&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/cinco-de-outubro?id=10916702" class="titulo_link">Cinco de Outubro</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Lourenço Pereira Coutinho    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">13,90€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6486378','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6486378\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/como-o-ar-que-respiras?id=10916701"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6P%2FWWL6vKIpHnZx95oG2mP&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/como-o-ar-que-respiras?id=10916701" class="titulo_link">Como o Ar que Respiras</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Maria João Martins    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">12,50€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6486375','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6486375\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/jesus-de-nazare?id=10916320"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4YZi2fypUbt3%2BYID5fezIl&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/jesus-de-nazare?id=10916320" class="titulo_link">Jesus de Nazaré</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Bento XVI    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">12,01€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6485969','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6485969\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/jaguar?id=10878870"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5jtpME%2B0RJVkCw8g%2Fhd1AO&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/jaguar?id=10878870" class="titulo_link">Jaguar</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> J. Pedro Baltasar    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">15,50€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6448448','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6448448\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet' >                <div id="f1"> <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/a-cancao-de-zefanias-sforza?id=10893924"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7kLb5YIvEAhLfnsWVgYEAJ&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/a-cancao-de-zefanias-sforza?id=10893924" class="titulo_link">A Canção de Zefanias Sforza</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Luís Carlos Patraquim    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">7,90€</div>      <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6463563','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6463563\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/333?id=10893921"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7xHnghNnZBUZ46WieKxu26&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/333?id=10893921" class="titulo_link">333</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Pedro Sena-Lino    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">13,50€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6463560','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6463560\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/a-escrava-de-cordova?id=10893922"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7q8U9xG4NTy8Z%2FAC1uDAvQ&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/a-escrava-de-cordova?id=10893922" class="titulo_link">A Escrava de Córdova</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Alberto S. Santos    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">14,90€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6463561','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6463561\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/a-questao-finkler?id=10878869"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7K9%2BNwAXQhnBZv%2FuisxLg3&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/a-questao-finkler?id=10878869" class="titulo_link">A Questão Finkler</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Howard Jacobson    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">14,50€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6448447','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6448447\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet' >                <div id="f1"> <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/matteo-perdeu-o-emprego?id=10878871"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5%2BJNGjHEnprLB64FHOs%2FpA&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/matteo-perdeu-o-emprego?id=10878871" class="titulo_link">Matteo perdeu o emprego</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Gonçalo M. Tavares    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">12,90€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6448449','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6448449\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/o-destino-do-capitao-blanc?id=10904020"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Pro6JCAr634ewGtmHSBWR&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/o-destino-do-capitao-blanc?id=10904020" class="titulo_link">O Destino do Capitão Blanc</a>      </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Sérgio Luís de Carvalho    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">12,99€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6473670','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6473670\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f1">   <!-- div principal -->
+                <div id="f1_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f1_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f1_imagem" ><a href="/ficha/morrer-e-so-nao-ser-visto?id=10904021"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7lua9H3gqYomsmF3htkkqN&width=72'></a></div>                    
+        <div id="f1_3icons" >
+<div id="f1_ebook"></div>   </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f1_titulo">
+<a href="/ficha/morrer-e-so-nao-ser-visto?id=10904021" class="titulo_link">Morrer É Só Não Ser Visto</a>        </div>
+        
+            <div id="f1_autores">               
+<span class="autor_de">de</span> Inês de Barros Baptista    &nbsp;</div>
+<div id="f1_disponibilidade" class="disponibilidade">Disponibilidade Imediata</div>  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    <div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">11,99€</div>     <div class="cleaner"></div>
+        <div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6473671','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6473671\',\'N\',\'0\');')">Adicionar à lista</a></div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div></div></div></div>
+    </div>
+</div>
+                    </div>
+
+                    <div id="ContainerRight">
+                        <div id="CaixaWidgetRight">
+                            <!--conteudo principal-->
+                            
+    <div class="WidgetHolder AllSectionFacetsWidget first">
+    
+    <div class="AllSectionFacetsWidget">
+    
+        <div class="SectionFacetWidget">
+    
+        <div id='sectionfacetarea' class='f7_1col'><div id='0' style='border:0px solid red; text-align: left;'><a href='http://www.bertrand.pt/livrarias-bertrand' target='_self'><img src='http://www.bertrand.pt/assets/LivrariasbtnNr.png' border='0' style='margin:0px;' /></a></div><div id='portlet_separador_horizontal'><div class='linha1'></div></div></div>
+    
+</div>
+<div id='sectionfacetarea_separador_horizontal'></div><div class="SectionFacetWidget">
+    
+        <div id='sectionfacetarea' class='f3_1col'><div class='sectionfacettituloWidget'>TOP BERTRAND online</div><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'>                <div id="f3">  <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/o-ceu-existe-mesmo?id=10952276"><img src='/themes/bertrand_emporium/images/topIcone01.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/o-ceu-existe-mesmo?id=10952276" class="titulo_link_coluna">O Céu Existe Mesmo</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Lynn Vincent    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/do-fundo-do-coracao?id=11149186"><img src='/themes/bertrand_emporium/images/topIcone02.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/do-fundo-do-coracao?id=11149186" class="titulo_link_coluna">Do Fundo do Coração</a>     </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Nora Roberts    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/por-ti-resistirei?id=10984378"><img src='/themes/bertrand_emporium/images/topIcone03.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/por-ti-resistirei?id=10984378" class="titulo_link_coluna">Por Ti Resistirei</a>     </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Júlio Magalhães    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/licoes-de-desejo?id=11152270"><img src='/themes/bertrand_emporium/images/topIcone04.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/licoes-de-desejo?id=11152270" class="titulo_link_coluna">Lições de Desejo</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Madeline Hunter    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/diario-de-um-gajo-divorciado-em-tempos-de-crise?id=11006374"><img src='/themes/bertrand_emporium/images/topIcone05.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/diario-de-um-gajo-divorciado-em-tempos-de-crise?id=11006374" class="titulo_link_coluna">Diário de Um Gajo Divorciado Em</a>...      </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> António Costa Santos    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/a-guerra-dos-tronos?id=196511"><img src='/themes/bertrand_emporium/images/topIcone06.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/a-guerra-dos-tronos?id=196511" class="titulo_link_coluna">A Guerra dos Tronos</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> George R. R. Martin    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/a-opereta-dos-vadios?id=10995223"><img src='/themes/bertrand_emporium/images/topIcone07.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/a-opereta-dos-vadios?id=10995223" class="titulo_link_coluna">A Opereta dos Vadios</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Francisco Moita Flores    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/o-anjo-branco?id=9632550"><img src='/themes/bertrand_emporium/images/topIcone08.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/o-anjo-branco?id=9632550" class="titulo_link_coluna">O Anjo Branco</a>      </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> José Rodrigues dos Santos    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/encontro-na-provenca?id=10952290"><img src='/themes/bertrand_emporium/images/topIcone09.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/encontro-na-provenca?id=10952290" class="titulo_link_coluna">Encontro na Provença</a>       </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Elizabeth Adler    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/um-dia?id=9423630"><img src='/themes/bertrand_emporium/images/topIcone010.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/um-dia?id=9423630" class="titulo_link_coluna">Um Dia</a>        </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> David Nicholls    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div>                    <div id="ver_todos" style="float:right; border:0px solid green; margin-bottom: 5px;">
+                        <a style ="color: #654f48; font-size: 10px; font-family: verdana; text-decoration: none;"href="/home/vertodos/?local=meio&areaid=5839&facetcode=temas&sectionid=128">VER+ &gt;&gt;</a>
+                    </div>
+                    <div id='portlet_separador_horizontal'><div class='linha1'></div></div></div></div></div>
+    
+</div>
+<div id='sectionfacetarea_separador_horizontal'></div><div class="SectionFacetWidget">
+    
+        <div id='sectionfacetarea' class='f3_1col'><div class='sectionfacettituloWidget'>TOP INFANTOJUVENIL</div><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'>                <div id="f3">   <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/a-minha-sexualidade-dos-6-aos-9-anos?id=185135"><img src='/themes/bertrand_emporium/images/topIcone01.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/a-minha-sexualidade-dos-6-aos-9-anos?id=185135" class="titulo_link_coluna">A minha sexualidade - dos 6 aos 9</a>...     </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Jocelyne Robert    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/quando-a-mae-grita-?id=176478"><img src='/themes/bertrand_emporium/images/topIcone02.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/quando-a-mae-grita-?id=176478" class="titulo_link_coluna">Quando a Mãe Grita...</a>     </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Jutta Bauer    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/o-principezinho?id=46993"><img src='/themes/bertrand_emporium/images/topIcone03.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/o-principezinho?id=46993" class="titulo_link_coluna">O Principezinho</a>        </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Antoine de Saint-Exupéry    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/caes-danados?id=8646590"><img src='/themes/bertrand_emporium/images/topIcone04.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/caes-danados?id=8646590" class="titulo_link_coluna">Cães Danados</a>        </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Robert Muchamore    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">    <!-- div principal -->
+                <div id="f3_top_bullet" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f3_imagem" ><a href="/ficha/uma-aventura-na-ilha-de-timor?id=10747287"><img src='/themes/bertrand_emporium/images/topIcone05.gif'></a></div>                    
+        <div id="f3_3icons" >
+    </div><!-- fim da div '3icons' -->
+    </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+    
+            <div id="f3_middle_top" ><!-- div que contém a parte do meio da info do produto -->
+
+        <div id="f3_titulo_bullet">
+<a href="/ficha/uma-aventura-na-ilha-de-timor?id=10747287" class="titulo_link_coluna">Uma Aventura na Ilha de Timor</a>     </div>
+        
+            <div id="f3_autores">               
+<span class="autor_de_coluna">de</span> Isabel Alçada    &nbsp;</div>
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+    
+    <div id="f3_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+    
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+    </div><!-- fim da div 'principal' -->   
+    <!-- #CLEANER# <div class="cleaner"></div>-->   
+     
+</div></div>                    <div id="ver_todos" style="float:right; border:0px solid green; margin-bottom: 5px;">
+                        <a style ="color: #654f48; font-size: 10px; font-family: verdana; text-decoration: none;"href="/home/vertodos/?local=meio&areaid=5839&facetcode=temas&sectionid=132">VER+ &gt;&gt;</a>
+                    </div>
+                    <div id='portlet_separador_horizontal'><div class='linha1'></div></div></div></div></div>
+    
+</div>
+
+    
+</div>
+
+</div>
+
+
+                            <div></div>
+            </div>
+                    </div>
+                    <!--/div-->
+
+                    <div class="confirmaddshoppcartGeneric_popup" id="confirmaddshoppcartGeneric_popup" style="display:none;">
+    <div class="menu_form_header" id="confirmaddshoppcartGeneric_drag">
+        <div id="confirmaddshoppcartGeneric_title" >informação</div>
+    </div>
+    <div id="confirmaddshoppcartconteudoGeneric">
+        Foi adicionado um item ao seu cesto de compras. </div>
+</div>
+<div class="confirmaddshopplistGeneric_popup" id="confirmaddshopplistGeneric_popup" style="display:none;">
+    <div class="menu_form_header" id="confirmaddshopplistGeneric_drag">
+        <div id="confirmaddshopplistGeneric_title" >informação</div>
+    </div>
+    <div id="confirmaddshopplistconteudoGeneric">
+        Foi adicionado um item à sua lista de compras.        </div>
+</div>
+        
+
+
+        </div>
+            </div>
+
+            <div id="Footer">
+        
+            </div>
+            <div id="rodape_principal" style="font-size: 11px; font-style: verdana; color:#654f48; background-color: #CCBAA2;">
+    <span style="margin: auto; font-size: 11px; font-style: verdana; color:#654f48; background-color: background-color: #CCBAA2;">
+        | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/">Condições gerais de venda</a>&nbsp;&nbsp;
+        | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#compras_seguras">Compras 100% seguras</a>&nbsp;&nbsp;
+        | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#politica">Política de Privacidade</a>&nbsp;&nbsp;
+        | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/ajuda">Ajuda</a> &nbsp;&nbsp;
+                | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="http://www.grupobertrandcirculo.com/recrutamento/">Recrutamento</a> &nbsp;&nbsp;|
+
+    </span>
+    <br>
+    <span style="margin: auto; font-size: 11px;">
+            &copy;1999/2011 Grupo Porto Editora. Todos os direitos reservados, Porto, Portugal
+    </span>
+</div>
+        </div>
+
+       
+
+    </body>
+
+</html>
+

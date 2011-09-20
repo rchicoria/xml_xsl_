@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<!-- Generated automatically. Don't change it. -->
+<h:class xmlns:h="http://www.dei.uc.pt/EAI">
+	<h:student id="201134441110">
+		<name>Alberto</name>
+		<age>21</age>
+	</h:student>
+	<h:student id="201134441116">
+		<name>Patricia</name>
+		<age>21</age>
+	</h:student>
+	<h:student id="201134441210">
+		<name>Luis</name>
+		<age>21</age>
+	</h:student>
+</h:class>
