@@ -13,9 +13,11 @@ public class Ebook {
 	private float pontosBertrand;
 	private float preco;
 	
-	private String sobreLivro;
-	private String sobreAutor;
-	
+	/**
+	 * Cria um novo Ebook e recolhe imediatamente todos os seus dados
+	 * com o auxílio do HTML disponibilizado
+	 * @param html
+	 */
 	public Ebook(String html)
 	{
 		this.titulo = RegEx.getTitulo(html);
@@ -28,7 +30,6 @@ public class Ebook {
 		this.ISBN = RegEx.getISBN(html);
 		this.pontosBertrand = RegEx.getPontosBertrand(html);
 		this.preco = RegEx.getPreco(html);
-		XML.debug("[" + this.preco + "] " + this.titulo);
 	}
 	
 	/**
@@ -150,30 +151,6 @@ public class Ebook {
 	 */
 	public void setPreco(float preco) {
 		this.preco = preco;
-	}
-	/**
-	 * @return the sobreLivro
-	 */
-	public String getSobreLivro() {
-		return sobreLivro;
-	}
-	/**
-	 * @param sobreLivro the sobreLivro to set
-	 */
-	public void setSobreLivro(String sobreLivro) {
-		this.sobreLivro = sobreLivro;
-	}
-	/**
-	 * @return the sobreAutor
-	 */
-	public String getSobreAutor() {
-		return sobreAutor;
-	}
-	/**
-	 * @param sobreAutor the sobreAutor to set
-	 */
-	public void setSobreAutor(String sobreAutor) {
-		this.sobreAutor = sobreAutor;
 	}
 	
 }

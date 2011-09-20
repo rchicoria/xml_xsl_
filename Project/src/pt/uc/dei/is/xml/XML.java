@@ -1,3 +1,16 @@
+/**
+ * Projecto 1 de Integração de Sistemas
+ * 
+ * XML and XML Manipulation
+ * 
+ * Aplicação para extrair e apresentar a informação sobre os eBooks
+ * disponíveis na loja online da Bertrand
+ * 
+ * @author Gustavo Fernandes
+ * @author Ricardo Lopes
+ * @author Rui Chicória
+ */
+
 package pt.uc.dei.is.xml;
 
 import java.io.IOException;
@@ -10,48 +23,30 @@ public class XML {
 	private static final String site = "http://www.bertrand.pt";
 	private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
 
+	/**
+	 * Método principal da aplicação, extrai informação da secção de eBooks da Bertrand
+	 * e representa-a sob a forma de XML
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		
+
 		// Arranja o HTML da página principal
-		ArrayList<String> html = new ArrayList<String>();
-		String mainHtml;
-		String content = getWebContents(site + url);
-		if (content != null)
+		String html = getWebContents(site + url);
+		if (html == null)
 		{
-			mainHtml = content;
-			debug("Arranjou o HTML da página principal");
-		}
-		else
-		{
-			System.out.println("Ocorreu um erro no carregamento da página.");
+			System.out.println(	"Ocorreu um erro no carregamento da página.\n" +
+								"Verifique o estado da sua ligação à Internet.");
 			return;
 		}
 		
 		// Arranja os links para as páginas de produto
-		ArrayList<String> urls = RegEx.getURLs(mainHtml);
-		Iterator<String> iterator = urls.iterator();
-		debug("Arranjou os links para as páginas de produto");
+		ArrayList<String> urls = RegEx.getURLs(html);
 		
 		// Arranja o HTML das páginas de produto e cria o respectivo objecto
-		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
-		iterator = urls.iterator();
-		while (iterator.hasNext())
-		{
-			content = getWebContents(site + iterator.next());
-			if (content != null)
-			{
-				html.add(content);
-				debug("Arranjou o HTML da página de produto");
-				ebooks.add(new Ebook(content));
-			}
-			else
-			{
-				debug("Não foi possível carregar a página.");
-			}
-		}
+		ArrayList<Ebook> ebooks = createEbooks(urls);
 		
 		// Cria um XML com base na lista de Ebooks
-		// Chicória!
+		debug(XmlCreator.writeXML(ebooks).toString());
 
 	}
 	
@@ -68,7 +63,8 @@ public class XML {
 	
 	/**
 	 * Devolve o HTML do URL pedido ou null em caso de erro
-	 * @return
+	 * @param url
+	 * @return HTML da página (ou null em caso de erro)
 	 */
 	private static String getWebContents(String url)
 	{
@@ -80,6 +76,47 @@ public class XML {
 			html = null;
 		}
 		return html;
+	}
+	
+	/**
+	 * Devolve um ArrayList com todos os Ebooks, já com os dados completos
+	 * @param urls
+	 * @return ArrayList de Ebooks com todos os dados
+	 */
+	private static ArrayList<Ebook> createEbooks(ArrayList<String> urls)
+	{
+		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
+		Iterator<String> iterator = urls.iterator();
+		
+		while (iterator.hasNext())
+		{
+			Ebook ebook = createEbook(site + iterator.next());
+			if (ebook != null)
+			{
+				ebooks.add(ebook);
+			}
+		}
+		return ebooks;
+	}
+	
+	/**
+	 * Devolve um Ebook com os dados completos, para ser usado em createEbooks
+	 * @param url
+	 * @return Ebook com todos os dados (ou null em caso de erro)
+	 */
+	private static Ebook createEbook(String url)
+	{
+		String content = getWebContents(url);
+		if (content != null)
+		{
+			debug("Arranjou o HTML da página de produto");
+			return new Ebook(content);
+		}
+		else
+		{
+			debug("Não foi possível carregar a página.");
+			return null;
+		}
 	}
 
 }

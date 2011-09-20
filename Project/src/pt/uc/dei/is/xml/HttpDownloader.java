@@ -13,7 +13,7 @@ public class HttpDownloader {
 	/**
 	 * Devolve o conteúdo HTML de um dado URL
 	 * @param url
-	 * @return
+	 * @return HTML da página especificada pelo URL
 	 * @throws IOException
 	 */
 	public static String html(String url) throws IOException

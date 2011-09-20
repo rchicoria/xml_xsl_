@@ -16,16 +16,17 @@ public class RegEx {
 	private static final int ISBN = 8;
 	private static final int pontosBertrand = 9;
 	private static final int preco = 10;
-	
-	private static final int sobreLivro = 11;
-	private static final int sobreAutor = 12;
 
+	/**
+	 * Extrai do HTML da página que lista os produtos os links para as
+	 * várias páginas indivivuais de produto
+	 * @param html
+	 * @return ArrayList de URLs para páginas de produtos
+	 */
 	public static ArrayList<String> getURLs(String html)
 	{
 		ArrayList<String> urls = new ArrayList<String>();
-		int flags = Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE;
-		
-		Pattern pattern = Pattern.compile("<div[ ]+id=\"f1_imagem\"[ ]+>[ ]*<a[ ]+href=\"(/ficha/[^\"]+)\"", flags);
+		Pattern pattern = Pattern.compile("<div[ ]+id=\"f1_imagem\"[ ]+>[ ]*<a[ ]+href=\"(/ficha/[^\"]+)\"");
 		Matcher matcher = pattern.matcher(html);
 		
         while (matcher.find())
@@ -35,13 +36,18 @@ public class RegEx {
         		urls.add(url);
         	}
         	catch (IllegalStateException e) {
-        		XML.debug("IllegalStateException");
+        		XML.debug(e.toString());
         	}
         }
-        
 		return urls;
 	}
 	
+	/**
+	 * Método geral para procurar certos campos de informação de um produto
+	 * @param campo
+	 * @param html
+	 * @return String com o valor do campo pretendido
+	 */
 	private static String getDadosEbook(int campo, String html)
 	{
 		Pattern pattern;
@@ -85,6 +91,13 @@ public class RegEx {
 		return matcher.group(1).trim();
 	}
 	
+	/**
+	 * Utiliza getDadosEbook para extrair a informação do campo, e de seguida converte-o
+	 * para Integer, devolvendo -1 em caso de erro
+	 * @param campo
+	 * @param html
+	 * @return Integer com o valor do campo pretendido (ou -1 em caso de erro)
+	 */
 	private static int getDadosIntEbook(int campo, String html)
 	{
 		try {
@@ -96,6 +109,13 @@ public class RegEx {
 		}
 	}
 	
+	/**
+	 * Utiliza getDadosEbook para extrair a informação do campo, e de seguida converte-o
+	 * para Float, devolvendo null em caso de erro
+	 * @param campo
+	 * @param html
+	 * @return Float com o valor do campo pretendido (ou null em caso de erro)
+	 */
 	private static Float getDadosFloatEbook(int campo, String html)
 	{
 		try {
