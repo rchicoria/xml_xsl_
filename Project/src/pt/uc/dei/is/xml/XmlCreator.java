@@ -18,6 +18,7 @@ public class XmlCreator {
 		{
 			Ebook currentEbook = iterator.next();
 			Element ebook = new Element("ebook");
+			ebook.setAttribute("ISBN", currentEbook.getISBN());
 			
 			Element titulo = new Element("titulo");
 			titulo.addContent(currentEbook.getTitulo());
@@ -39,17 +40,17 @@ public class XmlCreator {
 			formato.addContent(currentEbook.getFormato());
 			ebook.addContent(formato);
 			
+			Element edicao = new Element("edicao");
+			
 			Element anoEdicao = new Element("anoEdicao");
 			anoEdicao.addContent(Integer.toString(currentEbook.getAnoEdicao()));
-			ebook.addContent(anoEdicao);
+			edicao.addContent(anoEdicao);
 			
 			Element editor = new Element("editor");
 			editor.addContent(currentEbook.getEditor());
-			ebook.addContent(editor);
+			edicao.addContent(editor);
 			
-			Element ISBN = new Element("ISBN");
-			ISBN.addContent(currentEbook.getISBN());
-			ebook.addContent(ISBN);
+			ebook.addContent(edicao);
 			
 			Element pontosBertrand = new Element("pontosBertrand");
 			pontosBertrand.addContent(Float.toString(currentEbook.getPontosBertrand()));
@@ -57,6 +58,7 @@ public class XmlCreator {
 			
 			Element preco = new Element("preco");
 			preco.addContent(Float.toString(currentEbook.getPreco()));
+			preco.setAttribute("moeda", "€");
 			ebook.addContent(preco);
 			
 			listElement.addContent(ebook);
