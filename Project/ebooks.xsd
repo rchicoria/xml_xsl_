@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ebook"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ebook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo"/>
+        <xs:element ref="autor"/>
+        <xs:element ref="capaURL"/>
+        <xs:element ref="classificacao"/>
+        <xs:element ref="formato"/>
+        <xs:element ref="edicao"/>
+        <xs:element ref="pontosBertrand"/>
+        <xs:element ref="preco"/>
+      </xs:sequence>
+      <xs:attribute name="ISBN" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="capaURL" type="xs:anyURI"/>
+  <xs:element name="classificacao" type="xs:string"/>
+  <xs:element name="formato" type="xs:NCName"/>
+  <xs:element name="edicao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="anoEdicao"/>
+        <xs:element ref="editor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anoEdicao" type="xs:integer"/>
+  <xs:element name="editor" type="xs:string"/>
+  <xs:element name="pontosBertrand" type="xs:decimal"/>
+  <xs:element name="preco">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="moeda" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

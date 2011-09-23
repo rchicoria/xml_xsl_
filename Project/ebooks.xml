@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list>
-  <ebook ISBN="978-972-0-68028-0">
+<list xmlns="http://google.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://google.com ebooks.xsd">
+  <ebook xmlns="" ISBN="978-972-0-68028-0">
     <titulo>Lisboa aos seus amores</titulo>
     <autor>Abel Neves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6E6FM6n0xKyFizSuMIjAVm&amp;width=150</capaURL>
@@ -13,7 +13,7 @@
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
-  <ebook ISBN="9789896164218">
+  <ebook xmlns="" ISBN="9789896164218">
     <titulo>Sábado</titulo>
     <autor>Ian McEwan</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5T62CiSjmPhULfOOTVvX7H&amp;width=150</capaURL>
@@ -26,7 +26,7 @@
     <pontosBertrand>122.2</pontosBertrand>
     <preco moeda="€">12.22</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68014-3">
+  <ebook xmlns="" ISBN="978-972-0-68014-3">
     <titulo>Por Trás do Silêncio</titulo>
     <autor>Heather Gudenkauf</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Vg6K43G8Ir01UmY%2BxqiV%2F&amp;width=150</capaURL>
@@ -39,7 +39,7 @@
     <pontosBertrand>135.0</pontosBertrand>
     <preco moeda="€">13.5</preco>
   </ebook>
-  <ebook ISBN="9789728708559">
+  <ebook xmlns="" ISBN="9789728708559">
     <titulo>O Ano em Que Devia Morrer</titulo>
     <autor>Miguel Pinto</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5pyeOKGABUhF0sPf93Itjj&amp;width=150</capaURL>
@@ -52,7 +52,7 @@
     <pontosBertrand>130.8</pontosBertrand>
     <preco moeda="€">13.08</preco>
   </ebook>
-  <ebook ISBN="978-989-676-062-5">
+  <ebook xmlns="" ISBN="978-989-676-062-5">
     <titulo>Cinco de Outubro</titulo>
     <autor>Lourenço Pereira Coutinho</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5GdwI%2Fn8kzgtTB92JHFRBa&amp;width=150</capaURL>
@@ -65,7 +65,7 @@
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68003-7">
+  <ebook xmlns="" ISBN="978-972-0-68003-7">
     <titulo>Como o Ar que Respiras</titulo>
     <autor>Maria João Martins</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6P%2FWWL6vKIpHnZx95oG2mP&amp;width=150</capaURL>
@@ -78,7 +78,7 @@
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
-  <ebook ISBN="9789898131881">
+  <ebook xmlns="" ISBN="9789898131881">
     <titulo>Jesus de Nazaré</titulo>
     <autor>Bento XVI</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4YZi2fypUbt3%2BYID5fezIl&amp;width=150</capaURL>
@@ -91,7 +91,7 @@
     <pontosBertrand>120.1</pontosBertrand>
     <preco moeda="€">12.01</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68011-2">
+  <ebook xmlns="" ISBN="978-972-0-68011-2">
     <titulo>Jaguar</titulo>
     <autor>J. Pedro Baltasar</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5jtpME%2B0RJVkCw8g%2Fhd1AO&amp;width=150</capaURL>
@@ -104,7 +104,7 @@
     <pontosBertrand>155.0</pontosBertrand>
     <preco moeda="€">15.5</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68012-9">
+  <ebook xmlns="" ISBN="978-972-0-68012-9">
     <titulo>A Canção de Zefanias Sforza</titulo>
     <autor>Luís Carlos Patraquim</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7kLb5YIvEAhLfnsWVgYEAJ&amp;width=150</capaURL>
@@ -117,7 +117,7 @@
     <pontosBertrand>79.0</pontosBertrand>
     <preco moeda="€">7.9</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68009-9">
+  <ebook xmlns="" ISBN="978-972-0-68009-9">
     <titulo>333</titulo>
     <autor>Pedro Sena-Lino</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7xHnghNnZBUZ46WieKxu26&amp;width=150</capaURL>
@@ -130,7 +130,7 @@
     <pontosBertrand>135.0</pontosBertrand>
     <preco moeda="€">13.5</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68008-2">
+  <ebook xmlns="" ISBN="978-972-0-68008-2">
     <titulo>A Escrava de Córdova</titulo>
     <autor>Alberto S. Santos</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7q8U9xG4NTy8Z%2FAC1uDAvQ&amp;width=150</capaURL>
@@ -143,7 +143,7 @@
     <pontosBertrand>149.0</pontosBertrand>
     <preco moeda="€">14.9</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68016-7">
+  <ebook xmlns="" ISBN="978-972-0-68016-7">
     <titulo>A Questão Finkler</titulo>
     <autor>Howard Jacobson</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7K9%2BNwAXQhnBZv%2FuisxLg3&amp;width=150</capaURL>
@@ -156,7 +156,7 @@
     <pontosBertrand>145.0</pontosBertrand>
     <preco moeda="€">14.5</preco>
   </ebook>
-  <ebook ISBN="978-972-0-68013-6">
+  <ebook xmlns="" ISBN="978-972-0-68013-6">
     <titulo>Matteo perdeu o emprego</titulo>
     <autor>Gonçalo M. Tavares</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5%2BJNGjHEnprLB64FHOs%2FpA&amp;width=150</capaURL>
@@ -169,7 +169,7 @@
     <pontosBertrand>129.0</pontosBertrand>
     <preco moeda="€">12.9</preco>
   </ebook>
-  <ebook ISBN="9789896571955">
+  <ebook xmlns="" ISBN="9789896571955">
     <titulo>O Destino do Capitão Blanc</titulo>
     <autor>Sérgio Luís de Carvalho</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Pro6JCAr634ewGtmHSBWR&amp;width=150</capaURL>
@@ -182,7 +182,7 @@
     <pontosBertrand>129.9</pontosBertrand>
     <preco moeda="€">12.99</preco>
   </ebook>
-  <ebook ISBN="9789896571948">
+  <ebook xmlns="" ISBN="9789896571948">
     <titulo>Morrer É Só Não Ser Visto</titulo>
     <autor>Inês de Barros Baptista</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7lua9H3gqYomsmF3htkkqN&amp;width=150</capaURL>

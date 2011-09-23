@@ -13,6 +13,11 @@ public class XmlCreator {
 		Element listElement = new Element("list");
 		Document document = new Document(listElement);
 		
+		Namespace n = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
+		listElement.setNamespace(Namespace.getNamespace("http://google.com"));
+		listElement.addNamespaceDeclaration(n);
+		listElement.setAttribute(new Attribute("schemaLocation", "http://google.com ebooks.xsd", n));
+		
 		Iterator<Ebook> iterator = ebooks.iterator();
 		while (iterator.hasNext())
 		{
