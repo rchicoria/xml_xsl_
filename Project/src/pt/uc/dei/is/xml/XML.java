@@ -116,7 +116,7 @@ public class XML {
 		String content = getWebContents(url);
 		if (content != null)
 		{
-			debug("Arranjou o HTML da página de produto");
+			//debug("Arranjou o HTML da página de produto");
 			return new Ebook(content);
 		}
 		else
