@@ -21,7 +21,7 @@ public class XML {
 	
 	private static Boolean DEBUG = true;
 	private static final String site = "http://www.bertrand.pt";
-	private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
+	//private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
 
 	/**
 	 * Método principal da aplicação, extrai informação da secção de eBooks da Bertrand
@@ -30,23 +30,30 @@ public class XML {
 	 */
 	public static void main(String[] args) {
 
-		// Arranja o HTML da página principal
-		String html = getWebContents(site + url);
-		if (html == null)
+		String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
+		do 
 		{
-			System.out.println(	"Ocorreu um erro no carregamento da página.\n" +
-								"Verifique o estado da sua ligação à Internet.");
-			return;
-		}
-		
-		// Arranja os links para as páginas de produto
-		ArrayList<String> urls = RegEx.getURLs(html);
-		
-		// Arranja o HTML das páginas de produto e cria o respectivo objecto
-		ArrayList<Ebook> ebooks = createEbooks(urls);
-		
-		// Cria um XML com base na lista de Ebooks
-		debug(XmlCreator.writeXML(ebooks).toString());
+			// Arranja o HTML das páginas
+			String html = getWebContents(site + url);
+			if (html == null)
+			{
+				System.out.println(	"Ocorreu um erro no carregamento da página.\n" +
+									"Verifique o estado da sua ligação à Internet.");
+				return;
+			}
+			
+			// Arranja os links para as páginas de produto
+			ArrayList<String> urls = RegEx.getURLs(html);
+			
+			// Arranja o HTML das páginas de produto e cria o respectivo objecto
+			ArrayList<Ebook> ebooks = createEbooks(urls);
+			
+			// Cria um XML com base na lista de Ebooks
+			debug(XmlCreator.writeXML(ebooks).toString());
+			
+			url = RegEx.getNextPage(html);
+				
+		} while (url != null);
 
 	}
 	

@@ -43,6 +43,30 @@ public class RegEx {
 	}
 	
 	/**
+	 * Extrai do HTML da página que lista os produtos o link
+	 * para a página seguinte
+	 * @param html
+	 * @return URL para a página seguinte
+	 */
+	public static String getNextPage(String html)
+	{
+		String url = null;
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"([^\"]+)\"[ ]class=\"seta\"");
+		Matcher matcher = pattern.matcher(html);
+		
+		if (matcher.find())
+		{
+			try {
+				url = matcher.group(1);
+			}
+			catch (IllegalStateException e) {
+				XML.debug(e.toString());
+			}
+		}
+		return url;
+	}
+	
+	/**
 	 * Método geral para procurar certos campos de informação de um produto
 	 * @param campo
 	 * @param html
