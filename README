@@ -1,0 +1,9 @@
+Para fazer:
+
+- Site offline e usar ficheiros em vez de HttpClient
+- Ir buscar lista a várias categorias e não à das novidades
+- Complicar a estrutura do XML (atributos, mais nós)
+
+- Schema
+- XSL
+- HTML
