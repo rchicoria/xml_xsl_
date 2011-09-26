@@ -26,7 +26,7 @@ public class RegEx {
 	public static ArrayList<String> getURLs(String html)
 	{
 		ArrayList<String> urls = new ArrayList<String>();
-		Pattern pattern = Pattern.compile("<div[ ]+id=\"f1_imagem\"[ ]+>[ ]*<a[ ]+href=\"(/ficha/[^\"]+)\"");
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"(/ficha/[^\"]+)\">");
 		Matcher matcher = pattern.matcher(html);
 		
         while (matcher.find())
@@ -51,7 +51,7 @@ public class RegEx {
 	public static String getNextPage(String html)
 	{
 		String url = null;
-		Pattern pattern = Pattern.compile("<a[ ]+href=\"([^\"]+)\"[ ]class=\"seta\"");
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"([^\"]+)\"[ ]+class=\"seta\">[ ]+&gt;&gt;");
 		Matcher matcher = pattern.matcher(html);
 		
 		if (matcher.find())

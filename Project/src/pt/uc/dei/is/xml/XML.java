@@ -19,6 +19,9 @@ import java.util.Iterator;
 
 public class XML {
 	
+	//Número de páginas a seres lidas
+	public static int NPAGES = 4;
+	
 	private static Boolean DEBUG = true;
 	private static final String site = "http://www.bertrand.pt";
 	//private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
@@ -30,7 +33,9 @@ public class XML {
 	 */
 	public static void main(String[] args) {
 
-		String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
+		String url = "/?restricts=11708&facetcode=temas";
+		int count = 0;
+		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
 		do 
 		{
 			// Arranja o HTML das páginas
@@ -41,20 +46,20 @@ public class XML {
 									"Verifique o estado da sua ligação à Internet.");
 				return;
 			}
-			
+			System.out.println(site+url);
 			// Arranja os links para as páginas de produto
 			ArrayList<String> urls = RegEx.getURLs(html);
 			
 			// Arranja o HTML das páginas de produto e cria o respectivo objecto
-			ArrayList<Ebook> ebooks = createEbooks(urls);
-			
-			// Cria um XML com base na lista de Ebooks
-			debug(XmlCreator.writeXML(ebooks).toString());
+			createEbooks(urls, ebooks);
 			
 			url = RegEx.getNextPage(html);
+			count++;
 				
-		} while (url != null);
-
+		} while (url != null && count < NPAGES);
+		
+		// Cria um XML com base na lista de Ebooks
+		debug(XmlCreator.writeXML(ebooks).toString());
 	}
 	
 	/**
@@ -90,9 +95,9 @@ public class XML {
 	 * @param urls
 	 * @return ArrayList de Ebooks com todos os dados
 	 */
-	private static ArrayList<Ebook> createEbooks(ArrayList<String> urls)
+	private static void createEbooks(ArrayList<String> urls, ArrayList<Ebook> ebooks)
 	{
-		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
+//		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
 		Iterator<String> iterator = urls.iterator();
 		
 		while (iterator.hasNext())
@@ -103,7 +108,6 @@ public class XML {
 				ebooks.add(ebook);
 			}
 		}
-		return ebooks;
 	}
 	
 	/**

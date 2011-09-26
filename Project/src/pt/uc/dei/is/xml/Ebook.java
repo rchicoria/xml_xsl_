@@ -28,7 +28,12 @@ public class Ebook {
 		this.anoEdicao = RegEx.getAnoEdicao(html);
 		this.editor = RegEx.getEditor(html);
 		this.ISBN = RegEx.getISBN(html);
-		this.pontosBertrand = RegEx.getPontosBertrand(html);
+		//Alguns livros não têm a Pontos Bertrand
+		try
+		{
+			this.pontosBertrand = RegEx.getPontosBertrand(html);
+		}
+		catch(Exception e){}
 		this.preco = RegEx.getPreco(html);
 	}
 	
