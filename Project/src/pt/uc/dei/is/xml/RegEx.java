@@ -26,7 +26,7 @@ public class RegEx {
 	public static ArrayList<String> getURLs(String html)
 	{
 		ArrayList<String> urls = new ArrayList<String>();
-		Pattern pattern = Pattern.compile("<div[ ]+id=\"f1_imagem\"[ ]+>[ ]*<a[ ]+href=\"(/ficha/[^\"]+)\"");
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"(/ficha/[^\"]+)\">");
 		Matcher matcher = pattern.matcher(html);
 		
         while (matcher.find())
@@ -40,6 +40,30 @@ public class RegEx {
         	}
         }
 		return urls;
+	}
+	
+	/**
+	 * Extrai do HTML da página que lista os produtos o link
+	 * para a página seguinte
+	 * @param html
+	 * @return URL para a página seguinte
+	 */
+	public static String getNextPage(String html)
+	{
+		String url = null;
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"([^\"]+)\"[ ]+class=\"seta\">[ ]+&gt;&gt;");
+		Matcher matcher = pattern.matcher(html);
+		
+		if (matcher.find())
+		{
+			try {
+				url = matcher.group(1);
+			}
+			catch (IllegalStateException e) {
+				XML.debug(e.toString());
+			}
+		}
+		return url;
 	}
 	
 	/**
