@@ -10,31 +10,41 @@
   <xs:element name="ebook">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="titulo" form="unqualified" type="xs:string"/>
-        <xs:element name="autor" form="unqualified" type="xs:string"/>
-        <xs:element name="capaURL" form="unqualified" type="xs:anyURI"/>
-        <xs:element name="classificacao" form="unqualified" type="xs:string"/>
-        <xs:element name="formato" form="unqualified" type="xs:NCName"/>
-        <xs:element name="edicao" form="unqualified">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="anoEdicao" form="unqualified" type="xs:integer"/>
-              <xs:element name="editor" form="unqualified" type="xs:string"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="pontosBertrand" form="unqualified" type="xs:decimal"/>
-        <xs:element name="preco" form="unqualified">
-          <xs:complexType>
-            <xs:simpleContent>
-              <xs:extension base="xs:decimal">
-                <xs:attribute name="moeda" use="required"/>
-              </xs:extension>
-            </xs:simpleContent>
-          </xs:complexType>
-        </xs:element>
+        <xs:element ref="ns1:titulo"/>
+        <xs:element ref="ns1:autor"/>
+        <xs:element ref="ns1:capaURL"/>
+        <xs:element ref="ns1:classificacao"/>
+        <xs:element ref="ns1:formato"/>
+        <xs:element ref="ns1:edicao"/>
+        <xs:element ref="ns1:pontosBertrand"/>
+        <xs:element ref="ns1:preco"/>
       </xs:sequence>
       <xs:attribute name="ISBN" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="capaURL" type="xs:anyURI"/>
+  <xs:element name="classificacao" type="xs:string"/>
+  <xs:element name="formato" type="xs:NCName"/>
+  <xs:element name="edicao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:anoEdicao"/>
+        <xs:element ref="ns1:editor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anoEdicao" type="xs:integer"/>
+  <xs:element name="editor" type="xs:string"/>
+  <xs:element name="pontosBertrand" type="xs:decimal"/>
+  <xs:element name="preco">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="moeda" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
     </xs:complexType>
   </xs:element>
 </xs:schema>
