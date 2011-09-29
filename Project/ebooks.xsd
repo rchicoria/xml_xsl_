@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://bertand.pt" xmlns:ns1="http://bertand.pt">
+  <xs:element name="list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ns1:ebook"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ebook">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:titulo"/>
+        <xs:element ref="ns1:autor"/>
+        <xs:element ref="ns1:capaURL"/>
+        <xs:element ref="ns1:classificacao"/>
+        <xs:element ref="ns1:formato"/>
+        <xs:element ref="ns1:edicao"/>
+        <xs:element ref="ns1:pontosBertrand"/>
+        <xs:element ref="ns1:preco"/>
+      </xs:sequence>
+      <xs:attribute name="ISBN" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="autor" type="xs:string"/>
+  <xs:element name="capaURL" type="xs:anyURI"/>
+  <xs:element name="classificacao" type="xs:string"/>
+  <xs:element name="formato" type="xs:string"/>
+  <xs:element name="edicao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ns1:anoEdicao"/>
+        <xs:element ref="ns1:editor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="anoEdicao" type="xs:integer"/>
+  <xs:element name="editor" type="xs:string"/>
+  <xs:element name="pontosBertrand" type="xs:decimal"/>
+  <xs:element name="preco">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="moeda" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

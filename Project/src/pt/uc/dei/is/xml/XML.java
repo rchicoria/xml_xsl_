@@ -20,7 +20,7 @@ import java.util.Iterator;
 public class XML {
 	
 	//Número de páginas a seres lidas
-	public static int NPAGES = 4;
+	public static int NPAGES = 2;
 	
 	private static Boolean DEBUG = true;
 	private static final String site = "http://www.bertrand.pt";
@@ -32,16 +32,32 @@ public class XML {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
-		String url = "/?restricts=11708&facetcode=temas";
-		int count = 0;
+		
 		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
 		ArrayList<String> wgets = new ArrayList<String>();
-		do 
+		ArrayList<String> categories = new ArrayList<String>();
+		
+		String url = "/home/index/11708x11709/temas";
+		/*Adiciona o url da página que contem as categorias a lista de sites
+		para fazer wget*/
+		wgets.add(url);
+		
+		// Vai buscar as varias categorias à pagina
+		String html = getWebContents(site + url);
+		categories = RegEx.getCategoriesURL(html);
+		
+		Iterator<String> iterator = categories.iterator();
+		int count = 0;
+		while (iterator.hasNext() && count < NPAGES)
 		{
-			// Arranja o HTML das páginas
-			String html = getWebContents(site + url);
+			url=iterator.next();
+			
+			// Arranja o HTML das páginas de cada categoria
+			html = getWebContents(site+url);
+			
+			// Adiciona o url da categoria à lista de wgets
 			wgets.add(url);
+			
 			if (html == null)
 			{
 				System.out.println(	"Ocorreu um erro no carregamento da página.\n" +
@@ -54,19 +70,34 @@ public class XML {
 			// Arranja o HTML das páginas de produto e cria o respectivo objecto
 			createEbooks(urls, ebooks);
 			
-			url = RegEx.getNextPage(html);
 			count++;
 				
-		} while (url != null && count < NPAGES);
+		}
+		System.out.println(count);
 		
 		// Cria um XML com base na lista de Ebooks
 		debug(XmlCreator.writeXML(ebooks).toString());
 		
-		Iterator<String> iterator = wgets.iterator();
+		iterator = wgets.iterator();
+		String temp = null;
+		ArrayList<String> changeNames = new ArrayList<String>();
 		while(iterator.hasNext())
 		{
-			System.out.println("wget "+site+iterator.next()+" -x");
+			temp=iterator.next();
+			String temp2 = "";
+			try
+			{
+				temp2 = "mv www.bertrand.pt"+temp+" www.bertrand.pt"+temp.substring(0,temp.indexOf("?"));
+				changeNames.add(temp2);
+			} catch (StringIndexOutOfBoundsException e){}
+			System.out.println("wget "+site+temp+" -x");
 		}
+		iterator = changeNames.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println(iterator.next());
+		}
+		
 	}
 	
 	/**
