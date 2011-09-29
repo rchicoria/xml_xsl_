@@ -19,14 +19,14 @@
         <xs:element ref="ns1:pontosBertrand"/>
         <xs:element ref="ns1:preco"/>
       </xs:sequence>
-      <xs:attribute name="ISBN" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="ISBN" use="required" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="titulo" type="xs:string"/>
   <xs:element name="autor" type="xs:string"/>
   <xs:element name="capaURL" type="xs:anyURI"/>
   <xs:element name="classificacao" type="xs:string"/>
-  <xs:element name="formato" type="xs:NCName"/>
+  <xs:element name="formato" type="xs:string"/>
   <xs:element name="edicao">
     <xs:complexType>
       <xs:sequence>
