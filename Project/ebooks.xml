@@ -353,22 +353,6 @@
     <b:pontosBertrand>225.0</b:pontosBertrand>
     <b:preco moeda="€">22.5</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789897160035">
-    <b:titulo>A Lei da Liberdade</b:titulo>
-    <b:autor>António Pedro Barbas Homem</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5iGwPxIZbDJK0Yh4OgKFoa&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Direito</b:categoria>
-      <b:subcategoria>História e Estudos do Direito</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>0.0</b:pontosBertrand>
-    <b:preco moeda="€">13.64</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789897160080">
     <b:titulo>A Lei do Contrato de Seguro</b:titulo>
     <b:autor>Pedro Romano Martinez</b:autor>
@@ -689,22 +673,6 @@
     <b:pontosBertrand>205.0</b:pontosBertrand>
     <b:preco moeda="€">20.5</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789896151232">
-    <b:titulo>Casas Inteligentes</b:titulo>
-    <b:autor>José Augusto Alves</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4SSKM6sMrxRRaB9ZVsaSOc&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2003</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Arte</b:categoria>
-      <b:subcategoria>Arquitetura</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>109.9</b:pontosBertrand>
-    <b:preco moeda="€">10.99</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789896151225">
     <b:titulo>E-learning e E-conteúdos</b:titulo>
     <b:autor>Jorge Reis Lima</b:autor>
@@ -720,22 +688,6 @@
     </b:tema>
     <b:pontosBertrand>139.9</b:pontosBertrand>
     <b:preco moeda="€">13.99</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160103">
-    <b:titulo>Investigação e Prática em Economia</b:titulo>
-    <b:autor>Vários</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7ix5P85td0c6L9M%2Bu9wMSu&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Economia, Finanças e Contabilidade</b:categoria>
-      <b:subcategoria>Economia</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>205.0</b:pontosBertrand>
-    <b:preco moeda="€">20.5</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789898131904">
     <b:titulo>Curso de Relações Internacionais</b:titulo>
@@ -769,22 +721,6 @@
     <b:pontosBertrand>102.4</b:pontosBertrand>
     <b:preco moeda="€">10.24</b:preco>
   </b:ebook>
-  <b:ebook ISBN="978-972-0-68018-1">
-    <b:titulo>Gestão do Tempo para mulheres (muito) ocupadas</b:titulo>
-    <b:autor>Maria José Silveira Núncio</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7M697t65ySsV629oE3Yccu&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Porto Editora</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>125.0</b:pontosBertrand>
-    <b:preco moeda="€">12.5</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789896151171">
     <b:titulo>Logística - Conceitos e Tendências</b:titulo>
     <b:autor>Benjamim do Carmo Moura</b:autor>
@@ -816,38 +752,6 @@
     </b:tema>
     <b:pontosBertrand>80.4</b:pontosBertrand>
     <b:preco moeda="€">8.04</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789896151263">
-    <b:titulo>Uma Carta para Garcia</b:titulo>
-    <b:autor>Raul Diniz</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4z%2FSO3VX1MkKawjpsmJH81&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>49.9</b:pontosBertrand>
-    <b:preco moeda="€">4.99</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789896151416">
-    <b:titulo>O Segredo das Boas Decisões</b:titulo>
-    <b:autor>Robert E. Gunther</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6I0hieAH4j4A2%2BzxptPjpo&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2009</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>139.9</b:pontosBertrand>
-    <b:preco moeda="€">13.99</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789896151386">
     <b:titulo>Gestão do Conhecimento</b:titulo>
@@ -896,22 +800,6 @@
     </b:tema>
     <b:pontosBertrand>163.5</b:pontosBertrand>
     <b:preco moeda="€">16.35</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789896151287">
-    <b:titulo>A Nau Catrineta e a História Trágico-Marítima</b:titulo>
-    <b:autor>Libório Manuel Silva</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw55Ge0Z8sdVZY0ctvpZuEw3&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2010</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>109.9</b:pontosBertrand>
-    <b:preco moeda="€">10.99</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789896151164">
     <b:titulo>Peter Drucker</b:titulo>
@@ -977,38 +865,6 @@
     <b:pontosBertrand>155.0</b:pontosBertrand>
     <b:preco moeda="€">15.5</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789896151287">
-    <b:titulo>A Nau Catrineta e a História Trágico-Marítima</b:titulo>
-    <b:autor>Libório Manuel Silva</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw55Ge0Z8sdVZY0ctvpZuEw3&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2010</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>109.9</b:pontosBertrand>
-    <b:preco moeda="€">10.99</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789899516885">
-    <b:titulo>Josephine Baker em Portugal</b:titulo>
-    <b:autor>João Moreira dos Santos</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw59d8KJ6P97rSbTsanEfTDD&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Casa Sassetti</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Arte</b:categoria>
-      <b:subcategoria>Artes de palco</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>121.4</b:pontosBertrand>
-    <b:preco moeda="€">12.14</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789898516121">
     <b:titulo>Os Santos de Portugal</b:titulo>
     <b:autor>João César das Neves</b:autor>
@@ -1024,22 +880,6 @@
     </b:tema>
     <b:pontosBertrand>117.3</b:pontosBertrand>
     <b:preco moeda="€">11.73</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160226">
-    <b:titulo>Memórias Alentejanas do Século XX</b:titulo>
-    <b:autor>Maria Antónia Pires de Almeida</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Xpr3O9p%2FPCePl9%2BIxRe6l&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>História</b:categoria>
-      <b:subcategoria>História de Portugal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>122.9</b:pontosBertrand>
-    <b:preco moeda="€">12.29</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789728708542">
     <b:titulo>Um Tiro na Bruma</b:titulo>
@@ -1089,22 +929,6 @@
     <b:pontosBertrand>110.3</b:pontosBertrand>
     <b:preco moeda="€">11.03</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789896151225">
-    <b:titulo>E-learning e E-conteúdos</b:titulo>
-    <b:autor>Jorge Reis Lima</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Zx5KkH4fcsIRnoIweMXV8&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2003</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Ensino e Educação</b:categoria>
-      <b:subcategoria>Ensino Técnico</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>139.9</b:pontosBertrand>
-    <b:preco moeda="€">13.99</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789896151317">
     <b:titulo>Segurança dos Sistemas de Informação</b:titulo>
     <b:autor>Hugo Carvalho</b:autor>
@@ -1136,38 +960,6 @@
     </b:tema>
     <b:pontosBertrand>209.9</b:pontosBertrand>
     <b:preco moeda="€">20.99</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789896151232">
-    <b:titulo>Casas Inteligentes</b:titulo>
-    <b:autor>José Augusto Alves</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4SSKM6sMrxRRaB9ZVsaSOc&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2003</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Arte</b:categoria>
-      <b:subcategoria>Arquitetura</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>109.9</b:pontosBertrand>
-    <b:preco moeda="€">10.99</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789896151409">
-    <b:titulo>A Gestão dos Sistemas de Informação</b:titulo>
-    <b:autor>Santiago Olmedo Bach</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Ln9MeGaIR20syN%2BnwCocf&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2001</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Gestão</b:categoria>
-      <b:subcategoria>Gestão e Organização</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>119.9</b:pontosBertrand>
-    <b:preco moeda="€">11.99</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789896151379">
     <b:titulo>Bases de Dados com Microsoft Access 2007</b:titulo>
@@ -1265,22 +1057,6 @@
     <b:pontosBertrand>209.9</b:pontosBertrand>
     <b:preco moeda="€">20.99</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789896151331">
-    <b:titulo>Windows Movie Maker</b:titulo>
-    <b:autor>António Eduardo Marques</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5KTxmbYrAfdZYJ7XdzwOAL&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2005</b:anoEdicao>
-      <b:editor>Edições Centro Atlântico</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Arte</b:categoria>
-      <b:subcategoria>Cinema</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>74.9</b:pontosBertrand>
-    <b:preco moeda="€">7.49</b:preco>
-  </b:ebook>
   <b:ebook ISBN="978-972-0-68017-4">
     <b:titulo>A Mentira Sagrada</b:titulo>
     <b:autor>Luís Miguel Rocha</b:autor>
@@ -1344,22 +1120,6 @@
     </b:tema>
     <b:pontosBertrand>125.0</b:pontosBertrand>
     <b:preco moeda="€">12.5</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="978-972-0-68024-2">
-    <b:titulo>Mensagem</b:titulo>
-    <b:autor>Fernando Pessoa</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Ut%2FBo3KckX9s3d1paGcxQ&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Porto Editora</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Literatura</b:categoria>
-      <b:subcategoria>Poesia</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>45.0</b:pontosBertrand>
-    <b:preco moeda="€">4.5</b:preco>
   </b:ebook>
   <b:ebook ISBN="978-989-676-048-9">
     <b:titulo>A mão esquerda de Deus</b:titulo>
@@ -1569,22 +1329,6 @@
     <b:pontosBertrand>139.0</b:pontosBertrand>
     <b:preco moeda="€">13.9</b:preco>
   </b:ebook>
-  <b:ebook ISBN="978-972-0-68015-0">
-    <b:titulo>1822</b:titulo>
-    <b:autor>Laurentino Gomes</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw63PDXtbE982RF9FqaVLg4q&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Porto Editora</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>História</b:categoria>
-      <b:subcategoria>História de Portugal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>155.0</b:pontosBertrand>
-    <b:preco moeda="€">15.5</b:preco>
-  </b:ebook>
   <b:ebook ISBN="978-972-0-68009-9">
     <b:titulo>333</b:titulo>
     <b:autor>Pedro Sena-Lino</b:autor>
@@ -1616,22 +1360,6 @@
     </b:tema>
     <b:pontosBertrand>122.6</b:pontosBertrand>
     <b:preco moeda="€">12.26</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789898131973">
-    <b:titulo>Três Olhares Sobre o Futuro da Saúde em Portugal</b:titulo>
-    <b:autor>Pedro Pita Barros</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Economia, Finanças e Contabilidade</b:categoria>
-      <b:subcategoria>Economia</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>80.8</b:pontosBertrand>
-    <b:preco moeda="€">8.08</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789897160127">
     <b:titulo>Será Depressão ou Simplesmente Tristeza...?</b:titulo>
@@ -1665,54 +1393,6 @@
     <b:pontosBertrand>118.9</b:pontosBertrand>
     <b:preco moeda="€">11.89</b:preco>
   </b:ebook>
-  <b:ebook ISBN="978-972-0-68006-8">
-    <b:titulo>O velho que lia romances de amor</b:titulo>
-    <b:autor>Luis Sepúlveda</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6L8MF4YvyF3cFxq%2Foy%2BD%2B5&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Porto Editora</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Literatura</b:categoria>
-      <b:subcategoria>Romance</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>105.0</b:pontosBertrand>
-    <b:preco moeda="€">10.5</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789898131997">
-    <b:titulo>Carta dos Direitos Fundamentais da União Europeia</b:titulo>
-    <b:autor>António Vitorino</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7%2BhFLvXBTd5cYbxH8bMuQr&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Política</b:categoria>
-      <b:subcategoria>Política Europeia</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>0.0</b:pontosBertrand>
-    <b:preco moeda="€">8.0</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789898131973">
-    <b:titulo>Três Olhares Sobre o Futuro da Saúde em Portugal</b:titulo>
-    <b:autor>Pedro Pita Barros</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Economia, Finanças e Contabilidade</b:categoria>
-      <b:subcategoria>Economia</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>80.8</b:pontosBertrand>
-    <b:preco moeda="€">8.08</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789897160196">
     <b:titulo>O Estado e a Igreja em Portugal no Início do Século XX</b:titulo>
     <b:autor>João Seabra</b:autor>
@@ -1728,54 +1408,6 @@
     </b:tema>
     <b:pontosBertrand>179.6</b:pontosBertrand>
     <b:preco moeda="€">17.96</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789898131980">
-    <b:titulo>A Tradição Anglo-Americana da Liberdade</b:titulo>
-    <b:autor>João Carlos Espada</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Jd1SRekWv21EmupVHmfb2&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Política</b:categoria>
-      <b:subcategoria>Política em Geral</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>151.7</b:pontosBertrand>
-    <b:preco moeda="€">15.17</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160004">
-    <b:titulo>As Farpas</b:titulo>
-    <b:autor>Eca De Queiroz</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw46dPuB7YrfOdqarnfo7JYF&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Política</b:categoria>
-      <b:subcategoria>Política em Geral</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>225.0</b:pontosBertrand>
-    <b:preco moeda="€">22.5</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160202">
-    <b:titulo>Ética, Valores Humanos e Responsabilidade Social das Empresas</b:titulo>
-    <b:autor>Filipe Almeida</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6v65kP7ubyTOBRVSkXWWG3&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Gestão</b:categoria>
-      <b:subcategoria>Organizações de Empresas</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>163.5</b:pontosBertrand>
-    <b:preco moeda="€">16.35</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789897160011">
     <b:titulo>Compêndio da Doutrina Social da Igreja</b:titulo>
@@ -1825,22 +1457,6 @@
     <b:pontosBertrand>39.8</b:pontosBertrand>
     <b:preco moeda="€">3.98</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789898516121">
-    <b:titulo>Os Santos de Portugal</b:titulo>
-    <b:autor>João César das Neves</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6pQhJpyOBvv22uqu8ba2oI&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Lucerna</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>História</b:categoria>
-      <b:subcategoria>História de Portugal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>117.3</b:pontosBertrand>
-    <b:preco moeda="€">11.73</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789897160165">
     <b:titulo>Homem Mulher - O Caso Decisivo do Amor</b:titulo>
     <b:autor>Angelo Scola</b:autor>
@@ -1856,22 +1472,6 @@
     </b:tema>
     <b:pontosBertrand>118.9</b:pontosBertrand>
     <b:preco moeda="€">11.89</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160196">
-    <b:titulo>O Estado e a Igreja em Portugal no Início do Século XX</b:titulo>
-    <b:autor>João Seabra</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7GSkuAdLiUaU%2BMGJpRRohc&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Religião e Moral</b:categoria>
-      <b:subcategoria>Ciência e Hist. das Religiões</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>179.6</b:pontosBertrand>
-    <b:preco moeda="€">17.96</b:preco>
   </b:ebook>
   <b:ebook ISBN="9789898131881">
     <b:titulo>Jesus de Nazaré</b:titulo>
@@ -1889,22 +1489,6 @@
     <b:pontosBertrand>120.1</b:pontosBertrand>
     <b:preco moeda="€">12.01</b:preco>
   </b:ebook>
-  <b:ebook ISBN="9789728835873">
-    <b:titulo>Luz do Mundo</b:titulo>
-    <b:autor>Bento XVI</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4J%2F0QmDlfvk%2FVHXERTWrVg&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Lucerna</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Religião e Moral</b:categoria>
-      <b:subcategoria>Catolicismo</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>128.7</b:pontosBertrand>
-    <b:preco moeda="€">12.87</b:preco>
-  </b:ebook>
   <b:ebook ISBN="9789897160028">
     <b:titulo>Léxico da Família</b:titulo>
     <b:autor>Conselho Pontifício para a Família</b:autor>
@@ -1920,38 +1504,6 @@
     </b:tema>
     <b:pontosBertrand>323.9</b:pontosBertrand>
     <b:preco moeda="€">32.39</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="978-972-0-68018-1">
-    <b:titulo>Gestão do Tempo para mulheres (muito) ocupadas</b:titulo>
-    <b:autor>Maria José Silveira Núncio</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7M697t65ySsV629oE3Yccu&amp;width=150</b:capaURL>
-    <b:formato>E-pub</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Porto Editora</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Autoajuda</b:categoria>
-      <b:subcategoria>Desenvolvimento Pessoal</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>125.0</b:pontosBertrand>
-    <b:preco moeda="€">12.5</b:preco>
-  </b:ebook>
-  <b:ebook ISBN="9789897160165">
-    <b:titulo>Homem Mulher - O Caso Decisivo do Amor</b:titulo>
-    <b:autor>Angelo Scola</b:autor>
-    <b:capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6ORSAjmUgVd3vAGXvQqa9y&amp;width=150</b:capaURL>
-    <b:formato>Pdf</b:formato>
-    <b:edicao>
-      <b:anoEdicao>2011</b:anoEdicao>
-      <b:editor>Principia</b:editor>
-    </b:edicao>
-    <b:tema>
-      <b:categoria>Religião e Moral</b:categoria>
-      <b:subcategoria>Estudos Teológicos</b:subcategoria>
-    </b:tema>
-    <b:pontosBertrand>118.9</b:pontosBertrand>
-    <b:preco moeda="€">11.89</b:preco>
   </b:ebook>
 </b:list>
 

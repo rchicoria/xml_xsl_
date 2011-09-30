@@ -21,11 +21,6 @@ public class XmlCreator {
 
 		document.getContent().add( 0, pi );
 		
-		//Namespace n = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
-		//listElement.setNamespace(Namespace.getNamespace("http://bertand.pt"));
-		//listElement.addNamespaceDeclaration(n);
-		//listElement.setAttribute(new Attribute("schemaLocation", "http://google.com ebooks.xsd", n));
-		
 		Iterator<Ebook> iterator = ebooks.iterator();
 		while (iterator.hasNext())
 		{

@@ -31,10 +31,10 @@ public class XML {
 	//Número de páginas a seres lidas
 	public static int NPAGES = 20;
 	
-	private static Boolean DEBUG = true;
+	private static Boolean DEBUG = false;
+	private static Boolean wget = false;
 	//private static final String site = "http://www.bertrand.pt";
 	private static final String site = "http://localhost:8080/bertrand";
-	//private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
 
 	/**
 	 * Método principal da aplicação, extrai informação da secção de eBooks da Bertrand
@@ -83,29 +83,31 @@ public class XML {
 			count++;
 				
 		}
-		System.out.println(count);
 		
 		// Cria um XML com base na lista de Ebooks
 		debug(XmlCreator.writeXML(ebooks).toString());
 		
 		iterator = wgets.iterator();
-		String temp = null;
-		ArrayList<String> changeNames = new ArrayList<String>();
-		while(iterator.hasNext())
+		if(wget)
 		{
-			temp=iterator.next();
-			String temp2 = "";
-			try
+			String temp = null;
+			ArrayList<String> changeNames = new ArrayList<String>();
+			while(iterator.hasNext())
 			{
-				temp2 = "mv www.bertrand.pt"+temp+" www.bertrand.pt"+temp.substring(0,temp.indexOf("?"));
-				changeNames.add(temp2);
-			} catch (StringIndexOutOfBoundsException e){}
-			System.out.println("wget "+site+temp+" -x");
-		}
-		iterator = changeNames.iterator();
-		while(iterator.hasNext())
-		{
-			System.out.println(iterator.next());
+				temp=iterator.next();
+				String temp2 = "";
+				try
+				{
+					temp2 = "mv www.bertrand.pt"+temp+" www.bertrand.pt"+temp.substring(0,temp.indexOf("?"));
+					changeNames.add(temp2);
+				} catch (StringIndexOutOfBoundsException e){}
+				System.out.println("wget "+site+temp+" -x");
+			}
+			iterator = changeNames.iterator();
+			while(iterator.hasNext())
+			{
+				System.out.println(iterator.next());
+			}
 		}
 		
 		SAXBuilder builder = new SAXBuilder();
@@ -121,12 +123,10 @@ public class XML {
         }
         catch(IOException e){}
 
-        // Write the resulting document to file 'dvds.htm'
         XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
         try {
 			out.output(doc2, new FileWriter("ebooks.html"));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -167,15 +167,27 @@ public class XML {
 	 */
 	private static void createEbooks(ArrayList<String> urls, ArrayList<Ebook> ebooks)
 	{
-//		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
 		Iterator<String> iterator = urls.iterator();
-		
+		Iterator<Ebook> ebooksIterator;
 		while (iterator.hasNext())
 		{
+			ebooksIterator = ebooks.iterator();
 			Ebook ebook = createEbook(site + iterator.next());
 			if (ebook != null)
 			{
-				ebooks.add(ebook);
+				/*Compara o ISBN deste novo livro com todos os que existem na lista para não 
+				repetir livros que são iguais mas se encontram em categorias diferentes*/
+				boolean found = false;
+				while(ebooksIterator.hasNext())
+				{
+					if(ebook.getISBN().compareTo(ebooksIterator.next().getISBN())==0)
+					{
+						found=true;
+						break;
+					}
+				}
+				if(!found)
+					ebooks.add(ebook);
 			}
 		}
 	}
