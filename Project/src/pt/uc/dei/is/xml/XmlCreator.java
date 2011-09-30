@@ -2,6 +2,7 @@ package pt.uc.dei.is.xml;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import org.jdom.*;
 import org.jdom.output.*;
@@ -12,6 +13,13 @@ public class XmlCreator {
 	{
 		Element listElement = new Element("list");
 		Document document = new Document(listElement);
+		
+		HashMap piMap = new HashMap( 2 );
+		piMap.put( "type", "text/xsl" );
+		piMap.put( "href", "stylesheet.xsl" );
+		ProcessingInstruction pi = new ProcessingInstruction( "xml-stylesheet", piMap );
+
+		document.getContent().add( 0, pi );
 		
 		//Namespace n = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
 		listElement.setNamespace(Namespace.getNamespace("http://bertand.pt"));
