@@ -36,20 +36,21 @@ public class XML {
 		String url = "/?restricts=11708&facetcode=temas";
 		int count = 0;
 		ArrayList<Ebook> ebooks = new ArrayList<Ebook>();
+		ArrayList<String> wgets = new ArrayList<String>();
 		do 
 		{
 			// Arranja o HTML das páginas
 			String html = getWebContents(site + url);
+			wgets.add(url);
 			if (html == null)
 			{
 				System.out.println(	"Ocorreu um erro no carregamento da página.\n" +
 									"Verifique o estado da sua ligação à Internet.");
 				return;
 			}
-			System.out.println(site+url);
 			// Arranja os links para as páginas de produto
 			ArrayList<String> urls = RegEx.getURLs(html);
-			
+			wgets.addAll(urls);
 			// Arranja o HTML das páginas de produto e cria o respectivo objecto
 			createEbooks(urls, ebooks);
 			
@@ -60,6 +61,12 @@ public class XML {
 		
 		// Cria um XML com base na lista de Ebooks
 		debug(XmlCreator.writeXML(ebooks).toString());
+		
+		/*Iterator<String> iterator = wgets.iterator();
+		while(iterator.hasNext())
+		{
+			System.out.println("wget "+site+iterator.next()+" -x");
+		}*/
 	}
 	
 	/**
