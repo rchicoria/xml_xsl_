@@ -736,16 +736,16 @@ function validateEmailAddress(mail){
 </div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f9">	<!-- div principal -->
                 <div id="f9_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f9_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f9_imagem" ><a href="/ficha/o-riso-de-deus?id=11402979"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw44NfPBsY67ldjMlxq0WXEO&width=72'></a></div>	</div><!-- fim da div 'top_content' -->
+                <div id="f9_imagem" ><a href="/ficha/jesus-de-nazare?id=10916320"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4YZi2fypUbt3%2BYID5fezIl&width=72'></a></div>	</div><!-- fim da div 'top_content' -->
 	</div><!-- fim da div 'top' -->
 	
             <div id="f9_middle" ><!-- div que contém a parte do meio da info do produto -->
 
 <div id='f9_titleAutor'>		<div id="f9_titulo">
-<a href="/ficha/o-riso-de-deus?id=11402979" class="titulo_link">O Riso de Deus</a>		</div>
+<a href="/ficha/jesus-de-nazare?id=10916320" class="titulo_link">Jesus de Nazaré</a>		</div>
 		
             <div id="f9_autores">				
-<span class="autor_de">de</span> António Alçada Baptista    &nbsp;</div>
+<span class="autor_de">de</span> Bento XVI    &nbsp;</div>
 </div>                    
         <div id="f9_3icons" >
 <div id="f9_ebook"></div>	</div><!-- fim da div '3icons' -->
@@ -757,43 +757,13 @@ function validateEmailAddress(mail){
 	
 	<div id="f9_bottom" ><!-- div que contém a parte do fim da info do produto -->
 
-	<div id="f9_resumo" class="prod_sinopse"><div id="f9_resumo" class="prod_sinopse">Ao acompanhar a vida de Francisco, o personagem central deste romance, ao longo das suas escolhas, da sua procura, ao acompanhá-lo ao longo das suas deambulações pelo mundo, pela história, ao...</div></div><div id="f9_precocapa_nome">Preço</div><div id="f9_precovenda" class="preco_venda">9,99€</div>		<div class="cleaner"></div>
-		<div id="f9_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6974039','S','0')">Adicionar ao cesto</a></div><div id="f9_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6974039\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	<div id="f9_resumo" class="prod_sinopse"><div id="f9_resumo" class="prod_sinopse">No gesto das mãos abençoadoras exprime-se a relação duradoura de Jesus com os seus discípulos, com o mundo. Ao partir, Ele ergue-nos acima de nós mesmos e abre o mundo a Deus. Por isso os...</div></div><div id="f9_precocapa_nome">Preço</div><div id="f9_precovenda" class="preco_venda">12,01€</div>		<div class="cleaner"></div>
+		<div id="f9_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6485969','S','0')">Adicionar ao cesto</a></div><div id="f9_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6485969\',\'N\',\'0\');')">Adicionar à lista</a></div>
 	</div><!-- fim da div "bottom" que contém o final da info do produto -->
 	</div><!-- fim da div 'principal' -->	
 	<!-- #CLEANER# <div class="cleaner"></div>-->	
 	 
 </div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet' >                <div id="f9">	<!-- div principal -->
-                <div id="f9_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
-                <div id="f9_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f9_imagem" ><a href="/ficha/o-ano-em-que-devia-morrer?id=10916323"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5pyeOKGABUhF0sPf93Itjj&width=72'></a></div>	</div><!-- fim da div 'top_content' -->
-	</div><!-- fim da div 'top' -->
-	
-            <div id="f9_middle" ><!-- div que contém a parte do meio da info do produto -->
-
-<div id='f9_titleAutor'>		<div id="f9_titulo">
-<a href="/ficha/o-ano-em-que-devia-morrer?id=10916323" class="titulo_link">O Ano em Que Devia Morrer</a>		</div>
-		
-            <div id="f9_autores">				
-<span class="autor_de">de</span> Miguel Pinto    &nbsp;</div>
-</div>                    
-        <div id="f9_3icons" >
-<div id="f9_ebook"></div>	</div><!-- fim da div '3icons' -->
-  
-            
-            
-            
-        </div><!-- fim da div "middle" que contém o resto da info do produto -->
-	
-	<div id="f9_bottom" ><!-- div que contém a parte do fim da info do produto -->
-
-	<div id="f9_resumo" class="prod_sinopse"><div id="f9_resumo" class="prod_sinopse">Cirurgião e militante comunista cubano, Carlos Dominguez é destacado para integrar uma missão médica cubana em Angola. Mas o regime de Fidel Castro não dorme quando está em causa a...</div></div><div id="f9_precocapa_nome">Preço</div><div id="f9_precovenda" class="preco_venda">13,08€</div>		<div class="cleaner"></div>
-		<div id="f9_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6485972','S','0')">Adicionar ao cesto</a></div><div id="f9_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6485972\',\'N\',\'0\');')">Adicionar à lista</a></div>
-	</div><!-- fim da div "bottom" que contém o final da info do produto -->
-	</div><!-- fim da div 'principal' -->	
-	<!-- #CLEANER# <div class="cleaner"></div>-->	
-	 
-</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f9">	<!-- div principal -->
                 <div id="f9_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f9_top_content" > <!-- div que contém o conteúdo da div anterior -->
                 <div id="f9_imagem" ><a href="/ficha/gente-pobre?id=11403699"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6drghR2nce6%2FZ8eidoXiiq&width=72'></a></div>	</div><!-- fim da div 'top_content' -->
@@ -819,6 +789,36 @@ function validateEmailAddress(mail){
 
 	<div id="f9_resumo" class="prod_sinopse"><div id="f9_resumo" class="prod_sinopse">Traduzida directamente a partir do russo por Nina Guerra e Filipe Guerra, vencedores do Grande Prémio de tradução literária APT/Pen Clube Português, a presente obra assume-se como um romance...</div></div><div id="f9_precocapa_nome">Preço</div><div id="f9_precovenda" class="preco_venda">8,99€</div>		<div class="cleaner"></div>
 		<div id="f9_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6974797','S','0')">Adicionar ao cesto</a></div><div id="f9_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6974797\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	</div><!-- fim da div "bottom" que contém o final da info do produto -->
+	</div><!-- fim da div 'principal' -->	
+	<!-- #CLEANER# <div class="cleaner"></div>-->	
+	 
+</div><div id='portlet_separador_vertical'></div><div id='portlet' >                <div id="f9">	<!-- div principal -->
+                <div id="f9_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+                <div id="f9_top_content" > <!-- div que contém o conteúdo da div anterior -->
+                <div id="f9_imagem" ><a href="/ficha/lisboa-aos-seus-amores?id=10904022"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6E6FM6n0xKyFizSuMIjAVm&width=72'></a></div>	</div><!-- fim da div 'top_content' -->
+	</div><!-- fim da div 'top' -->
+	
+            <div id="f9_middle" ><!-- div que contém a parte do meio da info do produto -->
+
+<div id='f9_titleAutor'>		<div id="f9_titulo">
+<a href="/ficha/lisboa-aos-seus-amores?id=10904022" class="titulo_link">Lisboa aos seus amores</a>		</div>
+		
+            <div id="f9_autores">				
+<span class="autor_de">de</span> Abel Neves    &nbsp;</div>
+</div>                    
+        <div id="f9_3icons" >
+<div id="f9_ebook"></div>	</div><!-- fim da div '3icons' -->
+  
+            
+            
+            
+        </div><!-- fim da div "middle" que contém o resto da info do produto -->
+	
+	<div id="f9_bottom" ><!-- div que contém a parte do fim da info do produto -->
+
+	<div id="f9_resumo" class="prod_sinopse"><div id="f9_resumo" class="prod_sinopse">Uma geografia também é testemunha das cintilações dos seus moradores e, na teia onde se vão urdindo os jogos amorosos, Lisboa oferece-se a cada instante, ainda que às vezes dela se afastem as...</div></div><div id="f9_precocapa_nome">Preço</div><div id="f9_precovenda" class="preco_venda">13,90€</div>		<div class="cleaner"></div>
+		<div id="f9_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6473672','S','0')">Adicionar ao cesto</a></div><div id="f9_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6473672\',\'N\',\'0\');')">Adicionar à lista</a></div>
 	</div><!-- fim da div "bottom" que contém o final da info do produto -->
 	</div><!-- fim da div 'principal' -->	
 	<!-- #CLEANER# <div class="cleaner"></div>-->	
@@ -854,7 +854,7 @@ function validateEmailAddress(mail){
         <div id='sectionfacetarea' class='f3_1col'><div class='sectionfacettituloWidget'>CLÁSSICOS</div><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'>                <div id="f3">	<!-- div principal -->
                 <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f3_imagem" ><a href="/ficha/amor-de-perdicao?id=10893933"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5vxmymYMK36VbM8HJUCi3R&width=50'></a></div>                    
+                <div id="f3_imagem" ><a href="/ficha/a-submissa-e-outras-historias?id=11403698"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6h%2FjvAsjLheVHd%2Fz6C%2BDMx&width=50'></a></div>                    
         <div id="f3_3icons" >
 <div id="f3_ebook"></div>	</div><!-- fim da div '3icons' -->
 	</div><!-- fim da div 'top_content' -->
@@ -863,10 +863,10 @@ function validateEmailAddress(mail){
             <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
 
 		<div id="f3_titulo">
-<a href="/ficha/amor-de-perdicao?id=10893933" class="titulo_link_coluna">Amor de Perdição</a>		</div>
+<a href="/ficha/a-submissa-e-outras-historias?id=11403698" class="titulo_link_coluna">A Submissa e Outras Histórias</a>		</div>
 		
             <div id="f3_autores">				
-<span class="autor_de_coluna">de</span> Camilo Castelo Branco    &nbsp;</div>
+<span class="autor_de_coluna">de</span> Fiódor Dostoievski    &nbsp;</div>
   
             
             
@@ -912,7 +912,7 @@ function validateEmailAddress(mail){
 </div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">	<!-- div principal -->
                 <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f3_imagem" ><a href="/ficha/os-maias?id=10893930"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5BdwUxdaAGVW1ldo0KzP6D&width=50'></a></div>                    
+                <div id="f3_imagem" ><a href="/ficha/mensagem?id=10893932"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Ut%2FBo3KckX9s3d1paGcxQ&width=50'></a></div>                    
         <div id="f3_3icons" >
 <div id="f3_ebook"></div>	</div><!-- fim da div '3icons' -->
 	</div><!-- fim da div 'top_content' -->
@@ -921,10 +921,10 @@ function validateEmailAddress(mail){
             <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
 
 		<div id="f3_titulo">
-<a href="/ficha/os-maias?id=10893930" class="titulo_link_coluna">Os Maias</a>		</div>
+<a href="/ficha/mensagem?id=10893932" class="titulo_link_coluna">Mensagem</a>		</div>
 		
             <div id="f3_autores">				
-<span class="autor_de_coluna">de</span> Eça de Queirós    &nbsp;</div>
+<span class="autor_de_coluna">de</span> Fernando Pessoa    &nbsp;</div>
   
             
             
@@ -970,7 +970,7 @@ function validateEmailAddress(mail){
 </div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">	<!-- div principal -->
                 <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f3_imagem" ><a href="/ficha/a-submissa-e-outras-historias?id=11403698"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6h%2FjvAsjLheVHd%2Fz6C%2BDMx&width=50'></a></div>                    
+                <div id="f3_imagem" ><a href="/ficha/os-maias?id=10893930"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5BdwUxdaAGVW1ldo0KzP6D&width=50'></a></div>                    
         <div id="f3_3icons" >
 <div id="f3_ebook"></div>	</div><!-- fim da div '3icons' -->
 	</div><!-- fim da div 'top_content' -->
@@ -979,10 +979,10 @@ function validateEmailAddress(mail){
             <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
 
 		<div id="f3_titulo">
-<a href="/ficha/a-submissa-e-outras-historias?id=11403698" class="titulo_link_coluna">A Submissa e Outras Histórias</a>		</div>
+<a href="/ficha/os-maias?id=10893930" class="titulo_link_coluna">Os Maias</a>		</div>
 		
             <div id="f3_autores">				
-<span class="autor_de_coluna">de</span> Fiódor Dostoievski    &nbsp;</div>
+<span class="autor_de_coluna">de</span> Eça de Queirós    &nbsp;</div>
   
             
             
@@ -999,7 +999,7 @@ function validateEmailAddress(mail){
 </div></div><div id='container' class='portlets'><div id='portlet'>                <div id="f3">	<!-- div principal -->
                 <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
                 <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
-                <div id="f3_imagem" ><a href="/ficha/mensagem?id=10893932"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Ut%2FBo3KckX9s3d1paGcxQ&width=50'></a></div>                    
+                <div id="f3_imagem" ><a href="/ficha/contos?id=10894512"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5CZ1SY1O9q5RcINZOczogJ&width=50'></a></div>                    
         <div id="f3_3icons" >
 <div id="f3_ebook"></div>	</div><!-- fim da div '3icons' -->
 	</div><!-- fim da div 'top_content' -->
@@ -1008,10 +1008,10 @@ function validateEmailAddress(mail){
             <div id="f3_middle" ><!-- div que contém a parte do meio da info do produto -->
 
 		<div id="f3_titulo">
-<a href="/ficha/mensagem?id=10893932" class="titulo_link_coluna">Mensagem</a>		</div>
+<a href="/ficha/contos?id=10894512" class="titulo_link_coluna">Contos</a>		</div>
 		
             <div id="f3_autores">				
-<span class="autor_de_coluna">de</span> Fernando Pessoa    &nbsp;</div>
+<span class="autor_de_coluna">de</span> Eça de Queirós    &nbsp;</div>
   
             
             

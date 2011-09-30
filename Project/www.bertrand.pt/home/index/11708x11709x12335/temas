@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+    <head>
+         <!-- Enable IE8 Standards mode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=8" ></meta>
+        <base href="http://www.bertrand.pt/" />
+        <title>Bertrand Livreiros - livraria online</title>
+	<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="livraria online, livros online, livros, portugueses, eBooks, ebooks, ingleses, estrangeiros, literatura, ficção, ensino, livraria virtual" />
+<meta name="description" content="A Bertrand é a maior rede de livrarias de Portugal. De norte a sul do país, procuramos estar sempre perto de si.
+Na Bertrand online, para além de todos os livros portugueses, encontra edições estrangeiras e eBooks." />
+		
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-124829-51']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setLocalRemoteServerMode']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        <link rel="apple-touch-icon" href="/themes/bertrand/images/bertrandtouch-icon.png"/>
+        <script>
+              window.addEventListener("load",function() {
+                // Set a timeout...
+                setTimeout(function(){
+                    // Hide the address bar!
+                    window.scrollTo(0, 1);
+                }, 0);
+              },false);
+        </script>
+    <link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/f1.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/typography.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/layout.css?m=1317200899" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/form.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_shoppingcart/css/shoppingCartContadorWidget.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/ui.all.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/sectionfacetwidget.css?m=1317200900" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/Product2SC.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/nav.css?m=1317200899" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f99.css?m=1314610247" />
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.min/jquery-1.5.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.ui.min/jquery-ui-1.8.11.custom.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/jquery.profile.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/popup-window.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/utils.js?m=1314610262"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/product2sc.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/productpage.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/product2sc.js?m=1314610303"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.validate.min/jquery.validate.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/JQueryValidationSearch.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/messages_pt.js?m=1313765007"></script>
+</head>
+
+    <body>
+
+        <div id="BgContainer">
+
+            <div id="Container">
+                <div id="Header">	   	
+    <div id="barraGPE"></div>
+    <div id="bertrandLogo" style="float: left;">
+        <a href="/">
+            <img alt="" src="themes/bertrand/images/bertrandLogo.gif"/>
+        </a>
+    </div>
+
+    <div id="caixa_pesquisa">
+        
+
+<form  id="Form_SearchForm" action="/home/SearchForm" method="post" enctype="application/x-www-form-urlencoded">
+
+	
+	<p id="Form_SearchForm_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset>
+		 
+		
+			<label id="Form_SearchForm_label">pesquisa</label>
+		
+			<div id="palavra" class="field text  nolabel"><div class="middleColumn"><input type="text" class="text nolabel" id="Form_SearchForm_palavra" name="palavra" value="" /></div></div>
+		
+			<input class="hidden nolabel" type="hidden" id="Form_SearchForm_restricts" name="restricts" value="11708" />
+		
+			<input class="hidden nolabel" type="hidden" id="Form_SearchForm_facetcode" name="facetcode" value="temas" />
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<input class="action " id="Form_SearchForm_action_doSearch" type="submit" name="action_doSearch" value="ok" title="ok" />
+		
+	</div>
+	
+
+</form>
+
+
+
+
+    </div>
+    
+        <div id="mouseInfo" style="top: 0px; left: 0px; position:absolute; width: 100px; height: 100px; display: none;">
+    <div>DivLogin.ss</div>
+    <div id="mousePosition"></div>
+</div>
+
+
+<div id="dialogCheckout" title="LOGIN" style="display:none; height: auto;">
+    <div id="commentTop">
+	Se já é um cliente registado preencha os seguintes dados:
+    </div>
+    <div id="formElements">
+        <form id="CheckoutLoginForm" action="" onsubmit="">
+                <label for="checkout_user">Email</label><br>
+                <input id="checkout_user_input" type="text" name="checkout_user_input" />
+                <input id="checkout_hiddenID" type="hidden" name="checkout_hiddenID" />
+                <input id="checkout_redirectUrl" type="hidden" name="checkout_redirectUrl" />
+                <div id="breaker"></div>
+                <label for="ckeckout_pass">Password</label><br>
+                <input id="checkout_password" type="password" name="checkout_password" /><br>
+                <div id="breaker"></div>
+                <input id="checkoutsubmit" type="submit" value="confirmar"/>
+                <div id="msgLoading" style="display:none;float: right;margin-top: 2px;"><img src="/themes/bertrand_emporium/images/ico_searching.gif" title="a processar..." alt="a processar..."></div>
+        </form>
+    </div>
+    <!--<div id="checkout_banner"></div>-->
+    <div id="msgNotifica" style="display:none;"></div>
+    <div id="comments" >
+        Se esqueceu a password, escreva o seu email e clique <a id="checkoutlink" onclick="sendRecoveryEmail();"><u>aqui</u>.</a>
+    </div>
+    <div id="footerFormLogin">
+        Se ainda não se encontra registado, faça-o
+        <a style="text-decoration:underline; font-weight: bold;" id="checkoutlink" href="areacliente/novoregisto">aqui</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/**
+ * Validar o endereço de email correto
+ * @param  - String
+ * @return boolean
+ */
+function validateEmailAddress(mail){
+    var patternEmail = /^(\w|\.|-)+@(\w|\.|-)+(\.[a-zA-Z]{2,4})$/;
+    
+    if(mail == null || mail == '' || !patternEmail.test(mail)){
+        return false;
+    }
+
+    return true;
+}
+
+
+    /**
+     * Chamada no poplogin para recuperação de password.
+     * @return
+     */
+    function sendRecoveryEmail() {
+        jQuery('#msgNotifica').hide();
+        jQuery('#msgNotifica').html('');
+        jQuery('#msgLoading').show();
+
+        var msgErroGeral = 'O endereço digitado não se encontra nos nossos registos.';
+        var msgSuccess = 'A sua password foi enviada para o mail ';
+
+        // Verifica o email submetido pelo utilizador
+        var email = trim(jQuery('#checkout_user_input').val());
+    
+        if (!validateEmailAddress(email)){
+           jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+           jQuery('#checkout_user_input').focus();
+           jQuery('#msgNotifica').show();
+           jQuery('#msgLoading').hide();
+           return false;
+        }
+       
+
+        var postURL = '/home/doRecoveryPassword';
+
+        jQuery.ajax({
+            cache:false,
+            async:false,
+            type: "POST",
+            data: {email: email},
+            url: postURL,
+            success:    function(msg)
+                        {
+                           
+
+                            if(msg == 1)
+                            {
+                                jQuery('#msgNotifica').html(msgSuccess + email);
+                            }
+                            else
+                            {
+                                jQuery('#msgNotifica').html(msgErroGeral);
+                            }
+
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+
+                        },
+            error:      function()
+                        {
+                           
+                            jQuery('#msgNotifica').html(msgErroGeral);
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+                        }
+
+        });
+    }
+
+
+    /*********************************************************************
+     * Posiciona o login e atribui a redirecao pretendida
+     */
+    function openLoginPop(areaDestino,jsInfo){
+        jQuery('#dialogCheckout').dialog('open');
+        if(areaDestino != null){
+            jQuery('#checkout_redirectUrl').val(areaDestino);
+        }
+        
+        if(jsInfo != null){
+            jQuery('#checkout_hiddenID').val(jsInfo);
+        }
+
+        jQuery("#dialogCheckout").dialog( "option", "position", [tempX,tempY]);
+        return false;
+    }
+
+    jQuery("#dialogCheckout").dialog({
+        bgiframe: true,
+        autoOpen: false,
+        width: 242,
+        closeText: "FECHAR",
+        close: function(ev, ui) {
+            jQuery("#checkout_user_input").val('');
+            jQuery("#checkout_password").val('');
+            jQuery("#checkout_banner").html('');
+
+            // Recuperar password
+            jQuery('#msgNotifica').html('');            
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgLoading').hide();
+        }
+    });
+
+    jQuery(function(){
+        jQuery("#CheckoutLoginForm").submit(function(){
+
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgNotifica').html('');
+            jQuery('#msgLoading').show();
+
+            // Verifica o email submetido pelo utilizador
+            if (!validateEmailAddress(jQuery('#checkout_user_input').val())){
+                jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+                jQuery('#checkout_user_input').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            // Verifica campo password
+            if ( (jQuery('#checkout_password').val() == null) || (jQuery('#checkout_password').val() == '') ){
+                jQuery('#msgNotifica').html('Necessário introduzir uma password.');
+                jQuery('#checkout_password').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            jQuery.post("http://www.bertrand.pt/"
+                + "home/doLogin", "checkout_user_input="
+                + jQuery("#checkout_user_input").val()
+                + "&checkout_redirectUrl="
+                + jQuery("#checkout_redirectUrl").val()
+                + "&checkout_password="
+                + jQuery("#checkout_password").val()
+                + "&checkout_hiddenID="
+                + jQuery("#checkout_hiddenID").val()+"&a=1",
+                function( data ) {
+                    jQuery('#msgLoading').hide();
+                    jQuery('#msgNotifica').html(data);
+                    jQuery('#msgNotifica').show();
+                });
+            return false;
+        });
+    });
+
+</script>
+        <!-- css no shoppingCartContadorwidget.css -->
+        <div id="contadorCesto" style="border: 0px solid red;">
+            <!-- chamar com JQUERY o Widget dos contadores do cesto e lista para não ficar em cache-->
+            <!-- resultado da chamada ajax é colocado aqui -->
+            <div id="resultContadores"></div>
+            <script type="text/javascript">
+                function getContadoresInfo(){
+                    // get some values from elements on the page:
+                    var url = "/cesto-de-compras/getContadores";
+
+                    // Send the data using post and put the results in a div
+                    jQuery.post( url,
+                    function( data ) {
+                        jQuery( "#resultContadores" ).html( data );
+                    });
+                }
+                getContadoresInfo();
+            </script>
+        </div>
+        <div id="menuPE"></div>
+
+</div>
+
+	  	<div id="Layout">
+                    
+<script type="text/javascript">
+    var menuIdElement = "";
+    var menuIdCounter = 0;
+    var infoMenu = (function (){
+        var menuUrl = [];
+        var menuTitle = [];
+        var menuId = [];
+
+        function pushMenu(id, title, url){
+            pushId(id);
+            pushTitle(title);
+            pushUrl(url);
+        }
+
+        function popMenu(id, title, url){
+            popTitle(id);
+            popTitle(title);
+            popUrl(url);
+        }
+
+        function pushUrl(element){
+            menuUrl[menuUrl.length] = element;
+        }
+
+        function popUrl(element){
+            menuUrl = popElement(menuUrl, element);
+        }
+
+        function popTitle(element){
+            menuTitle = popElement(menuTitle, element);
+        }
+        function pushTitle(element){
+            menuTitle[menuTitle.length] = element;
+        }
+
+        function popId(element){
+            menuId = popElement(menuId, element);
+        }
+        function pushId(element){
+            menuId[menuId.length] = element;
+        }
+
+        function getMenuIdByUrl(url){
+            var returnInfo = "";
+            //retira parametros
+            var locationInfo = url.toString().split("?");
+            if(locationInfo != null && locationInfo.length > 0){
+                var infoPos = jQuery.inArray(jQuery.trim(locationInfo[0]), menuUrl);
+
+                if(infoPos != -1){
+                    returnInfo = menuId[infoPos];
+                }
+            }
+            return returnInfo
+        }
+
+        function popElement(arrayTarget, element){
+            arrayTarget = jQuery.grep(arrayTarget, function(value) {
+                return value != element;
+            });
+            return arrayTarget;
+        }
+
+        function toString(){
+            var string = "";
+            for(var i=0; i<menuTitle.length;i++){
+                string += menuId[i] + ": " + menuTitle[i] + ": " + menuUrl[i] + "\n";
+            }
+
+            return string;
+        }
+
+        return {
+            popMenu: popMenu,
+            pushMenu: pushMenu,
+            getMenuIdByUrl: getMenuIdByUrl,
+            toString: toString
+        };
+    }());
+</script>
+
+<div id="menuBlockContainerLeftHeaderMenuClass"></div>
+<div id="mainContainerHeaderMenuClass">
+
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">LIVROS</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM PORTUGUÊS'), jQuery.trim('http://www.bertrand.pt/home/index/8066x5839/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8066x5839/temas\" title=\"Livros em Português\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM PORTUGUÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM INGLÊS'), jQuery.trim('http://www.bertrand.pt/home/index/8066x8067/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8066x8067/temas\" title=\"Livros em Inglês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM INGLÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM ESPANHOL'), jQuery.trim(' http://www.bertrand.pt/home/index/8066x8477/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/8066x8477/temas\" title=\"Livros em Espanhol\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM ESPANHOL</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM FRANCÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/8066x9482/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/8066x9482/temas\" title=\"Livros em Francês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM FRANCÊS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+            <div id="menuBlockContainerRightHeaderMenuClass"></div>
+            <div id="menuBlockContainerLeftHeaderMenuClass"></div>
+        
+ 
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">EBOOKS</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM PORTUGUÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/11708x11709/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/11708x11709/temas\" title=\"eBooks em Português\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM PORTUGUÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM INGLÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/11708x11710/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/11708x11710/temas\" title=\"eBooks em Inglês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM INGLÊS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+            <div id="menuBlockContainerRightHeaderMenuClass"></div>
+            <div id="menuBlockContainerLeftHeaderMenuClass"></div>
+        
+ 
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">ENSINO</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('ESCOLARES'), jQuery.trim('http://www.bertrand.pt/livros-escolares'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/livros-escolares\" title=\"Livros Escolares\" id=\"" + menuIdElement + "\" class=\"linkElement\">ESCOLARES</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('AUXILIARES'), jQuery.trim('http://www.bertrand.pt/home/index/8070x5817/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8070x5817/temas\" title=\"Auxiliares de Ensino\" id=\"" + menuIdElement + "\" class=\"linkElement\">AUXILIARES</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('UNIVERSITÁRIOS'), jQuery.trim('http://www.bertrand.pt/home/index/8070x11167/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8070x11167/temas\" title=\"Livros Universitários\" id=\"" + menuIdElement + "\" class=\"linkElement\">UNIVERSITÁRIOS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+        
+        
+ 
+</div>
+<div id="menuBlockContainerRightHeaderMenuClass"></div>
+
+<div id="headerMenuClosingImage"></div>
+
+
+<script type="text/javascript">
+
+    var selectedMenu = infoMenu.getMenuIdByUrl(window.location);
+    if(selectedMenu != ""){
+        jQuery('#'+selectedMenu).attr('href','#');
+        jQuery('#'+selectedMenu).removeClass()
+        jQuery('#'+selectedMenu).addClass('linkElementSelected')
+    }
+</script>
+
+
+
+
+
+                    <div id="ContainerLeft">
+			
+    <div id="Sidebarmenu">
+        <div id="facets">
+            <div id='facet_pai' class='tema'>Temas</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335x12347/temas">Medicina Geral</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335x12351/temas">Saúde e Bem-Estar</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335x12354/temas">Psiquiatria</a></h3></div><div class='cleaner'></div><div id='facet_pai' class='geral'>Preço</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335/temas?restrictsinc=preco_5_a_10_euros&facetcodeinc=preco_5_a_10_euros">5 a 10 euros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335/temas?restrictsinc=preco_10_a_25_euros&facetcodeinc=preco_10_a_25_euros">10 a 25 euros</a></h3></div><div class='cleaner'></div><div id='facet_pai' class='geral'>Editor</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335/temas?restrictsinc=1582&facetcodeinc=edi_id">Principia</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709x12335/temas?restrictsinc=1799&facetcodeinc=edi_id">Sopa de Letras</a></h3></div><div class='cleaner'></div>
+            
+            
+	</div>
+    </div>
+
+
+
+
+                    </div>
+
+                    <div id="ContainerCenter">
+                        <div id="Breadcrumbs">
+    <p>
+        <a href="/" class="current">Início</a><span class="current"> &gt; </span>
+        
+            <!-- ## primeiro nivel de breadcrumbs (lê no menu de navegação) - controla por css o que aparece ## -->
+         
+            <a href="/?restricts=11708&facetcode=temas">eBooks</a> > <a href="/?restricts=11708x11709&facetcode=temas">eBooks em Português</a> > Medicina e Saúde
+        
+    </p>
+ 
+    <!-- <div id="logout" title="" class="hidden"><a href="http://www.bertrand.pt/home/dologout" >logout</a></div> -->
+
+</div>
+
+                        <!--conteudo principal-->
+			<div id="Maincontent">
+    <div class="typography">
+
+        
+
+            	<!-- ##NÃO APLICOU FILTRO## -->
+
+                	<!-- ##PESQUISA POR TEMA## -->
+	
+<!-- ##FAZ PESQUISA## -->
+
+            	<!-- ##FAZ PESQUISA## -->
+
+                        <!--h1 class="titulo">Pesquisa</h1-->
+                        
+
+                            <div id="separadores">
+    <h3><a href="/?restricts=11708&facetcode=temas" class='sel'>eBooks</a></h3>
+</div>
+                            <div id="SearchWordLabel" class="ComSeparadores">
+                                Foram encontrados 
+                            </div>
+
+                        
+
+                        
+	<div id="NavegacaoPesquisa">
+	
+		<div class="SortMenu">
+			<div class="Label">Ordenar por:</div>
+			<div><div style='float:left;'><ul id='ordenacao'><li><label>|</label><a class="selected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=asc&itemsperpage=20">Ranking de Vendas</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=des_art&sortorder=desc&itemsperpage=20">Título</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=pre_ven_cap&sortorder=desc&itemsperpage=20">Preço</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=dat_pub&sortorder=desc&itemsperpage=20">Novidades</a></li></ul></div><div id="paginacao" style="text-align:right;"><div id="label">Artigos por Página: </div><div id="resultados"><ul id="paginar"><li> <a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=10">10</a> | </li><li> <a class="selected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=20">20</a> | </li><li> <a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=50">50</a> | </li></ul></div></div></div>
+		</div>
+
+		<div class="FilterMenu">
+			<div id="filtros"><div id="filtro">Tema: <span class='nome'>eBooks em Português</span><a href="/?palavra=&restricts=11708&facetcode=temas">remover</a></div><div id="filtro">Tema: <span class='nome'>Medicina e Saúde</span><a href="/?palavra=&restricts=11708x11709&facetcode=temas">remover</a></div></div>
+		</div>
+	
+		<div class="NavigationMenu">
+			<div id='artigosLabel'> Artigos Visíveis: </div> <div class='elementos'>1 - 4 de 4</div> <div id='linksNavegacao'><ul id='navegacao'><li><a href="/?itemsperpage=20&restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&page=1" class="selected">1</a></li></ul></div>
+		</div>
+	</div>
+
+
+<div id='sectionfacetarea' class='f99_1col'><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f99">	<!-- div principal -->
+    <div id="f99_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f99_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f99_imagem">
+            <a href="/ficha/o-manicomio-dr-heribaldo-raposo?id=10916309"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7ezO5gMWiPzIbYo9iLgFI2&width=75'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f99_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f99_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f99_titulo">
+            <a href="/ficha/o-manicomio-dr-heribaldo-raposo?id=10916309" class="titulo_link">O Manicómio Dr. Heribaldo Raposo</a>                </div>
+
+                                    <div id="f99_subtitulo"></div>
+                                    <div id="f99_autores">
+            <span class="autor_de"></span> Pedro Afonso&nbsp;
+                </div>
+                <div id="f99_disponibilidade" class="disponibilidade">> Disponibilidade Imediata</div>            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f99_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f99_right_content">
+
+
+
+                <div id="f99_3icons" >
+            <div id="f99_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f99_right_content_info">
+
+
+                                    <div id="f99_precovenda" class="preco_venda"><font class="precoVendaValue">
+€ 12,26                      </font></div>
+                
+                
+                            <div id="f99_comprar">
+                                        <a rel='nofollow' onclick="if(add_shoppingcart('/cesto-de-compras/adicionar',
+                                                                '6485958',
+                                                        'S',
+                                                        '0')){ showConfirmAddShoppingCartPopup('1');}">Adicionar ao cesto</a>
+                            </div>
+                        <div id="f99_wishlist"><a rel='nofollow' onclick="eval_script_js_checking_autenticacao('if(add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6485958\',\'N\',\'0\')) showConfirmAddShoppingListPopup()')">Adicionar à lista</a></div>            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f99">	<!-- div principal -->
+    <div id="f99_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f99_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f99_imagem">
+            <a href="/ficha/tres-olhares-sobre-o-futuro-da-saude-em-portugal?id=11449665"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&width=75'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f99_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f99_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f99_titulo">
+            <a href="/ficha/tres-olhares-sobre-o-futuro-da-saude-em-portugal?id=11449665" class="titulo_link">Três Olhares Sobre o Futuro da Saúde em Portugal</a>                </div>
+
+                                    <div id="f99_subtitulo"></div>
+                                    <div id="f99_autores">
+            <span class="autor_de"></span> Pedro Pita Barros<font class="autor_de">,</font>João Varandas Fernandes<font class="autor_de">,</font>Adalberto Campos Fernandes&nbsp;
+                </div>
+                <div id="f99_disponibilidade" class="disponibilidade">> Disponibilidade Imediata</div>            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f99_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f99_right_content">
+
+
+
+                <div id="f99_3icons" >
+            <div id="f99_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f99_right_content_info">
+
+
+                                    <div id="f99_precovenda" class="preco_venda"><font class="precoVendaValue">
+€ 8,08                      </font></div>
+                
+                
+                            <div id="f99_comprar">
+                                        <a rel='nofollow' onclick="if(add_shoppingcart('/cesto-de-compras/adicionar',
+                                                                '7020799',
+                                                        'S',
+                                                        '0')){ showConfirmAddShoppingCartPopup('1');}">Adicionar ao cesto</a>
+                            </div>
+                        <div id="f99_wishlist"><a rel='nofollow' onclick="eval_script_js_checking_autenticacao('if(add_shoppingcart(\'/cesto-de-compras/adicionar\',\'7020799\',\'N\',\'0\')) showConfirmAddShoppingListPopup()')">Adicionar à lista</a></div>            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f99">	<!-- div principal -->
+    <div id="f99_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f99_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f99_imagem">
+            <a href="/ficha/sera-depressao-ou-simplesmente-tristeza-?id=10929370"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4tDyPb5nNqJmWy2DzqByIM&width=75'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f99_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f99_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f99_titulo">
+            <a href="/ficha/sera-depressao-ou-simplesmente-tristeza-?id=10929370" class="titulo_link">Será Depressão ou Simplesmente Tristeza...?</a>                </div>
+
+                                    <div id="f99_subtitulo"></div>
+                                    <div id="f99_autores">
+            <span class="autor_de"></span> Pedro Afonso&nbsp;
+                </div>
+                <div id="f99_disponibilidade" class="disponibilidade">> Disponibilidade Imediata</div>            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f99_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f99_right_content">
+
+
+
+                <div id="f99_3icons" >
+            <div id="f99_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f99_right_content_info">
+
+
+                                    <div id="f99_precovenda" class="preco_venda"><font class="precoVendaValue">
+€ 11,28                      </font></div>
+                
+                
+                            <div id="f99_comprar">
+                                        <a rel='nofollow' onclick="if(add_shoppingcart('/cesto-de-compras/adicionar',
+                                                                '6499137',
+                                                        'S',
+                                                        '0')){ showConfirmAddShoppingCartPopup('1');}">Adicionar ao cesto</a>
+                            </div>
+                        <div id="f99_wishlist"><a rel='nofollow' onclick="eval_script_js_checking_autenticacao('if(add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6499137\',\'N\',\'0\')) showConfirmAddShoppingListPopup()')">Adicionar à lista</a></div>            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f99">	<!-- div principal -->
+    <div id="f99_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f99_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f99_imagem">
+            <a href="/ficha/esquizofrenia?id=10929366"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5G%2BxENn20qhovGHVDd%2B7tA&width=75'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f99_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f99_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f99_titulo">
+            <a href="/ficha/esquizofrenia?id=10929366" class="titulo_link">Esquizofrenia</a>                </div>
+
+                                    <div id="f99_subtitulo"></div>
+                                    <div id="f99_autores">
+            <span class="autor_de"></span> Pedro Afonso&nbsp;
+                </div>
+                <div id="f99_disponibilidade" class="disponibilidade">> Disponibilidade Imediata</div>            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f99_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f99_right_content">
+
+
+
+                <div id="f99_3icons" >
+            <div id="f99_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f99_right_content_info">
+
+
+                                    <div id="f99_precovenda" class="preco_venda"><font class="precoVendaValue">
+€ 11,89                      </font></div>
+                
+                
+                            <div id="f99_comprar">
+                                        <a rel='nofollow' onclick="if(add_shoppingcart('/cesto-de-compras/adicionar',
+                                                                '6499133',
+                                                        'S',
+                                                        '0')){ showConfirmAddShoppingCartPopup('1');}">Adicionar ao cesto</a>
+                            </div>
+                        <div id="f99_wishlist"><a rel='nofollow' onclick="eval_script_js_checking_autenticacao('if(add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6499133\',\'N\',\'0\')) showConfirmAddShoppingListPopup()')">Adicionar à lista</a></div>            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div></div></div></div>
+
+                        <div id="NavegacaoBottom">
+	<div id="NavegacaoPesquisa">
+	
+		<div class="SortMenu">
+			<div class="Label">Ordenar por:</div>
+			<div><div style='float:left;'><ul id='ordenacao'><li><label>|</label><a class="selected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=asc&itemsperpage=20">Ranking de Vendas</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=des_art&sortorder=desc&itemsperpage=20">Título</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=pre_ven_cap&sortorder=desc&itemsperpage=20">Preço</a></li><li><label>|</label><a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=dat_pub&sortorder=desc&itemsperpage=20">Novidades</a></li></ul></div><div id="paginacao" style="text-align:right;"><div id="label">Artigos por Página: </div><div id="resultados"><ul id="paginar"><li> <a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=10">10</a> | </li><li> <a class="selected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=20">20</a> | </li><li> <a class="noselected" href="/?restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&itemsperpage=50">50</a> | </li></ul></div></div></div>
+		</div>
+
+		<div class="FilterMenu">
+			<div id="filtros"><div id="filtro">Tema: <span class='nome'>eBooks em Português</span><a href="/?palavra=&restricts=11708&facetcode=temas">remover</a></div><div id="filtro">Tema: <span class='nome'>Medicina e Saúde</span><a href="/?palavra=&restricts=11708x11709&facetcode=temas">remover</a></div></div>
+		</div>
+	
+		<div class="NavigationMenu">
+			<div id='artigosLabel'> Artigos Visíveis: </div> <div class='elementos'>1 - 4 de 4</div> <div id='linksNavegacao'><ul id='navegacao'><li><a href="/?itemsperpage=20&restricts=11708x11709x12335&facetcode=temas&sortfield=ranking_order&sortorder=&page=1" class="selected">1</a></li></ul></div>
+		</div>
+	</div>
+</div>
+											
+                    
+					
+                
+
+            
+
+        
+
+    </div>
+</div>
+                    </div>
+
+                    <div id="ContainerRight">
+                        <div id="CaixaWidgetRight">
+                            <!--conteudo principal-->
+                            
+	<div class="WidgetHolder AllSectionFacetsWidget first">
+	
+	<div class="AllSectionFacetsWidget">
+	
+</div>
+
+</div>
+
+
+                            <div></div>
+			</div>
+                    </div>
+                    <!--/div-->
+
+                    <div class="confirmaddshoppcartGeneric_popup" id="confirmaddshoppcartGeneric_popup" style="display:none;">
+	<div class="menu_form_header" id="confirmaddshoppcartGeneric_drag">
+		<div id="confirmaddshoppcartGeneric_title" >informação</div>
+	</div>
+	<div id="confirmaddshoppcartconteudoGeneric">
+        Foi adicionado um item ao seu cesto de compras.	</div>
+</div>
+<div class="confirmaddshopplistGeneric_popup" id="confirmaddshopplistGeneric_popup" style="display:none;">
+	<div class="menu_form_header" id="confirmaddshopplistGeneric_drag">
+		<div id="confirmaddshopplistGeneric_title" >informação</div>
+	</div>
+	<div id="confirmaddshopplistconteudoGeneric">
+        Foi adicionado um item à sua lista de compras.        </div>
+</div>
+		
+
+
+	  	</div>
+            </div>
+
+            <div id="Footer">
+		
+            </div>
+            <div id="rodape_principal" style="font-size: 11px; font-style: verdana; color:#654f48; background-color: #CCBAA2;">
+	<span style="margin: auto; font-size: 11px; font-style: verdana; color:#654f48; background-color: background-color: #CCBAA2;">
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/">Condições gerais de venda</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#compras_seguras">Compras 100% seguras</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#politica">Política de Privacidade</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/ajuda">Ajuda</a> &nbsp;&nbsp;
+                | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="http://www.grupobertrandcirculo.com/recrutamento/">Recrutamento</a> &nbsp;&nbsp;|
+
+	</span>
+	<br>
+	<span style="margin: auto; font-size: 11px;">
+			&copy;1999/2011 Grupo Porto Editora. Todos os direitos reservados, Porto, Portugal
+	</span>
+</div>
+        </div>
+        
+    <script type="text/javascript" src="/jquery/modernizr-1.7.min.js" type="text/javascript"></script>
+
+    <div id="ao">
+        <nav onclick="document.getElementById('ao').style.display = 'none';">
+          <h2 id="navhdr">
+              <img id="navImg" src="/themes/bertrand/images/bt_AO_01PRETO.png"></img>
+          </h2>
+          <ul id="navmenu">
+             <img src="/themes/bertrand/images/bt_AO_02PRETO.png"></img>
+          </ul>
+        </nav>
+    </div>
+
+    </body>
+</html>

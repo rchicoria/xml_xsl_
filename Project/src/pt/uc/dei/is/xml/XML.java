@@ -20,10 +20,11 @@ import java.util.Iterator;
 public class XML {
 	
 	//Número de páginas a seres lidas
-	public static int NPAGES = 2;
+	public static int NPAGES = 20;
 	
 	private static Boolean DEBUG = true;
-	private static final String site = "http://www.bertrand.pt";
+	//private static final String site = "http://www.bertrand.pt";
+	private static final String site = "http://localhost:8080/bertrand";
 	//private static final String url = "/home/vertodos/?local=meio&areaid=11709&facetcode=temas&sectionid=130";
 
 	/**

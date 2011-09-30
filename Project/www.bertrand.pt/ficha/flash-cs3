@@ -1,0 +1,1637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+
+    <head>
+         <!-- Enable IE8 Standards mode -->
+        <meta http-equiv="X-UA-Compatible" content="IE=8" >
+        <base href="http://www.bertrand.pt/" />
+	<title>Flash CS3 - Anabela Gonçalves - Bertrand Livreiros</title>
+	<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Flash CS3 Anabela Gonçalves  Programação Internet Informática eBooks em Português eBooks " />
+<meta name="description" content="Flash CS3. O Flash é hoje sinónimo de uma experiência dinâmica na Internet e de aplicações que aliam criatividade a produtividade. O seu formato p..." />
+
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-124829-51']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setLocalRemoteServerMode']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        <link rel="apple-touch-icon" href="/themes/bertrand/images/bertrandtouch-icon.png"/>
+        <script>
+              window.addEventListener("load",function() {
+                // Set a timeout...
+                setTimeout(function(){
+                    // Hide the address bar!
+                    window.scrollTo(0, 1);
+                }, 0);
+              },false);
+        </script>
+    <link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f1.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/typography.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/layout.css?m=1317200899" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/form.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_shoppingcart/css/shoppingCartContadorWidget.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/ui.all.css?m=1313764950" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/sectionfacetwidget.css?m=1317200900" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/Product2SC.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand/css/nav.css?m=1317200899" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/emporium/css/jquery.imageZoom.css?m=1313765008" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/infodiv.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/ProductPage.css?m=1314610247" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/tabber.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/ProductPageDetail.css?m=1313764952" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f2.css?m=1317200900" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f3.css?m=1317200900" />
+<link rel="stylesheet" type="text/css" href="http://www.bertrand.pt/themes/bertrand_emporium/css/f4.css?m=1317200900" />
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.min/jquery-1.5.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.ui.min/jquery-ui-1.8.11.custom.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/jquery.profile.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/popup-window.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/utils.js?m=1314610262"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/bertrand/javascript/product2sc.js?m=1313764948"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/productpage.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/infodiv.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/jquery.imageZoom.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/popup-window.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/product2sc.js?m=1314610303"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/jquery/jquery.validate.min/jquery.validate.min.js?m=1313765026"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/tabber.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/JQueryValidationProductPage.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/messages_pt.js?m=1313765007"></script>
+<script type="text/javascript" src="http://www.bertrand.pt/emporium/javascript/JQueryValidationSearch.js?m=1313765007"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+		
+		var PAGE_URL="http://www.bertrand.pt/ficha/";
+		
+		jQuery(document).ready(function() {
+
+                    //zoom da capa
+                    jQuery(document.body).imageZoom();
+
+                if (jQuery("#dialog")==undefined){
+                
+                    jQuery("#dialog").dialog({
+                        bgiframe: true, autoOpen: false, width: 250, closeText: "X",
+                        close: function(ev, ui) {
+                            $("#prof_email_input").val("");
+                            $("#prof_password").val(""); 
+                            $("#banner").html("");
+                        }
+                    });
+                    
+                }
+		
+                jQuery(function(){
+
+                    jQuery("#prof_email_input").focus(function() {
+                                                jQuery("#banner").html("");
+                    });
+
+                    jQuery("#prof_password").focus(function() {
+                                                jQuery("#banner").html("");
+                    });
+
+                    jQuery("#rec_mail").focus(function() {
+                                                jQuery("#banner").html("");
+                    });
+
+		jQuery("#ProfLoginForm").submit(function(){
+		
+		jQuery.post("/home/doLoginProf", "prof_email_input="+$("#prof_email_input").val()+"&prof_password="+$("#prof_password").val(),
+		
+		
+		function(data)
+		{
+		
+		if(data.message == "")
+		{
+			if(data.login_check == "invalid")
+			{ 
+				//$("#banner").html("<div>Os dados de login indicados são inválidos.<br />Se já se registou, confirme por favor se validou o link que te foi enviado por e-mail no momento do registo.</div>"); 
+			} 
+			else 
+			{
+				jQuery("#banner").html("<div><font color=green>Login efetuado com sucesso.</font></div>"); 
+				setTimeout("",3000);
+				window.location.reload();
+			}
+		}
+		else 
+			{
+				jQuery("#banner").html("<div>"+data.message+"</div>");
+			}
+		
+		}, "json");
+		return false;	
+		
+		});
+		
+		});
+				 
+		})
+		
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+
+                                            jQuery("#Form_SearchForm_restrictsForm_SearchForm_restricts").val("11708");
+                                            jQuery("#Form_SearchForm_facetcode").val("temas");
+                                        
+
+//]]>
+</script>
+</head>
+
+    <body itemscope itemtype="http://schema.org/WebPage">
+
+        <div id="BgContainer">
+
+            <div id="Container">
+                <div id="Header">	   	
+    <div id="barraGPE"></div>
+    <div id="bertrandLogo" style="float: left;">
+        <a href="/">
+            <img alt="" src="themes/bertrand/images/bertrandLogo.gif"/>
+        </a>
+    </div>
+
+    <div id="caixa_pesquisa">
+        
+
+<form  id="Form_SearchForm" action="/ficha/SearchForm" method="post" enctype="application/x-www-form-urlencoded">
+
+	
+	<p id="Form_SearchForm_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset>
+		 
+		
+			<label id="Form_SearchForm_label">pesquisa</label>
+		
+			<div id="palavra" class="field text  nolabel"><div class="middleColumn"><input type="text" class="text nolabel" id="Form_SearchForm_palavra" name="palavra" value="" /></div></div>
+		
+			<input class="hidden nolabel" type="hidden" id="Form_SearchForm_restricts" name="restricts" value="11708" />
+		
+			<input class="hidden nolabel" type="hidden" id="Form_SearchForm_facetcode" name="facetcode" value="temas" />
+		
+		<div class="clear"><!-- --></div>
+	</fieldset>
+
+	
+	<div class="Actions">
+		
+			<input class="action " id="Form_SearchForm_action_doSearch" type="submit" name="action_doSearch" value="ok" title="ok" />
+		
+	</div>
+	
+
+</form>
+
+
+
+
+    </div>
+    
+        <div id="mouseInfo" style="top: 0px; left: 0px; position:absolute; width: 100px; height: 100px; display: none;">
+    <div>DivLogin.ss</div>
+    <div id="mousePosition"></div>
+</div>
+
+
+<div id="dialogCheckout" title="LOGIN" style="display:none; height: auto;">
+    <div id="commentTop">
+	Se já é um cliente registado preencha os seguintes dados:
+    </div>
+    <div id="formElements">
+        <form id="CheckoutLoginForm" action="" onsubmit="">
+                <label for="checkout_user">Email</label><br>
+                <input id="checkout_user_input" type="text" name="checkout_user_input" />
+                <input id="checkout_hiddenID" type="hidden" name="checkout_hiddenID" />
+                <input id="checkout_redirectUrl" type="hidden" name="checkout_redirectUrl" />
+                <div id="breaker"></div>
+                <label for="ckeckout_pass">Password</label><br>
+                <input id="checkout_password" type="password" name="checkout_password" /><br>
+                <div id="breaker"></div>
+                <input id="checkoutsubmit" type="submit" value="confirmar"/>
+                <div id="msgLoading" style="display:none;float: right;margin-top: 2px;"><img src="/themes/bertrand_emporium/images/ico_searching.gif" title="a processar..." alt="a processar..."></div>
+        </form>
+    </div>
+    <!--<div id="checkout_banner"></div>-->
+    <div id="msgNotifica" style="display:none;"></div>
+    <div id="comments" >
+        Se esqueceu a password, escreva o seu email e clique <a id="checkoutlink" onclick="sendRecoveryEmail();"><u>aqui</u>.</a>
+    </div>
+    <div id="footerFormLogin">
+        Se ainda não se encontra registado, faça-o
+        <a style="text-decoration:underline; font-weight: bold;" id="checkoutlink" href="areacliente/novoregisto">aqui</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/**
+ * Validar o endereço de email correto
+ * @param  - String
+ * @return boolean
+ */
+function validateEmailAddress(mail){
+    var patternEmail = /^(\w|\.|-)+@(\w|\.|-)+(\.[a-zA-Z]{2,4})$/;
+    
+    if(mail == null || mail == '' || !patternEmail.test(mail)){
+        return false;
+    }
+
+    return true;
+}
+
+
+    /**
+     * Chamada no poplogin para recuperação de password.
+     * @return
+     */
+    function sendRecoveryEmail() {
+        jQuery('#msgNotifica').hide();
+        jQuery('#msgNotifica').html('');
+        jQuery('#msgLoading').show();
+
+        var msgErroGeral = 'O endereço digitado não se encontra nos nossos registos.';
+        var msgSuccess = 'A sua password foi enviada para o mail ';
+
+        // Verifica o email submetido pelo utilizador
+        var email = trim(jQuery('#checkout_user_input').val());
+    
+        if (!validateEmailAddress(email)){
+           jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+           jQuery('#checkout_user_input').focus();
+           jQuery('#msgNotifica').show();
+           jQuery('#msgLoading').hide();
+           return false;
+        }
+       
+
+        var postURL = '/home/doRecoveryPassword';
+
+        jQuery.ajax({
+            cache:false,
+            async:false,
+            type: "POST",
+            data: {email: email},
+            url: postURL,
+            success:    function(msg)
+                        {
+                           
+
+                            if(msg == 1)
+                            {
+                                jQuery('#msgNotifica').html(msgSuccess + email);
+                            }
+                            else
+                            {
+                                jQuery('#msgNotifica').html(msgErroGeral);
+                            }
+
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+
+                        },
+            error:      function()
+                        {
+                           
+                            jQuery('#msgNotifica').html(msgErroGeral);
+                            jQuery('#msgLoading').hide();
+                            jQuery('#msgNotifica').show();
+                        }
+
+        });
+    }
+
+
+    /*********************************************************************
+     * Posiciona o login e atribui a redirecao pretendida
+     */
+    function openLoginPop(areaDestino,jsInfo){
+        jQuery('#dialogCheckout').dialog('open');
+        if(areaDestino != null){
+            jQuery('#checkout_redirectUrl').val(areaDestino);
+        }
+        
+        if(jsInfo != null){
+            jQuery('#checkout_hiddenID').val(jsInfo);
+        }
+
+        jQuery("#dialogCheckout").dialog( "option", "position", [tempX,tempY]);
+        return false;
+    }
+
+    jQuery("#dialogCheckout").dialog({
+        bgiframe: true,
+        autoOpen: false,
+        width: 242,
+        closeText: "FECHAR",
+        close: function(ev, ui) {
+            jQuery("#checkout_user_input").val('');
+            jQuery("#checkout_password").val('');
+            jQuery("#checkout_banner").html('');
+
+            // Recuperar password
+            jQuery('#msgNotifica').html('');            
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgLoading').hide();
+        }
+    });
+
+    jQuery(function(){
+        jQuery("#CheckoutLoginForm").submit(function(){
+
+            jQuery('#msgNotifica').hide();
+            jQuery('#msgNotifica').html('');
+            jQuery('#msgLoading').show();
+
+            // Verifica o email submetido pelo utilizador
+            if (!validateEmailAddress(jQuery('#checkout_user_input').val())){
+                jQuery('#msgNotifica').html('Verifique o e-mail introduzido.');
+                jQuery('#checkout_user_input').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            // Verifica campo password
+            if ( (jQuery('#checkout_password').val() == null) || (jQuery('#checkout_password').val() == '') ){
+                jQuery('#msgNotifica').html('Necessário introduzir uma password.');
+                jQuery('#checkout_password').focus();
+                jQuery('#msgNotifica').show();
+                jQuery('#msgLoading').hide();
+                return false;
+            }
+
+            jQuery.post("http://www.bertrand.pt/"
+                + "home/doLogin", "checkout_user_input="
+                + jQuery("#checkout_user_input").val()
+                + "&checkout_redirectUrl="
+                + jQuery("#checkout_redirectUrl").val()
+                + "&checkout_password="
+                + jQuery("#checkout_password").val()
+                + "&checkout_hiddenID="
+                + jQuery("#checkout_hiddenID").val()+"&a=1",
+                function( data ) {
+                    jQuery('#msgLoading').hide();
+                    jQuery('#msgNotifica').html(data);
+                    jQuery('#msgNotifica').show();
+                });
+            return false;
+        });
+    });
+
+</script>
+        <!-- css no shoppingCartContadorwidget.css -->
+        <div id="contadorCesto" style="border: 0px solid red;">
+            <!-- chamar com JQUERY o Widget dos contadores do cesto e lista para não ficar em cache-->
+            <!-- resultado da chamada ajax é colocado aqui -->
+            <div id="resultContadores"></div>
+            <script type="text/javascript">
+                function getContadoresInfo(){
+                    // get some values from elements on the page:
+                    var url = "/cesto-de-compras/getContadores";
+
+                    // Send the data using post and put the results in a div
+                    jQuery.post( url,
+                    function( data ) {
+                        jQuery( "#resultContadores" ).html( data );
+                    });
+                }
+                getContadoresInfo();
+            </script>
+        </div>
+        <div id="menuPE"></div>
+
+</div>
+
+	  	<div id="Layout">
+                    
+<script type="text/javascript">
+    var menuIdElement = "";
+    var menuIdCounter = 0;
+    var infoMenu = (function (){
+        var menuUrl = [];
+        var menuTitle = [];
+        var menuId = [];
+
+        function pushMenu(id, title, url){
+            pushId(id);
+            pushTitle(title);
+            pushUrl(url);
+        }
+
+        function popMenu(id, title, url){
+            popTitle(id);
+            popTitle(title);
+            popUrl(url);
+        }
+
+        function pushUrl(element){
+            menuUrl[menuUrl.length] = element;
+        }
+
+        function popUrl(element){
+            menuUrl = popElement(menuUrl, element);
+        }
+
+        function popTitle(element){
+            menuTitle = popElement(menuTitle, element);
+        }
+        function pushTitle(element){
+            menuTitle[menuTitle.length] = element;
+        }
+
+        function popId(element){
+            menuId = popElement(menuId, element);
+        }
+        function pushId(element){
+            menuId[menuId.length] = element;
+        }
+
+        function getMenuIdByUrl(url){
+            var returnInfo = "";
+            //retira parametros
+            var locationInfo = url.toString().split("?");
+            if(locationInfo != null && locationInfo.length > 0){
+                var infoPos = jQuery.inArray(jQuery.trim(locationInfo[0]), menuUrl);
+
+                if(infoPos != -1){
+                    returnInfo = menuId[infoPos];
+                }
+            }
+            return returnInfo
+        }
+
+        function popElement(arrayTarget, element){
+            arrayTarget = jQuery.grep(arrayTarget, function(value) {
+                return value != element;
+            });
+            return arrayTarget;
+        }
+
+        function toString(){
+            var string = "";
+            for(var i=0; i<menuTitle.length;i++){
+                string += menuId[i] + ": " + menuTitle[i] + ": " + menuUrl[i] + "\n";
+            }
+
+            return string;
+        }
+
+        return {
+            popMenu: popMenu,
+            pushMenu: pushMenu,
+            getMenuIdByUrl: getMenuIdByUrl,
+            toString: toString
+        };
+    }());
+</script>
+
+<div id="menuBlockContainerLeftHeaderMenuClass"></div>
+<div id="mainContainerHeaderMenuClass">
+
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">LIVROS</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM PORTUGUÊS'), jQuery.trim('http://www.bertrand.pt/home/index/8066x5839/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8066x5839/temas\" title=\"Livros em Português\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM PORTUGUÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM INGLÊS'), jQuery.trim('http://www.bertrand.pt/home/index/8066x8067/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8066x8067/temas\" title=\"Livros em Inglês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM INGLÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM ESPANHOL'), jQuery.trim(' http://www.bertrand.pt/home/index/8066x8477/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/8066x8477/temas\" title=\"Livros em Espanhol\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM ESPANHOL</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM FRANCÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/8066x9482/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/8066x9482/temas\" title=\"Livros em Francês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM FRANCÊS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+            <div id="menuBlockContainerRightHeaderMenuClass"></div>
+            <div id="menuBlockContainerLeftHeaderMenuClass"></div>
+        
+ 
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">EBOOKS</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM PORTUGUÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/11708x11709/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/11708x11709/temas\" title=\"eBooks em Português\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM PORTUGUÊS</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('EM INGLÊS'), jQuery.trim(' http://www.bertrand.pt/home/index/11708x11710/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\" http://www.bertrand.pt/home/index/11708x11710/temas\" title=\"eBooks em Inglês\" id=\"" + menuIdElement + "\" class=\"linkElement\">EM INGLÊS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+            <div id="menuBlockContainerRightHeaderMenuClass"></div>
+            <div id="menuBlockContainerLeftHeaderMenuClass"></div>
+        
+ 
+    <div id="menuBlockContainerHeaderMenuClass">
+        <div id="topElementHeaderMenuClass"><font 
+           class="linkTopElement">ENSINO</font></div>
+
+        
+        <div id="elementsContainerHeaderMenuClass">
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('ESCOLARES'), jQuery.trim('http://www.bertrand.pt/livros-escolares'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/livros-escolares\" title=\"Livros Escolares\" id=\"" + menuIdElement + "\" class=\"linkElement\">ESCOLARES</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('AUXILIARES'), jQuery.trim('http://www.bertrand.pt/home/index/8070x5817/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8070x5817/temas\" title=\"Auxiliares de Ensino\" id=\"" + menuIdElement + "\" class=\"linkElement\">AUXILIARES</a>");
+</script>
+           </div>
+                
+            <div id="elementsSeparatorHeaderMenuClass">&nbsp;</div>
+                
+           
+
+<script type="text/javascript">
+    menuIdElement = "menuElement" + menuIdCounter++;
+    infoMenu.pushMenu(menuIdElement, jQuery.trim('UNIVERSITÁRIOS'), jQuery.trim('http://www.bertrand.pt/home/index/8070x11167/temas'));
+</script>
+           <div id="elementsHeaderMenuClass">
+<script type="text/javascript">
+    document.write("<a href=\"http://www.bertrand.pt/home/index/8070x11167/temas\" title=\"Livros Universitários\" id=\"" + menuIdElement + "\" class=\"linkElement\">UNIVERSITÁRIOS</a>");
+</script>
+           </div>
+                
+                <!-- no separator close menu block -->
+        </div>
+    </div>
+    
+                
+           
+        
+
+        
+        
+        
+ 
+</div>
+<div id="menuBlockContainerRightHeaderMenuClass"></div>
+
+<div id="headerMenuClosingImage"></div>
+
+
+<script type="text/javascript">
+
+    var selectedMenu = infoMenu.getMenuIdByUrl(window.location);
+    if(selectedMenu != ""){
+        jQuery('#'+selectedMenu).attr('href','#');
+        jQuery('#'+selectedMenu).removeClass()
+        jQuery('#'+selectedMenu).addClass('linkElementSelected')
+    }
+</script>
+
+
+
+
+
+                    <div id="ContainerLeft">
+                        
+    <div id="Sidebarmenu">
+        <div id="facets">
+            <div id='facet_pai' class='tema'>Temas</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11709/temas">eBooks em Português</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708x11710/temas">eBooks em Inglês</a></h3></div><div class='cleaner'></div><div id='facet_pai' class='geral'>Coleção</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=10529733&facetcodeinc=coleccao">Frommer'S Complete</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=10470138&facetcodeinc=coleccao">Wiley Finance</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=10709256&facetcodeinc=coleccao">Modern Romance</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=10766068&facetcodeinc=coleccao">Historical Romance</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=10473001&facetcodeinc=coleccao">Wiley Trading</a></h3></div><div class='cleaner'></div><div id='facet_pai' class='geral'>Preço</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=preco_ate_5_euros&facetcodeinc=preco_ate_5_euros">até 5 euros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=preco_5_a_10_euros&facetcodeinc=preco_5_a_10_euros">5 a 10 euros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=preco_10_a_25_euros&facetcodeinc=preco_10_a_25_euros">10 a 25 euros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=preco_25_a_50_euros&facetcodeinc=preco_25_a_50_euros">25 a 50 euros</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=preco_mais_50_euros&facetcodeinc=preco_mais_50_euros">Mais de 50 euros</a></h3></div><div class='cleaner'></div><div id='facet_pai' class='geral'>Editor</div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=47364&facetcodeinc=edi_id">John Wiley & Sons</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=4556&facetcodeinc=edi_id">TAYLOR AND FRANCIS</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=3905&facetcodeinc=edi_id">CAMBRIDGE UNIVERSITY PRESS</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=4267&facetcodeinc=edi_id">SPRINGER</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=6211&facetcodeinc=edi_id">ELSEVIER SCIENCE</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=54094&facetcodeinc=edi_id">Pub One Info</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=19554&facetcodeinc=edi_id">WORLD SCIENTIFIC</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=1756&facetcodeinc=edi_id">Random House</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=54050&facetcodeinc=edi_id">Harlequin (UK) Limited</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=53923&facetcodeinc=edi_id">Palgrave Trade</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=47384&facetcodeinc=edi_id">McGraw-Hill</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=47354&facetcodeinc=edi_id">Oxford University Press, UK</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=49662&facetcodeinc=edi_id">Ebury Publishing</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=68&facetcodeinc=edi_id">Oxford University Press</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=1947&facetcodeinc=edi_id">Pan MacMillan</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=57734&facetcodeinc=edi_id">BookOnDemand</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=47395&facetcodeinc=edi_id">Oxford University Press, USA</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=1757&facetcodeinc=edi_id">Transworld</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=7540&facetcodeinc=edi_id">SAGE PUBLICATIONS</a></h3></div><div class='cleaner'></div><img style='float: left; padding-top: 4px;' src='/themes/bertrand/images/bullet.gif'><div style='float: left; width:123px; margin-left: 2px;'><h3><a href="/home/index/11708/temas?restrictsinc=2212&facetcodeinc=edi_id">Continuum International Publishing</a></h3></div><div class='cleaner'></div>
+            
+            
+	</div>
+    </div>
+
+
+
+
+                    </div>
+
+                    <div id="ContainerCenter">
+                        <div id="Breadcrumbs">
+    <p>
+        <a href="/" class="current">Início</a><span class="current"> &gt; </span>
+        
+            <!-- ## primeiro nivel de breadcrumbs (lê no menu de navegação) - controla por css o que aparece ## -->
+         
+            <a href="/?restricts=11708&facetcode=temas">eBooks</a> > <a href="/?restricts=11708x11709&facetcode=temas">eBooks em Português</a> > <a href="/?restricts=11708x11709x12246&facetcode=temas">Informática</a> > <a href="/?restricts=11708x11709x12246x12247&facetcode=temas">Internet</a> > Flash CS3
+        
+    </p>
+ 
+    <!-- <div id="logout" title="" class="hidden"><a href="http://www.bertrand.pt/ficha/dologout" >logout</a></div> -->
+
+</div>
+
+                        <!--conteudo principal-->
+                        <div id="Maincontent">
+    <div class="typography">
+        <h1 class="titulo"></h1>
+        <!-- FICHA DE PRODUTO -->
+
+<script type="text/JavaScript">
+    jQuery(document.body).imageZoom();
+</script>
+
+
+
+<div itemscope itemtype="http://schema.org/Book"> <!-- SCHEMA.ORG -->
+    
+<div id="fich_prod">
+    
+<div id="fich_prod_topo">
+	<div id="fich_prod_topo_left">
+
+		<div id="img_plus_info">
+
+			<div id="fich_prod_topo_img">
+                            <!-- BookImage -->
+                            <a title="Clicar para ampliar" href="http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Unb2Cs%2BpDYuBakjP14D7l&width=440"><img itemprop="image" src="http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Unb2Cs%2BpDYuBakjP14D7l&width=150" class="produto_imagem" title="Flash CS3" /></a>
+                            <link rel="image_src" href="http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Unb2Cs%2BpDYuBakjP14D7l&width=150"></link>  <!-- colocar a imagem no facebook -->
+			</div>
+                    
+                       
+   
+
+		</div>
+		
+	</div>
+		
+	<div id="fich_prod_topo_right">
+                <!-- BookTitle -->
+                
+		<div id="fich_prod_titulo"> 
+                    <span itemprop="name">
+Flash CS3              
+                            (eBook)
+    
+                    </span>
+                </div>
+		<div id="fich_prod_subtitulo"></div>
+		<div id="fich_prod_autores">
+                                          
+                                            <!-- BookAuthor -->
+                                            <a href="?id=15876"><span itemprop="author">Anabela Gonçalves</span></a>
+ 
+			
+		</div>
+                <div id="fich_prod_separador"></div>
+                <div id="fich_prod_topo_info">
+                    <div class="fich_prod_topo_info_left">
+                                <div id='fich_prod_ebook_formato'>
+                                    <div class="title">Formato do ficheiro:</div>
+                                    <div class="text"> Pdf</div>
+                                </div>
+				<div id="fich_prod_ano_edicao">
+                                    <div class="title">Edição/reimpressão:</div>
+                                    <!-- BookPublishDate -->
+                                    <div class="text"><time itemprop="publishDate" datetime="2007-11-01T00:00:00Z">2007</time></div>
+                                </div>
+	
+				<div id="fich_prod_paginas">
+                                    <div class="title">Páginas:</div>
+                                    <!-- BookPages -->
+                                    <div class="text"><span itemprop="numPages">112</span></div>
+                                </div>
+				<div id="fich_prod_editor">
+                                    <div class="title">Editor:</div>
+                                    <!-- BookPublisher -->
+                                    <div class="text"><span itemprop="publisher">Edições Centro Atlântico</span></div>
+                                    
+                                </div>
+				<div id="fich_prod_isbn">
+                                    <div class="title">ISBN:</div>
+                                    <!-- BookISBN -->
+                                    <div class="text"><span itemprop="isbn">9789896151140</span></div>
+                                </div>
+                                <div id="fich_prod_coleccao">
+                                    <div class="title">Coleção:</div>
+                                    <div class="text"><a href="/?restricts=11708&facetcode=temas&tipo=2&nome=software-obrigatorio&restrictsinc=13929176&facetcodeinc=coleccao">Software Obrigatório</a></div>
+                                </div>
+                                            <div id="fich_prod_formato_ebook_papel">
+                                                <div class="title">Veja este produto em formato <a id='fich_prod_ebook_url' href='/ficha?id=198998'> papel</a></div>
+                                            </div>
+                                            <div id="fich_prod_ebook_labels" class="ebookLabels" onclick="mostra_infodiv('info_ebooks');">Informação eBooks</div>
+                        
+                    </div><!-- fich_prod_topo_info_left -->
+                    
+                    
+                    <div class="fich_prod_topo_info_right">
+                        
+                        <div id="icons">
+                            
+
+                                            
+                                    <!-- BookFormat -->
+                                    <div style="display:none;"><span itemprop="bookFormat">EBook</span></div>
+                                    
+                                    <div id="fich_prod_ebook"></div> 
+                                            <div id="fich_prod_ebook_tipo_pdf"></div>
+                            
+                                       
+                                            
+                    </div> <!-- //icons -->
+				
+		<div id="fich_prod_bottom_line">
+                    
+
+                                <div id="fich_prod_preco_com_desconto">
+                                        <div id="fich_prod_preco_com_desconto_texto">€8,49</div>
+                                </div>
+                                
+                                <div id="fich_prod_botoes">
+                                    
+                                    <div class="adicionar_cesto">
+                                                <!--<a rel="nofollow" onclick="if(add_shoppingcart('/cesto-de-compras/adicionar','6452730','S','0')) showConfirmAddShoppingCartPopup();">-->
+                                                <a href="javascript:void(0);" rel="nofollow" onclick="add_shoppingcart('/cesto-de-compras/adicionar','6452730','S','0');">
+                                                    adicionar                                                </a>
+                                    </div> <!-- // fich_prod_botao_adicionar_cesto -->
+
+                                    <div class="adicionar_lista">
+<a href='javascript:void(0);' rel='nofollow' style="cursor:pointer;" onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6452730\',\'N\',\'0\');')">adicionar lista"></a>                                    </div><!-- // fich_prod_botao_adicionar_cesto -->
+                                </div>
+                    </div>	                  
+                                  
+                
+                    </div><!-- fich_prod_topo_info_right -->
+                    
+                    <div class="fich_prod_down_info_left">
+  
+                            <div id="fich_prod_pontos">
+                                <div class="title">Pontos Leitor Bertrand:</div>
+                                <div class="text">84.90</div>
+                            </div>
+                        
+                    </div><!-- fich_prod_down_info_left -->
+                    
+		</div><!-- fich_prod_topo_info -->
+                <div id="fich_prod_separador"></div>
+	</div><!-- fich_prod_topo_right-->	
+        
+	<div id="fich_prod_bottom_left_right">
+
+   
+<!--*********************************************************************************-->            
+            
+            
+            <div id="fich_prod_bottom_left">
+
+                    <ul id="cssdropdown">
+                        
+                            
+                            <li class="headlink">
+                                <a href="ficha/flash-cs3?id=10883108#" class="fich_prod_recursos_paginas_icon">Páginas:</a>
+                            
+
+                                <ul>
+                                        <li><a href="Javascript:mostrapdf('http://recursos.bertrand.pt/recurso?&id=2576359')">Página 1</a></li>
+                                    </ul>                                    
+                            </li>
+                                
+                                
+                            
+
+         
+                    
+                  </ul>
+                <script language="JavaScript">
+                    function chama(div_name){
+                        var divName = document.getElementById(div_name);
+                            divName.style.display="block";
+                    }
+                </script>
+
+                
+                
+            </div><!-- fich_prod_bottom_left  -->
+            <div id="fich_prod_bottom_center">
+                <!-- audio_player  -->
+            </div>
+
+            <div id="fich_prod_bottom_right">
+
+                
+                        <div id="fich_prod_disponibilidade">
+
+                            <div id="fich_prod_disponibilidade_texto2">
+Disponibilidade Imediata                            </div>
+
+                        </div>
+            <div id="socialtwist"><br/><script type="text/javascript" src="http://cdn.socialtwist.com/2010070642570-8/script.js"></script><a class="st-taf" href="http://tellafriend.socialtwist.com:80" onclick="return false;" style="border:0;padding:0;margin:0;"><img alt="SocialTwist Tell-a-Friend" style="border:0;padding:0;margin:0;" src="http://images.socialtwist.com/2010070642570-8/button.png" onmouseout="STTAFFUNC.hideHoverMap(this)" onmouseover="STTAFFUNC.showHoverMap(this, '2010070642570-8', window.location, document.title)" onclick="STTAFFUNC.cw(this, {id:'2010070642570-8', link: window.location, title: document.title });"/></a></div>
+            </div><!-- fich_prod_bottom_right  -->
+
+            
+            
+	</div>
+	
+</div><!-- fich_prod_topo -->
+
+	<a name="javascript_tabs" id="javascript_tabs">&nbsp;</a>
+	
+
+<div id="tabber_produto">
+    <div class="tabber" id="tabs_ficha">
+            <div class="tabbertab">
+                <h2>sobre o produto</h2>
+	  	        <div id="sinopseDescr" style="text-align: justify;">
+O Flash é hoje sinónimo de uma experiência dinâmica na Internet e de aplicações que aliam criatividade a produtividade. O seu formato possibilita, com tempos de <i>download </i>incrivelmente reduzidos, a utilização dos mais diversos tipos de media - texto, formulários, gráficos,som, vídeo e animações a duas ou a 3 dimensões.<br>Este soberbamente conhecido programa de aplicações para a Web, só teve a ganhar com a recente aquisição da Macromedia pela Adobe. As suas ferramentas de desenho apresentam melhoramentos muito familiares para quem já utilizava outros programas da Adobe, a sua integração com as várias aplicações desta empresa foi também privilegiada, enquanto a sua linguagem de programação e compilador viram a sua performance francamente melhoradas: O Player 9 executa o ActionScript 3 cerca de 10 vezes mais rápido que as versões anteriores. As outras funcionalidades também não foram descuradas, existindo novidades na utilização de vídeo e na integração com outras tecnologias, que continuam a ser uma prioridade para a equipa de desenvolvimento do Flash e denotam uma preocupação de manter a aplicação como líder de mercado no seu segmento.        </div>
+        <div id="autorObra">
+            <b>
+Flash CS3              
+                    (eBook)
+            </b>
+ de                     <a href="?id=15876">Anabela Gonçalves</a>
+                            </div>
+        
+
+<div id="separador_fundo_details"></div>            </div>
+	
+                    <div class="tabbertab">
+     	                
+                <h2>comentários</h2>
+	  	<input type="hidden" id="url_absoluto" name="url_absoluto" value="http://www.bertrand.pt/">
+<div id="separador_comentarios"></div>
+<!--<div id="cleaner_heading" class="cleanershop">&nbsp;</div>-->
+<!-- div que mostra a mensagem de sucesso de envio de comentarios -->
+<div class="inline_info" id="inline_infoAjax">
+	<div class="inlineInfo_body" id="comment_success"></div>
+</div>
+<!--<div id="cleaner_heading" class="cleanershop">&nbsp;</div>-->
+<div style="margin-left:150px;">Coloque aqui o seu comentário - <b>Flash CS3</b></div>
+<div id="escreverComentario">
+	
+	<form name="form_comenta" id="form_comenta" method="post">
+		<div id="inptitulo">
+			<div class="alinhaEsquerda150"><font class="labelComentarios">Título do comentário</font></div>
+			<input name="form_comenta_titulo" id="form_comenta_titulo" type="text" onclick="if(!flglogincheckout) eval_script_js_checking_autenticacao('flglogincheckout = true;')" onkeypress="return flglogincheckout;" >
+		</div>
+		<div id="inpcomentario">
+			<div class="alinhaEsquerda150"><font class="labelComentarios">Comentário</font></div>
+			<textarea name="form_comenta_comentario" id="form_comenta_comentario" onclick="if(!flglogincheckout) eval_script_js_checking_autenticacao('flglogincheckout = true;')" onkeypress="return flglogincheckout;" ></textarea>
+		</div>
+		<div id="inpvotacao">
+			<div class="alinhaEsquerda150"></div>
+			<div id="vota_estrelas">
+									<div id="star_vota_0"  onClick="estrelas(1)"> </div>
+										<div id="star_vota_1"  onClick="estrelas(2)"> </div>
+										<div id="star_vota_2"  onClick="estrelas(3)"> </div>
+										<div id="star_vota_3"  onClick="estrelas(4)"> </div>
+										<div id="star_vota_4"  onClick="estrelas(5)"> </div>
+								</div>
+		</div>
+		<div id="inpcomentario_user">
+			<font class="labelCamposObrigatorios">* campos de preenchimento obrigatório</font>
+		</div>
+		<!-- hidden field para ficar com o valor da votação -->
+		<input type="hidden" id="form_comenta_prod_id" name="form_comenta_prod_id" value="10883108">
+		<input type="hidden" id="form_comenta_votacao_evaluation" name="form_comenta_votacao_evaluation" value="5">
+
+		<div id="inpcomentario">
+				<div class="alinhaEsquerda80">&nbsp;</div>
+				<div id="botoes" >
+					<input id="form_comenta_btnlimpar" class="action" type="reset" title="Limpar" value="limpar" >
+                                        <input id="form_comenta_btnenviar" class="action" type="submit" title="Enviar" value="enviar" onclick="if(!flglogincheckout){eval_script_js_checking_autenticacao('flglogincheckout = true;')} return flglogincheckout;" >
+				</div>
+		</div>
+	</form>
+	<div id="separador_fundo_details"></div>
+</div>
+            </div>
+                
+                    <div class="tabbertab">
+                <h2>Autor</h2>
+                <br>
+  		<p><div id="tabber_autor">
+	<div class="tabber" id="tabs_ficha_autor">
+	
+	<div id="autor">
+            <div class="top">
+                <div id="foto">
+				
+                </div>
+                <div id="descricao">
+                    <div id="nomeAutor">
+							<a id="nomeAutorLink" href="?id=15876">Anabela Gonçalves</a>
+			                    </div>
+                    <input type="hidden" id="autor" name="autor" value="Anabela Gonçalves">
+                                        <div id="historiaAutor" style="text-align: justify;">Anabela Gonçalves é Coordenadora de Formação em Informática e Gestora de Produto da Área de Internet. É certificada pela Microsoft como Microsoft Certified Product Specialist e Microsoft Certified Systems Administrator e tem também diversas certificações pela Macromedia designadamente Macromedia Certified Trainer, Macromedia Dreamweaver MX Developer, Macromedia Flash MX Designer e Macromedia Flash MX Developer. Tem uma larga experiência de formação de informática; oradora em diversos Seminários; autora de artigos técnicos para revistas da especialidade e também tem desenvolvido diversos projectos para a Internet. É co-autora do livro FLASH MX - Design, Animação e Programação, editado pelo Centro <a class="autor_link" href="?id=15876">(...)</a></div>
+                </div>
+                
+            </div>
+            <div class="separador"></div>
+            <div class="prods">
+<div id='produtos_container'><div id='produtos'>	<div id="f1">	<!-- div principal -->
+	<div id="f1_top" style='position: relative;'> <!-- div que contém a imagem e os gif's de disponibilidade -->
+	<div id="f1_top_content" style='position: absolute;'> <!-- div que contém o conteúdo da div anterior -->
+	<div id="f1_imagem" ><a href="/ficha/flash-cs3?id=198998"><img alt='' src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6OUSUmF%2BEBOxlpEpBn5H09&width=72' border='0'></a></div><div id="f1_3icons" >	</div><!-- fim da div '3icons' -->		
+	</div><!-- fim da div 'top_content' -->
+	</div><!-- fim da div 'top' -->
+	
+	<div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->		
+
+			<div id="f1_titulo">
+		<a href="/ficha/flash-cs3?id=198998" class="titulo_link">Flash CS3</a>		</div>
+		
+					<div id="f1_subtitulo"></div>
+			<div id="f1_autores">				
+		<span class="autor_link">de:</span> <a href="?id=15876" class="autor_link">Anabela Gonçalves</a>&nbsp;
+		 </div>
+		 </div><!-- fim da div "middle" que contém o resto da info do produto -->
+	
+	<div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+	
+	<div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">10,95€</div><!-- #CLEANER# <div class="cleaner"></div>--><div id="f1_comprar"><a href='javascript:void(0);' class="disabled">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'253982\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	</div><!-- fim da div "bottom" que contém o final da info do produto -->
+	</div><!-- fim da div 'principal' -->	
+	<!-- #CLEANER# <div class="cleaner"></div>-->	</div><div id='portlet_separador_vertical'></div><div id='produtos'>	<div id="f1">	<!-- div principal -->
+	<div id="f1_top" style='position: relative;'> <!-- div que contém a imagem e os gif's de disponibilidade -->
+	<div id="f1_top_content" style='position: absolute;'> <!-- div que contém o conteúdo da div anterior -->
+	<div id="f1_imagem" ><a href="/ficha/flash-cs3?id=10883108"><img alt='' src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Unb2Cs%2BpDYuBakjP14D7l&width=72' border='0'></a></div><div id="f1_3icons" >	</div><!-- fim da div '3icons' -->		
+	</div><!-- fim da div 'top_content' -->
+	</div><!-- fim da div 'top' -->
+	
+	<div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->		
+
+			<div id="f1_titulo">
+		<a href="/ficha/flash-cs3?id=10883108" class="titulo_link">Flash CS3</a>		</div>
+		
+					<div id="f1_subtitulo"></div>
+			<div id="f1_autores">				
+		<span class="autor_link">de:</span> <a href="?id=15876" class="autor_link">Anabela Gonçalves</a>&nbsp;
+		 </div>
+		 </div><!-- fim da div "middle" que contém o resto da info do produto -->
+	
+	<div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+	
+	<div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">8,49€</div><!-- #CLEANER# <div class="cleaner"></div>--><div id="f1_comprar"><a href='javascript:void(0);' rel='nofollow' onclick="add_shoppingcart('/cesto-de-compras/adicionar','6452730','S','0')">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'6452730\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	</div><!-- fim da div "bottom" que contém o final da info do produto -->
+	</div><!-- fim da div 'principal' -->	
+	<!-- #CLEANER# <div class="cleaner"></div>-->	</div><div id='portlet_separador_vertical'></div><div id='produtos'>	<div id="f1">	<!-- div principal -->
+	<div id="f1_top" style='position: relative;'> <!-- div que contém a imagem e os gif's de disponibilidade -->
+	<div id="f1_top_content" style='position: absolute;'> <!-- div que contém o conteúdo da div anterior -->
+	<div id="f1_imagem" ><a href="/ficha/flash-8?id=183324"><img alt='' src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5wkwjS%2FaHgG2Bfi%2F9cKyyQ&width=72' border='0'></a></div><div id="f1_3icons" >	</div><!-- fim da div '3icons' -->		
+	</div><!-- fim da div 'top_content' -->
+	</div><!-- fim da div 'top' -->
+	
+	<div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->		
+
+			<div id="f1_titulo">
+		<a href="/ficha/flash-8?id=183324" class="titulo_link">Flash 8</a>		</div>
+		
+					<div id="f1_subtitulo"></div>
+			<div id="f1_autores">				
+		<span class="autor_link">de:</span> <a href="?id=15876" class="autor_link">Anabela Gonçalves</a>&nbsp;
+		 </div>
+		 </div><!-- fim da div "middle" que contém o resto da info do produto -->
+	
+	<div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+	
+	<div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">10,95€</div><!-- #CLEANER# <div class="cleaner"></div>--><div id="f1_comprar"><a href='javascript:void(0);' class="disabled">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'232430\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	</div><!-- fim da div "bottom" que contém o final da info do produto -->
+	</div><!-- fim da div 'principal' -->	
+	<!-- #CLEANER# <div class="cleaner"></div>-->	</div><div id='portlet_separador_vertical'></div><div id='produtos'>	<div id="f1">	<!-- div principal -->
+	<div id="f1_top" style='position: relative;'> <!-- div que contém a imagem e os gif's de disponibilidade -->
+	<div id="f1_top_content" style='position: absolute;'> <!-- div que contém o conteúdo da div anterior -->
+	<div id="f1_imagem" ><a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx-2004?id=108831"><img alt='' src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7pcBYTDT2TECc5gjuEOODh&width=72' border='0'></a></div><div id="f1_3icons" >	</div><!-- fim da div '3icons' -->		
+	</div><!-- fim da div 'top_content' -->
+	</div><!-- fim da div 'top' -->
+	
+	<div id="f1_middle" ><!-- div que contém a parte do meio da info do produto -->		
+
+			<div id="f1_titulo">
+		<a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx-2004?id=108831" class="titulo_link">O Guia Prático do Macromedia</a>...		</div>
+		
+					<div id="f1_subtitulo"></div>
+			<div id="f1_autores">				
+		<span class="autor_link">de:</span> <a href="?id=15876" class="autor_link">Anabela Gonçalves</a>&nbsp;
+		 </div>
+		 </div><!-- fim da div "middle" que contém o resto da info do produto -->
+	
+	<div id="f1_bottom" ><!-- div que contém a parte do fim da info do produto -->
+	
+	<div id="f1_precocapa_nome">Preço</div><div id="f1_precovenda" class="preco_venda">22,41€</div><!-- #CLEANER# <div class="cleaner"></div>--><div id="f1_comprar"><a href='javascript:void(0);' class="disabled">Adicionar ao cesto</a></div><div id="f1_wishlist"><a href='javascript:void(0);' rel='nofollow' onclick="eval_script_js_checking_autenticacao('add_shoppingcart(\'/cesto-de-compras/adicionar\',\'138898\',\'N\',\'0\');')">Adicionar à lista</a></div>
+	</div><!-- fim da div "bottom" que contém o final da info do produto -->
+	</div><!-- fim da div 'principal' -->	
+	<!-- #CLEANER# <div class="cleaner"></div>-->	</div></div>                        <div id="mostrarTitulosAutor"></div>
+            </div>
+            <div class="separador"></div>
+            <div class="bibliografia">
+                    <p id="tituloBibliografia">Bibliografia</p>
+                    <div class="separador"></div>
+                    <div class="livrosBibliografia">
+                        <div id="livro">
+                            <div class="data">
+2007                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/flash-cs3?id=198998">Flash CS3</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+   <div id='portlet_separador_vertical'></div>                        <div id="livro">
+                            <div class="data">
+2007                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/flash-cs3?id=10883108">Flash CS3</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+   <div id='portlet_separador_vertical'></div>                        <div id="livro">
+                            <div class="data">
+2006                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/flash-8?id=183324">Flash 8</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+   <div id='portlet_separador_vertical'></div>                        <div id="livro">
+                            <div class="data">
+2004                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx-2004?id=108831">O Guia Prático do Macromedia Dreamweaver MX 2004</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+                           <div id="livro">
+                            <div class="data">
+2003                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx?id=108801">O Guia Prático do Macromedia Dreamweaver MX</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+   <div id='portlet_separador_vertical'></div>                        <div id="livro">
+                            <div class="data">
+2002                            </div>
+                            <div class="titulo">
+                                <a href="/ficha/flash-mx-design-animacao-e-programacao?id=108915">Flash MX: Design,  Animação e Programação</a>
+                            </div>
+                            <div class="editora">
+                                Edições Centro Atlântico                            </div>
+                        </div>
+   <div id='portlet_separador_vertical'></div>                    </div>   
+              <!--  <div class="mostrarBibliografiaAutor"> -->
+                    <!-- <a href="?id="></a> -->
+                <!-- </div> -->
+            </div>
+	</div>
+
+	
+	</div>
+</div></p>
+            </div>
+	
+     	<div class="tabbertab">
+            <h2>Características</h2>
+            <div id="autorObra">
+<b>
+Flash CS3              
+            (eBook)
+    
+</b>
+
+ de                     <a href="?id=15876">Anabela Gonçalves</a>
+                    </div>
+
+
+<div id="detalhes" >
+	<div id="areas">
+					<p id="anoedicao">Ano de edição ou reimpressão:								<span>2007</span>
+				
+			</p>
+					<p id="editor">Editor:				<span>Edições Centro Atlântico</span>
+			</p>
+			                    <p id="formato">
+                        Formato do ficheiro:                        <span>Pdf</span>
+                    </p>
+                    <p id="tamanho">
+                        Tamanho do ficheiro:                        <span>10.57 mb</span>
+                    </p>
+			<p id="suporte">Suporte:				<span>Produto Download</span>
+			</p>
+			
+		<p id="paginas">Páginas:			<span>112</span>
+		</p>
+				
+<!-- DADOS APENAS VÍSIVEIS SE EXISTENTES  -->
+						<p id="coleccao">Coleção:				<span><a href="/?restricts=11708&facetcode=temas&tipo=2&nome=software-obrigatorio&restrictsinc=13929176&facetcodeinc=coleccao">Software Obrigatório</a></span>
+			</p>
+				<p id="classificacao">Classificação:		<span><a href="/?restricts=11708x11709x12246x12250&facetcode=temas&tipo=1">Programação</a></span>		</p>
+						
+<!-- ######################################  -->
+	</div>
+</div>
+<div id="separador_fundo_details"></div>    	</div>
+
+    </div>
+</div>
+<div class="separador"></div>
+<div id="imprimirFicha"><a href="javascript:wnd=window.open('/ficha/printProduct?id=10883108','Produto','width=680,height=1024,scrollbars');wnd.focus();">Ficha de produto</a></div>
+
+
+
+<!-- POPUP alertar disponibilidade --> 
+<div class="alertadisponibilidadeGeneric_popup" id="alertadisponibilidadeGeneric_popup" style="display: none;">
+	<div class="menu_form_header" id="alertadisponibilidadeGeneric_drag" style="border: 0px solid green;">		
+		<img class="title_alertadisponibilidade" id="alertadisponibilidadeGeneric_title" src="/themes/bertrand_emporium/images/title-wookdevesaber-alertas.png" alt="" title="" />
+                <a onclick="clearFormValues();"><img id="alertadisponibilidadeGeneric_exit" src="/themes/bertrand_emporium/images/btn-close.png" alt="fechar" title="Fechar" /></a>
+	</div>
+	<div class="alertadisponibilidadeconteudoGeneric" id="alertadisponibilidadeconteudoGeneric" style="border: 0px solid blue;">
+	
+             
+            <div id="msgErroSpacer"></div>
+                <p>De momento, este produto encontra-se esgotado ou não disponível no editor. Caso o mesmo volte a ficar disponível no mercado, poderemos notifica-lo, bastando para tal que nos indique o seu endereço de email.</p>	
+            <br/>
+            <div id="informacaoNotificaPopup">
+                    <label for="email">Email</label>&nbsp;
+                    <input name="emailNotifica" id="emailNotifica" value="" type="text" class="field" onfocus="select();">
+                    <div id="msgLoading" style="display:none;"><img src="/themes/bertrand_emporium/images/ico_searching.gif" title="a processar..." alt="a processar..."></div>
+            </div>
+            <div id="botaoEnviarNotificaPopup" class="btn"><input value="" type="button" onclick="javascript:__saveProductStockRecall(6452730);" class="btn"></div>
+            <div id="msgErro" class="msgErroFichaProduto"></div>
+	</div>
+
+</div>
+
+<!-- POPUP 24h --> 
+<div class="condicoes24hGeneric_popup" id="condicoes24hGeneric_popup" style="display:none;">
+        <div class="menu_form_header" id="condicoes24hGeneric_drag">
+               <img class="title_condicoes24h" id="condicoes24hGeneric_title" src="/themes/bertrand_emporium/images/title-wookdevesaber-alertas.png" alt="" title="" />
+               <img id="condicoes24hGeneric_exit" src="/themes/bertrand_emporium/images/btn-close.png" alt="fechar" title="Fechar"/>                                                   
+        </div>
+        <div id="condicoes24hconteudoGeneric">
+            <h4/>
+<p><strong>CONDIÇÕES DE ENTREGA EM 24H</strong></p>
+<p> </p>
+<p> </p>
+<h4/>
+<p>Os produtos assinalados com o símbolo 24h encontram-se em stock, pelo que poderão ser despachados de imediato e entregues, na morada, indicada até 24 horas depois. Para garantir a entrega em 24 horas, a sua encomenda, terá que reunir as seguintes condições: <br/><br/>1. Ter como destino <span style="text-decoration: underline;">Portugal Continental</span> (morada para envio).<br/><br/>2. Ser composta <span style="text-decoration: underline;">apenas por produtos "24 horas"</span> identificados com o respetivo símbolo.<br/><br/>3. Selecionar o tipo de envio <span style="text-decoration: underline;">CTT Expresso Dia</span> ou <span style="text-decoration: underline;">CTT Expresso Noite</span>.<br/><br/>4. Ser paga através de <span style="text-decoration: underline;">Cartão de Crédito</span>.<br/><br/>5. Ser <span style="text-decoration: underline;">confirmada até às 16 horas</span> de um dia útil. Depois desta hora passarão para o atendimento do dia útil seguinte.  Uma encomenda confirmada até às 16h de um dia útil, será entregue no dia útil seguinte. Uma encomenda confirmada a um sábado, domingo ou feriado, será entregue no 2º dia útil seguinte.</p>
+<p> </p>
+<p><span style="text-decoration: underline;">Notas importantes</span>:<br/>A disponibilidade de 24h e 48h apenas é  garantida para uma unidade de cada produto. A entrega da encomenda é  feita por estafeta, pelo que, na morada indicada para entrega, o cliente  terá de garantir que haja alguém para a receber. Caso contrário,  receberá um e-mail de notificação e o estafeta deixará um postal na  caixa do correio para agendar uma nova entrega (CTT Expresso Noite) ou  levantar a encomenda na Estação de Correios (CTT Expresso Dia).</p>        </div>
+</div>
+
+<!-- POPUP DESCONTO -->
+<div class="prod_descontoGeneric_popup" id="prod_descontoGeneric_popup" style="display:none;">
+        <div class="menu_form_header" id="prod_descontoGeneric_drag">
+               <img class="title_prod_desconto" id="prod_descontoGeneric_title" src="/themes/bertrand_emporium/images/title-wookdevesaber-alertas.png" alt="" title="" />
+               <img id="prod_descontoGeneric_exit" src="/themes/bertrand_emporium/images/btn-close.png" alt="fechar" title="Fechar"/>                                                   
+        </div>
+        <div id="prod_descontoconteudoGeneric">
+            <p> </p>
+<h3/>
+<h3>Desconto Instantâneo</h3>
+<p><br/>Clique para saber mais sobre preços e descontos consultando as nossas <a id="ver_todos" href="/condicoes-gerais-de-venda">Condições Gerais de Venda</a>.</p>        </div>
+</div>
+
+
+        
+<!-- POPUP informacao Ebooks --> 
+
+<div class="info_ebooksGeneric_popup" id="info_ebooksGeneric_popup" style="display:none;">
+        <div class="menu_form_header" id="info_ebooksGeneric_drag">
+               <img class="title_info_ebooks" id="info_ebooksGeneric_title" src="/themes/bertrand_emporium/images/title-wookdevesaber-alertas.png" alt="" title="" />
+               <img id="info_ebooksGeneric_exit" src="/themes/bertrand_emporium/images/btn-close.png" alt="fechar" title="Fechar"/>                                                   
+        </div>
+        <div id="info_ebooksconteudoGeneric">
+            <p> </p>
+<h3><strong>Informação eBooks</strong></h3>
+<p> </p>
+<p><strong>eBook </strong>é um livro em formato digital. Um ficheiro que poderá ser lido num computador, Reader, Tablet ou SmartPhone. Antes de efectuar a compra, verifique se este ficheiro é compatível com o seu equipamento.<br/><br/>Saiba mais <a title="aqui" href="http://www.bertrand.pt/ajuda/showHelpInfo?help=ebooks">aqui</a></p>        </div>
+</div>
+        
+</div>
+</div><!-- // SCHEMA.ORG -->
+    </div>
+</div>
+
+                    </div>
+                    <div id="ContainerRight">
+                        <div id="CaixaWidgetRight">
+                            <!--conteudo principal-->
+                            
+	<div class="WidgetHolder ProductsByAuthorWidget first">
+	<h3>Do mesmo autor</h3>
+	<div id='sectionfacetarea' class='f3_1col'><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/flash-cs3?id=198998"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6OUSUmF%2BEBOxlpEpBn5H09&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/flash-cs3?id=198998" class="titulo_link">Flash CS3</a>                </div>
+
+                                    <div id="f3_subtitulo"></div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Anabela Gonçalves&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+                        </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/flash-8?id=183324"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5wkwjS%2FaHgG2Bfi%2F9cKyyQ&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/flash-8?id=183324" class="titulo_link">Flash 8</a>                </div>
+
+                                    <div id="f3_subtitulo"></div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Anabela Gonçalves&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+                        </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx-2004?id=108831"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7pcBYTDT2TECc5gjuEOODh&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/o-guia-pratico-do-macromedia-dreamweaver-mx-2004?id=108831" class="titulo_link">O Guia Prático do Macromedia</a>...                </div>
+
+                                    <div id="f3_subtitulo"></div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Anabela Gonçalves&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+                        </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div></div></div></div>
+
+</div>
+
+
+	<div class="WidgetHolder RelatedProductsWidget last">
+	<h3>Veja outros titulos do tema</h3>
+	<div id='sectionfacetarea' class='f3_1col'><div id='container' class='sectionfacet'><div id='portletsarea'><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/tecnicas-para-hackers-ii-solucoes-para-seguranca?id=10945796"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4qdhUC9jlwAqlysF9NcDhA&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/tecnicas-para-hackers-ii-solucoes-para-seguranca?id=10945796" class="titulo_link">Técnicas para Hackers II -</a>...                </div>
+
+                                    <div id="f3_subtitulo">Versão 2</div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Wilson Oliveira&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+            <div id="f3_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/o-guia-pratico-do-visual-basic-2008?id=10966383"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4AjGPuIRvHFfPV%2BQcD3n2b&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/o-guia-pratico-do-visual-basic-2008?id=10966383" class="titulo_link">O Guia Prático do Visual Basic</a>...                </div>
+
+                                    <div id="f3_subtitulo"></div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Vítor Pereira&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+            <div id="f3_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div><div id='portlet_separador_horizontal'><div class='linha'></div></div><div id='container' class='portlets'><div id='portlet'><script type="text/javascript">
+    var actualizaDivCesto = true;
+</script>
+<div id="f3">	<!-- div principal -->
+    <div id="f3_top" > <!-- div que contém a imagem e os gif's de disponibilidade -->
+        <div id="f3_top_content" > <!-- div que contém o conteúdo da div anterior -->
+            <div id=" f3_imagem">
+            <a href="/ficha/o-guia-pratico-do-dreamweaver-cs3-com-php-javascript-e-ajax?id=10916318"><img src='http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6f0EK3qwNRrxoQJTymgBaG&width=50'></a>            </div>
+                        </div><!-- fim da div 'top_content' -->
+    </div><!-- fim da div 'top' -->
+
+    <div id="f3_middle"><!-- div que contém a parte do meio da info do produto -->
+        <div id="f3_middle_content"><!-- div que contém a parte do meio da info do produto -->
+
+                                <div id="f3_titulo">
+            <a href="/ficha/o-guia-pratico-do-dreamweaver-cs3-com-php-javascript-e-ajax?id=10916318" class="titulo_link">O Guia Prático do Dreamweaver CS3</a>...                </div>
+
+                                    <div id="f3_subtitulo"></div>
+                                    <div id="f3_autores">
+            <span class="autor_de"></span> Pedro Remoaldo&nbsp;
+                </div>
+                            </div><!-- fim da div "middle_content"  -->
+            </div><!-- fim da div "middle" que contém o resto da info do produto -->
+
+        <div id="f3_right"><!-- div que contém a parte do fim da info do produto -->
+            <div id="f3_right_content">
+
+
+
+                <div id="f3_3icons" >
+            <div id="f3_ebook"></div>            </div><!-- fim da div '3icons' -->
+
+            <div id="f3_right_content_info">
+
+
+                                    <div class="naoApresentaPreco"></div>
+                            </div><!-- fim dos preços e botões -->
+        </div>
+    </div><!-- fim da div "bottom" que contém o final da info do produto -->
+</div><!-- fim da div 'principal' -->
+</div></div></div></div></div>
+</div>
+
+
+                            <div></div>
+			</div>
+                    </div>
+                    <div class="confirmaddshoppcartGeneric_popup" id="confirmaddshoppcartGeneric_popup" style="display:none;">
+	<div class="menu_form_header" id="confirmaddshoppcartGeneric_drag">
+		<div id="confirmaddshoppcartGeneric_title" >informação</div>
+	</div>
+	<div id="confirmaddshoppcartconteudoGeneric">
+        Foi adicionado um item ao seu cesto de compras.	</div>
+</div>
+<div class="confirmaddshopplistGeneric_popup" id="confirmaddshopplistGeneric_popup" style="display:none;">
+	<div class="menu_form_header" id="confirmaddshopplistGeneric_drag">
+		<div id="confirmaddshopplistGeneric_title" >informação</div>
+	</div>
+	<div id="confirmaddshopplistconteudoGeneric">
+        Foi adicionado um item à sua lista de compras.        </div>
+</div>
+		
+
+	  	</div>
+            </div>
+            <div id="Footer">
+                
+            </div>
+            <div id="rodape_principal" style="font-size: 11px; font-style: verdana; color:#654f48; background-color: #CCBAA2;">
+	<span style="margin: auto; font-size: 11px; font-style: verdana; color:#654f48; background-color: background-color: #CCBAA2;">
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/">Condições gerais de venda</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#compras_seguras">Compras 100% seguras</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/condicoes-gerais-de-venda/#politica">Política de Privacidade</a>&nbsp;&nbsp;
+		| &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="/ajuda">Ajuda</a> &nbsp;&nbsp;
+                | &nbsp;&nbsp;<a style="font-size: 11px; font-style: verdana; color:#654f48;" href="http://www.grupobertrandcirculo.com/recrutamento/">Recrutamento</a> &nbsp;&nbsp;|
+
+	</span>
+	<br>
+	<span style="margin: auto; font-size: 11px;">
+			&copy;1999/2011 Grupo Porto Editora. Todos os direitos reservados, Porto, Portugal
+	</span>
+</div>
+        </div>
+        
+    <script type="text/javascript" src="/jquery/modernizr-1.7.min.js" type="text/javascript"></script>
+
+    <div id="ao">
+        <nav onclick="document.getElementById('ao').style.display = 'none';">
+          <h2 id="navhdr">
+              <img id="navImg" src="/themes/bertrand/images/bt_AO_01PRETO.png"></img>
+          </h2>
+          <ul id="navmenu">
+             <img src="/themes/bertrand/images/bt_AO_02PRETO.png"></img>
+          </ul>
+        </nav>
+    </div>
+
+    </body>
+</html>
