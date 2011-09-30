@@ -12,6 +12,8 @@ public class Ebook {
 	private String ISBN;
 	private float pontosBertrand;
 	private float preco;
+	private String categoria;
+	private String subcategoria;
 	
 	/**
 	 * Cria um novo Ebook e recolhe imediatamente todos os seus dados
@@ -23,11 +25,12 @@ public class Ebook {
 		this.titulo = RegEx.getTitulo(html);
 		this.autor = RegEx.getAutor(html);
 		this.capaURL = RegEx.getCapaURL(html);
-		this.classificacao = RegEx.getClassificacao(html);
 		this.formato = RegEx.getFormato(html);
 		this.anoEdicao = RegEx.getAnoEdicao(html);
 		this.editor = RegEx.getEditor(html);
 		this.ISBN = RegEx.getISBN(html);
+		this.categoria = RegEx.getCategoria(html);
+		this.subcategoria = RegEx.getSubcategoria(html);
 		//Alguns livros não têm a Pontos Bertrand
 		try
 		{
@@ -156,6 +159,22 @@ public class Ebook {
 	 */
 	public void setPreco(float preco) {
 		this.preco = preco;
+	}
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setSubcategoria(String subcategoria) {
+		this.subcategoria = subcategoria;
+	}
+
+	public String getSubcategoria() {
+		return subcategoria;
 	}
 	
 }

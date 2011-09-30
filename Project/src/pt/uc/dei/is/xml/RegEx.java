@@ -9,13 +9,14 @@ public class RegEx {
 	private static final int titulo = 1;
 	private static final int autor = 2;
 	private static final int capaURL = 3;
-	private static final int classificacao = 4;
 	private static final int formato = 5;
 	private static final int anoEdicao = 6;
 	private static final int editor = 7;
 	private static final int ISBN = 8;
 	private static final int pontosBertrand = 9;
 	private static final int preco = 10;
+	private static final int categoria = 11;
+	private static final int subcategoria = 12;
 
 	/**
 	 * Extrai do HTML da página que lista os produtos os links para as
@@ -68,30 +69,6 @@ public class RegEx {
 	}
 	
 	/**
-	 * Extrai do HTML da página que lista os produtos o link
-	 * para a página seguinte
-	 * @param html
-	 * @return URL para a página seguinte
-	 */
-	public static String getNextPage(String html)
-	{
-		String url = null;
-		Pattern pattern = Pattern.compile("<a[ ]+href=\"([^\"]+)\"[ ]+class=\"seta\">[ ]+&gt;&gt;");
-		Matcher matcher = pattern.matcher(html);
-		
-		if (matcher.find())
-		{
-			try {
-				url = matcher.group(1);
-			}
-			catch (IllegalStateException e) {
-				XML.debug(e.toString());
-			}
-		}
-		return url;
-	}
-	
-	/**
 	 * Método geral para procurar certos campos de informação de um produto
 	 * @param campo
 	 * @param html
@@ -111,9 +88,6 @@ public class RegEx {
 		case capaURL:
 			pattern = Pattern.compile("<img itemprop=\"image\" src=\"([^\"]+)\" class=\"produto_imagem\"");
 			break;
-		case classificacao:
-			pattern = Pattern.compile("<p id=\"classificacao\">[^\"]+\"[^\"]+\">([^<]+)");
-			break;
 		case formato:
 			pattern = Pattern.compile("\'fich_prod_ebook_formato\'>[^=]*=[^=]*=\"text\">([^<]+)");
 			break;
@@ -131,6 +105,12 @@ public class RegEx {
 			break;
 		case preco:
 			pattern = Pattern.compile("\"fich_prod_preco_com_desconto_texto\">€([^<]+)");
+			break;
+		case categoria:
+			pattern = Pattern.compile("<a href=\"/?[^=]+=[0-9]+x[0-9]+x[0-9]+&[^\"]+\">([^<]+)</a>");
+			break;
+		case subcategoria:
+			pattern = Pattern.compile("<a href=\"/?[^=]+=[0-9]+x[0-9]+x[0-9]+x[0-9]+&[^\"]+\">([^<]+)</a>");
 			break;
 		default:
 			return null;
@@ -191,11 +171,6 @@ public class RegEx {
 		return getDadosEbook(capaURL, html);
 	}
 	
-	public static String getClassificacao(String html)
-	{
-		return getDadosEbook(classificacao, html);
-	}
-	
 	public static String getFormato(String html)
 	{
 		return getDadosEbook(formato, html);
@@ -224,6 +199,16 @@ public class RegEx {
 	public static Float getPreco(String html)
 	{
 		return getDadosFloatEbook(preco, html);
+	}
+	
+	public static String getCategoria(String html)
+	{
+		return getDadosEbook(categoria, html);
+	}
+	
+	public static String getSubcategoria(String html)
+	{
+		return getDadosEbook(subcategoria, html);
 	}
 	
 }

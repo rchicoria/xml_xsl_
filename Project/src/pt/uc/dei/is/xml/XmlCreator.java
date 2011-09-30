@@ -16,7 +16,7 @@ public class XmlCreator {
 		
 		HashMap piMap = new HashMap( 2 );
 		piMap.put( "type", "text/xsl" );
-		piMap.put( "href", "stylesheet.xsl" );
+		piMap.put( "href", "ebooks.xslt" );
 		ProcessingInstruction pi = new ProcessingInstruction( "xml-stylesheet", piMap );
 
 		document.getContent().add( 0, pi );
@@ -48,11 +48,6 @@ public class XmlCreator {
 			capaURL.addContent(currentEbook.getCapaURL());
 			capaURL.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(capaURL);
-			
-			Element classificacao = new Element("classificacao");
-			classificacao.addContent(currentEbook.getClassificacao());
-			classificacao.setNamespace(Namespace.getNamespace("http://bertand.pt"));
-			ebook.addContent(classificacao);
 			
 			Element formato = new Element("formato");
 			formato.addContent(currentEbook.getFormato());

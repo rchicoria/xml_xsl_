@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ebooks.xslt"?>
 <list xmlns="http://bertand.pt">
   <ebook ISBN="9789896151232">
     <titulo>Casas Inteligentes</titulo>
     <autor>José Augusto Alves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4SSKM6sMrxRRaB9ZVsaSOc&amp;width=150</capaURL>
-    <classificacao>Arquitetura</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Arquitetura</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -17,12 +21,15 @@
     <titulo>Josephine Baker em Portugal</titulo>
     <autor>João Moreira dos Santos</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw59d8KJ6P97rSbTsanEfTDD&amp;width=150</capaURL>
-    <classificacao>Artes de palco</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Casa Sassetti</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Artes de palco</subcategoria>
+    </tema>
     <pontosBertrand>121.4</pontosBertrand>
     <preco moeda="€">12.14</preco>
   </ebook>
@@ -30,12 +37,15 @@
     <titulo>Windows Movie Maker</titulo>
     <autor>António Eduardo Marques</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5KTxmbYrAfdZYJ7XdzwOAL&amp;width=150</capaURL>
-    <classificacao>Cinema</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2005</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Cinema</subcategoria>
+    </tema>
     <pontosBertrand>74.9</pontosBertrand>
     <preco moeda="€">7.49</preco>
   </ebook>
@@ -43,12 +53,15 @@
     <titulo>Frei Luís de Sousa</titulo>
     <autor>Almeida Garrett</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5cfmB9PwUaB92wG%2BFYpBz%2B&amp;width=150</capaURL>
-    <classificacao>Artes de palco</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Artes de palco</subcategoria>
+    </tema>
     <pontosBertrand>45.0</pontosBertrand>
     <preco moeda="€">4.5</preco>
   </ebook>
@@ -56,12 +69,15 @@
     <titulo>Gestão do Tempo para mulheres (muito) ocupadas</titulo>
     <autor>Maria José Silveira Núncio</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7M697t65ySsV629oE3Yccu&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -69,12 +85,15 @@
     <titulo>Uma Carta para Garcia</titulo>
     <autor>Raul Diniz</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4z%2FSO3VX1MkKawjpsmJH81&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>49.9</pontosBertrand>
     <preco moeda="€">4.99</preco>
   </ebook>
@@ -82,12 +101,15 @@
     <titulo>O Segredo das Boas Decisões</titulo>
     <autor>Robert E. Gunther</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6I0hieAH4j4A2%2BzxptPjpo&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2009</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -95,12 +117,15 @@
     <titulo>A Nau Catrineta e a História Trágico-Marítima</titulo>
     <autor>Libório Manuel Silva</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw55Ge0Z8sdVZY0ctvpZuEw3&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2010</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -108,12 +133,15 @@
     <titulo>Briófitos Raros dos Açores</titulo>
     <autor>Nídia Homem</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw53NVMSVuGWXvRKDeDshoQZ&amp;width=150</capaURL>
-    <classificacao>Biologia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Botânica</subcategoria>
+    </tema>
     <pontosBertrand>122.9</pontosBertrand>
     <preco moeda="€">12.29</preco>
   </ebook>
@@ -121,12 +149,15 @@
     <titulo>Desenvolvimento Sustentável</titulo>
     <autor>Valdemar Rodrigues</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw66JmL8y1jMKt0An9LrsZUo&amp;width=150</capaURL>
-    <classificacao>Outros</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Outros</subcategoria>
+    </tema>
     <pontosBertrand>172.2</pontosBertrand>
     <preco moeda="€">17.22</preco>
   </ebook>
@@ -134,12 +165,15 @@
     <titulo>Passeio Aleatório</titulo>
     <autor>Nuno Crato</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6lWPrhu9GFxQOQzwzY9ESK&amp;width=150</capaURL>
-    <classificacao>Matemática</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Gradiva Publicações</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Matemática</subcategoria>
+    </tema>
     <pontosBertrand>98.4</pontosBertrand>
     <preco moeda="€">9.84</preco>
   </ebook>
@@ -147,12 +181,15 @@
     <titulo>O Fim do Mundo Está Próximo?</titulo>
     <autor>Jorge Buescu</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6s42wGB7pydPTwaZerzgVX&amp;width=150</capaURL>
-    <classificacao>Matemática</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Gradiva Publicações</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Matemática</subcategoria>
+    </tema>
     <pontosBertrand>106.6</pontosBertrand>
     <preco moeda="€">10.66</preco>
   </ebook>
@@ -160,12 +197,15 @@
     <titulo>Nova Física Divertida</titulo>
     <autor>Carlos Fiolhais</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5KckKfOAQQpUltvaBWREBm&amp;width=150</capaURL>
-    <classificacao>Física</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Gradiva Publicações</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Física</subcategoria>
+    </tema>
     <pontosBertrand>106.7</pontosBertrand>
     <preco moeda="€">10.67</preco>
   </ebook>
@@ -173,12 +213,15 @@
     <titulo>Um Modo de Ser</titulo>
     <autor>João Lobo Antunes</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4%2FbY%2BT0UXN5M2%2BNbGGRnZy&amp;width=150</capaURL>
-    <classificacao>Biologia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Gradiva Publicações</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Exatas e Nat.</categoria>
+      <subcategoria xmlns="http://bertand.pt">Biologia</subcategoria>
+    </tema>
     <pontosBertrand>123.0</pontosBertrand>
     <preco moeda="€">12.3</preco>
   </ebook>
@@ -186,12 +229,15 @@
     <titulo>Pesquisa Qualitativa e Análise de Conteúdo</titulo>
     <autor>Isabel Carvalho Guerra</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7unEuUYHI8QzogEcRr1kaG&amp;width=150</capaURL>
-    <classificacao>Outros</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Soc. e Humanas</categoria>
+      <subcategoria xmlns="http://bertand.pt">Sociologia</subcategoria>
+    </tema>
     <pontosBertrand>57.6</pontosBertrand>
     <preco moeda="€">5.76</preco>
   </ebook>
@@ -199,12 +245,15 @@
     <titulo>A Lei da Liberdade</titulo>
     <autor>António Pedro Barbas Homem</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5iGwPxIZbDJK0Yh4OgKFoa&amp;width=150</capaURL>
-    <classificacao>História e Estudos do Direito</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">História e Estudos do Direito</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">13.64</preco>
   </ebook>
@@ -212,12 +261,15 @@
     <titulo>Sem Medo</titulo>
     <autor>Tim Gill</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4LOil%2BThBDCYj%2Fs9q%2Fb1Ib&amp;width=150</capaURL>
-    <classificacao>Sociologia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Soc. e Humanas</categoria>
+      <subcategoria xmlns="http://bertand.pt">Antropologia</subcategoria>
+    </tema>
     <pontosBertrand>127.1</pontosBertrand>
     <preco moeda="€">12.71</preco>
   </ebook>
@@ -225,12 +277,15 @@
     <titulo>Memórias Alentejanas do Século XX</titulo>
     <autor>Maria Antónia Pires de Almeida</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Xpr3O9p%2FPCePl9%2BIxRe6l&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>122.9</pontosBertrand>
     <preco moeda="€">12.29</preco>
   </ebook>
@@ -238,12 +293,15 @@
     <titulo>Participação e Acção Colectiva</titulo>
     <autor>Isabel Carvalho Guerra</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw66p95ci3hzwMHv5Rx3dYIX&amp;width=150</capaURL>
-    <classificacao>Outros</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ciências Soc. e Humanas</categoria>
+      <subcategoria xmlns="http://bertand.pt">Sociologia</subcategoria>
+    </tema>
     <pontosBertrand>92.2</pontosBertrand>
     <preco moeda="€">9.22</preco>
   </ebook>
@@ -251,12 +309,15 @@
     <titulo>A Tradição Anglo-Americana da Liberdade</titulo>
     <autor>João Carlos Espada</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Jd1SRekWv21EmupVHmfb2&amp;width=150</capaURL>
-    <classificacao>Política em Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política em Geral</subcategoria>
+    </tema>
     <pontosBertrand>151.7</pontosBertrand>
     <preco moeda="€">15.17</preco>
   </ebook>
@@ -264,12 +325,15 @@
     <titulo>Luz do Mundo</titulo>
     <autor>Bento XVI</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4J%2F0QmDlfvk%2FVHXERTWrVg&amp;width=150</capaURL>
-    <classificacao>Catolicismo</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Lucerna</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Catolicismo</subcategoria>
+    </tema>
     <pontosBertrand>128.7</pontosBertrand>
     <preco moeda="€">12.87</preco>
   </ebook>
@@ -277,12 +341,15 @@
     <titulo>As Farpas</titulo>
     <autor>Eca De Queiroz</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw46dPuB7YrfOdqarnfo7JYF&amp;width=150</capaURL>
-    <classificacao>Política em Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política em Geral</subcategoria>
+    </tema>
     <pontosBertrand>225.0</pontosBertrand>
     <preco moeda="€">22.5</preco>
   </ebook>
@@ -290,12 +357,15 @@
     <titulo>A Lei da Liberdade</titulo>
     <autor>António Pedro Barbas Homem</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5iGwPxIZbDJK0Yh4OgKFoa&amp;width=150</capaURL>
-    <classificacao>História e Estudos do Direito</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">História e Estudos do Direito</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">13.64</preco>
   </ebook>
@@ -303,12 +373,15 @@
     <titulo>A Lei do Contrato de Seguro</titulo>
     <autor>Pedro Romano Martinez</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7SkBfKvew1DRfKWk3BVovW&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">7.79</preco>
   </ebook>
@@ -316,12 +389,15 @@
     <titulo>Eficiência e Produtividade do Sistema Judicial: Um Desafio que Temos de Vencer</titulo>
     <autor>Ministério da Justiça</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5CFOSDJscl%2BM14GRfPaog6&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">História e Estudos do Direito</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">2.49</preco>
   </ebook>
@@ -329,12 +405,15 @@
     <titulo>Carta dos Direitos Fundamentais da União Europeia</titulo>
     <autor>António Vitorino</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7%2BhFLvXBTd5cYbxH8bMuQr&amp;width=150</capaURL>
-    <classificacao>Política Europeia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política Europeia</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">8.0</preco>
   </ebook>
@@ -342,12 +421,15 @@
     <titulo>O que é o Direito?</titulo>
     <autor>António Pedro Barbas Homem</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6QZC%2Bt82n53TZE9Zj6WOgy&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">6.86</preco>
   </ebook>
@@ -355,12 +437,15 @@
     <titulo>Novos Territórios do Direito</titulo>
     <autor>Maria Eduarda Gonçalves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4H7TTzHbu42kKzKQwRAsLb&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">9.79</preco>
   </ebook>
@@ -368,12 +453,15 @@
     <titulo>Contratos Comerciais</titulo>
     <autor>Pedro Romano Martinez</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5xXDIAz4oYAvU72NZqfRj4&amp;width=150</capaURL>
-    <classificacao>Direito Comercial</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Direito Comercial</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">8.08</preco>
   </ebook>
@@ -381,12 +469,15 @@
     <titulo>As Prestações Suplementares no Direito Societário Português</titulo>
     <autor>Sofia G. Pereira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6I5yHw0QG2uX83YLaEUPHj&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Direito Comercial</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">14.06</preco>
   </ebook>
@@ -394,12 +485,15 @@
     <titulo>Constituição da República Portuguesa (5ª Edição)</titulo>
     <autor>Jorge Miranda</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7kyVU18Wb51SYndSrVJFmg&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Direito Constitucional</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">10.21</preco>
   </ebook>
@@ -407,12 +501,15 @@
     <titulo>O Código da Privacidade</titulo>
     <autor>Mário M. Varges Gomes</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5nGwFnK0riWe3Sh%2BBGXaHx&amp;width=150</capaURL>
-    <classificacao>Direito Civil Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2006</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Direito Civil Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">18.99</preco>
   </ebook>
@@ -420,12 +517,15 @@
     <titulo>Guia da Lei do Direito de Autor na Sociedade da Informação</titulo>
     <autor>André Lencastre Bernardo</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4ROVt8gxJ9iOEoKeoNbX2T&amp;width=150</capaURL>
-    <classificacao>Direito Informático</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2005</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Propriedade Intelectual</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -433,12 +533,15 @@
     <titulo>Curso de Direitos Reais</titulo>
     <autor>Rui Pinto Duarte</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw72vUN87S4i%2BWkPxp70Kenm&amp;width=150</capaURL>
-    <classificacao>Direitos Reais</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">15.95</preco>
   </ebook>
@@ -446,12 +549,15 @@
     <titulo>Direito dos Seguros</titulo>
     <autor>Pedro Romano Martinez</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4xDMi79RbFvqrJM4xZ16Xm&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">10.11</preco>
   </ebook>
@@ -459,12 +565,15 @@
     <titulo>Curso de Direito Romano</titulo>
     <autor>Eduardo Vera Cruz Pinto</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4lzQnY3HKm9F4DQmHE3D4d&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Geral</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">18.86</preco>
   </ebook>
@@ -472,12 +581,15 @@
     <titulo>Curso de Direito Internacional Público</titulo>
     <autor>Jorge Miranda</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6CMG4cnHMeFoV%2By5y%2ByX5i&amp;width=150</capaURL>
-    <classificacao>Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Direito</categoria>
+      <subcategoria xmlns="http://bertand.pt">Direito Internacional</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">17.55</preco>
   </ebook>
@@ -485,12 +597,15 @@
     <titulo>Ratings - 50 Perguntas e Respostas</titulo>
     <autor>Eduardo Ferreira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7GWQyFggya3%2BtHwIVUG1rV&amp;width=150</capaURL>
-    <classificacao>Finanças</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2010</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>84.9</pontosBertrand>
     <preco moeda="€">8.49</preco>
   </ebook>
@@ -498,12 +613,15 @@
     <titulo>O Que é a Economia?</titulo>
     <autor>João César das Neves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6S03w4NkhU7L9SVSNNIBI4&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>138.9</pontosBertrand>
     <preco moeda="€">13.89</preco>
   </ebook>
@@ -511,12 +629,15 @@
     <titulo>Compêndio de Economia Regional - Volume I</titulo>
     <autor>José Silva Costa</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw59CbjwrjBq2UCqQk9CIVBb&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>241.9</pontosBertrand>
     <preco moeda="€">24.19</preco>
   </ebook>
@@ -524,12 +645,15 @@
     <titulo>Modelos Operacionais Aplicados de Economia Regional</titulo>
     <autor>Eduardo Haddad</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6cw0BRlxQ5AKUZDfmxnf4%2F&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>223.3</pontosBertrand>
     <preco moeda="€">22.33</preco>
   </ebook>
@@ -537,12 +661,15 @@
     <titulo>Três Olhares Sobre o Futuro da Saúde em Portugal</titulo>
     <autor>Pedro Pita Barros</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>80.8</pontosBertrand>
     <preco moeda="€">8.08</preco>
   </ebook>
@@ -550,12 +677,15 @@
     <titulo>Investigação e Prática em Economia</titulo>
     <autor>Vários</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7ix5P85td0c6L9M%2Bu9wMSu&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>205.0</pontosBertrand>
     <preco moeda="€">20.5</preco>
   </ebook>
@@ -563,12 +693,15 @@
     <titulo>Casas Inteligentes</titulo>
     <autor>José Augusto Alves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4SSKM6sMrxRRaB9ZVsaSOc&amp;width=150</capaURL>
-    <classificacao>Arquitetura</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Arquitetura</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -576,12 +709,15 @@
     <titulo>E-learning e E-conteúdos</titulo>
     <autor>Jorge Reis Lima</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Zx5KkH4fcsIRnoIweMXV8&amp;width=150</capaURL>
-    <classificacao>Ensino Técnico</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ensino e Educação</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ensino Técnico</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -589,12 +725,15 @@
     <titulo>Investigação e Prática em Economia</titulo>
     <autor>Vários</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7ix5P85td0c6L9M%2Bu9wMSu&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>205.0</pontosBertrand>
     <preco moeda="€">20.5</preco>
   </ebook>
@@ -602,12 +741,15 @@
     <titulo>Curso de Relações Internacionais</titulo>
     <autor>José Adelino Maltez</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Vmb%2F89GYadn9zeyK0j1Hx&amp;width=150</capaURL>
-    <classificacao>Ensino Técnico</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ensino e Educação</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ensino Técnico</subcategoria>
+    </tema>
     <pontosBertrand>179.5</pontosBertrand>
     <preco moeda="€">17.95</preco>
   </ebook>
@@ -615,12 +757,15 @@
     <titulo>Sexualidade Conjugal e Paternidade Responsável</titulo>
     <autor>Luís Jensen</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5AIYmy7p3ZnUySexu20VSO&amp;width=150</capaURL>
-    <classificacao>Planeamento Familiar</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Erotismo e Sexualidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Vida Sexual</subcategoria>
+    </tema>
     <pontosBertrand>102.4</pontosBertrand>
     <preco moeda="€">10.24</preco>
   </ebook>
@@ -628,12 +773,15 @@
     <titulo>Gestão do Tempo para mulheres (muito) ocupadas</titulo>
     <autor>Maria José Silveira Núncio</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7M697t65ySsV629oE3Yccu&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -641,12 +789,15 @@
     <titulo>Logística - Conceitos e Tendências</titulo>
     <autor>Benjamim do Carmo Moura</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4EVr2VH%2FR0qDOsO1JzNlyo&amp;width=150</capaURL>
-    <classificacao>Marketing</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2006</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Gestão e Organização</subcategoria>
+    </tema>
     <pontosBertrand>169.9</pontosBertrand>
     <preco moeda="€">16.99</preco>
   </ebook>
@@ -654,12 +805,15 @@
     <titulo>O que é a Distribuição?</titulo>
     <autor>José António Rousseau</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7B7qeog9nX4fBCGZXwx44h&amp;width=150</capaURL>
-    <classificacao>Organizações de Empresas</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Organizações de Empresas</subcategoria>
+    </tema>
     <pontosBertrand>80.4</pontosBertrand>
     <preco moeda="€">8.04</preco>
   </ebook>
@@ -667,12 +821,15 @@
     <titulo>Uma Carta para Garcia</titulo>
     <autor>Raul Diniz</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4z%2FSO3VX1MkKawjpsmJH81&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>49.9</pontosBertrand>
     <preco moeda="€">4.99</preco>
   </ebook>
@@ -680,12 +837,15 @@
     <titulo>O Segredo das Boas Decisões</titulo>
     <autor>Robert E. Gunther</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6I0hieAH4j4A2%2BzxptPjpo&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2009</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -693,12 +853,15 @@
     <titulo>Gestão do Conhecimento</titulo>
     <autor>Joaquim Luís Loureiro</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5t8pXfSDrqP0teZMrmzI9x&amp;width=150</capaURL>
-    <classificacao>Gestão e Organização</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Gestão e Organização</subcategoria>
+    </tema>
     <pontosBertrand>99.9</pontosBertrand>
     <preco moeda="€">9.99</preco>
   </ebook>
@@ -706,12 +869,15 @@
     <titulo>A Gestão dos Sistemas de Informação</titulo>
     <autor>Santiago Olmedo Bach</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Ln9MeGaIR20syN%2BnwCocf&amp;width=150</capaURL>
-    <classificacao>Gestão e Organização</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2001</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Gestão e Organização</subcategoria>
+    </tema>
     <pontosBertrand>119.9</pontosBertrand>
     <preco moeda="€">11.99</preco>
   </ebook>
@@ -719,12 +885,15 @@
     <titulo>Ética, Valores Humanos e Responsabilidade Social das Empresas</titulo>
     <autor>Filipe Almeida</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6v65kP7ubyTOBRVSkXWWG3&amp;width=150</capaURL>
-    <classificacao>Organizações de Empresas</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Organizações de Empresas</subcategoria>
+    </tema>
     <pontosBertrand>163.5</pontosBertrand>
     <preco moeda="€">16.35</preco>
   </ebook>
@@ -732,12 +901,15 @@
     <titulo>A Nau Catrineta e a História Trágico-Marítima</titulo>
     <autor>Libório Manuel Silva</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw55Ge0Z8sdVZY0ctvpZuEw3&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2010</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -745,12 +917,15 @@
     <titulo>Peter Drucker</titulo>
     <autor>Jorge Nascimento Rodrigues</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5P032A0TkVT5Sw7fjj9zj6&amp;width=150</capaURL>
-    <classificacao>Gestão e Organização</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2006</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Organizações de Empresas</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -758,12 +933,15 @@
     <titulo>Manual de Produção Gráfica</titulo>
     <autor>Conceição Barbosa</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5DMUYSB%2FbAUgxcaoiYyZnU&amp;width=150</capaURL>
-    <classificacao>Publicidade</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Publicidade</subcategoria>
+    </tema>
     <pontosBertrand>163.1</pontosBertrand>
     <preco moeda="€">16.31</preco>
   </ebook>
@@ -771,12 +949,15 @@
     <titulo>Experiências de Internacionalização</titulo>
     <autor>Pedro Quelhas Brito</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw50tCRR%2FIhmYE9WZ6krHAG2&amp;width=150</capaURL>
-    <classificacao>Comércio</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2002</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Organizações de Empresas</subcategoria>
+    </tema>
     <pontosBertrand>169.9</pontosBertrand>
     <preco moeda="€">16.99</preco>
   </ebook>
@@ -784,12 +965,15 @@
     <titulo>1822</titulo>
     <autor>Laurentino Gomes</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw63PDXtbE982RF9FqaVLg4q&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>155.0</pontosBertrand>
     <preco moeda="€">15.5</preco>
   </ebook>
@@ -797,12 +981,15 @@
     <titulo>A Nau Catrineta e a História Trágico-Marítima</titulo>
     <autor>Libório Manuel Silva</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw55Ge0Z8sdVZY0ctvpZuEw3&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2010</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -810,12 +997,15 @@
     <titulo>Josephine Baker em Portugal</titulo>
     <autor>João Moreira dos Santos</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw59d8KJ6P97rSbTsanEfTDD&amp;width=150</capaURL>
-    <classificacao>Artes de palco</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Casa Sassetti</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Artes de palco</subcategoria>
+    </tema>
     <pontosBertrand>121.4</pontosBertrand>
     <preco moeda="€">12.14</preco>
   </ebook>
@@ -823,12 +1013,15 @@
     <titulo>Os Santos de Portugal</titulo>
     <autor>João César das Neves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6pQhJpyOBvv22uqu8ba2oI&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Lucerna</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>117.3</pontosBertrand>
     <preco moeda="€">11.73</preco>
   </ebook>
@@ -836,12 +1029,15 @@
     <titulo>Memórias Alentejanas do Século XX</titulo>
     <autor>Maria Antónia Pires de Almeida</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Xpr3O9p%2FPCePl9%2BIxRe6l&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>122.9</pontosBertrand>
     <preco moeda="€">12.29</preco>
   </ebook>
@@ -849,12 +1045,15 @@
     <titulo>Um Tiro na Bruma</titulo>
     <autor>Manuel Cardoso</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw67wERMCkqb5zzGe5rJuNfk&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sopa de Letras</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>122.6</pontosBertrand>
     <preco moeda="€">12.26</preco>
   </ebook>
@@ -862,12 +1061,15 @@
     <titulo>Mensagem</titulo>
     <autor>Fernando Pessoa</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Ut%2FBo3KckX9s3d1paGcxQ&amp;width=150</capaURL>
-    <classificacao>Poesia</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Poesia</subcategoria>
+    </tema>
     <pontosBertrand>45.0</pontosBertrand>
     <preco moeda="€">4.5</preco>
   </ebook>
@@ -875,12 +1077,15 @@
     <titulo>Crónica de Amor e Mar</titulo>
     <autor>Maria João da Câmara</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5cGe7keVcwt8D9kHZB%2BfHF&amp;width=150</capaURL>
-    <classificacao>História em Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sopa de Letras</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>110.3</pontosBertrand>
     <preco moeda="€">11.03</preco>
   </ebook>
@@ -888,12 +1093,15 @@
     <titulo>E-learning e E-conteúdos</titulo>
     <autor>Jorge Reis Lima</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6Zx5KkH4fcsIRnoIweMXV8&amp;width=150</capaURL>
-    <classificacao>Ensino Técnico</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Ensino e Educação</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ensino Técnico</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -901,12 +1109,15 @@
     <titulo>Segurança dos Sistemas de Informação</titulo>
     <autor>Hugo Carvalho</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6GSzTKqLSi%2FEnoOoIem2tx&amp;width=150</capaURL>
-    <classificacao>Segurança Informática</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Segurança Informática</subcategoria>
+    </tema>
     <pontosBertrand>139.9</pontosBertrand>
     <preco moeda="€">13.99</preco>
   </ebook>
@@ -914,12 +1125,15 @@
     <titulo>O Guia Prático do Visual C# 2005 Express</titulo>
     <autor>Vítor Emanuel Pereira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5xxsA%2Bbtbepja3QPYiNFZf&amp;width=150</capaURL>
-    <classificacao>Programação</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2006</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Programação</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -927,12 +1141,15 @@
     <titulo>Casas Inteligentes</titulo>
     <autor>José Augusto Alves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4SSKM6sMrxRRaB9ZVsaSOc&amp;width=150</capaURL>
-    <classificacao>Arquitetura</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Arquitetura</subcategoria>
+    </tema>
     <pontosBertrand>109.9</pontosBertrand>
     <preco moeda="€">10.99</preco>
   </ebook>
@@ -940,12 +1157,15 @@
     <titulo>A Gestão dos Sistemas de Informação</titulo>
     <autor>Santiago Olmedo Bach</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Ln9MeGaIR20syN%2BnwCocf&amp;width=150</capaURL>
-    <classificacao>Gestão e Organização</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2001</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Gestão e Organização</subcategoria>
+    </tema>
     <pontosBertrand>119.9</pontosBertrand>
     <preco moeda="€">11.99</preco>
   </ebook>
@@ -953,12 +1173,15 @@
     <titulo>Bases de Dados com Microsoft Access 2007</titulo>
     <autor>António Abreu da Silva</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw57wvzvpjD6a9eMXXjf%2BhdC&amp;width=150</capaURL>
-    <classificacao>Base de Dados</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2008</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Base de Dados</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -966,12 +1189,15 @@
     <titulo>Flash CS3</titulo>
     <autor>Anabela Gonçalves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Unb2Cs%2BpDYuBakjP14D7l&amp;width=150</capaURL>
-    <classificacao>Programação</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2007</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Internet</subcategoria>
+    </tema>
     <pontosBertrand>84.9</pontosBertrand>
     <preco moeda="€">8.49</preco>
   </ebook>
@@ -979,12 +1205,15 @@
     <titulo>Técnicas para Hackers II - Soluções para Segurança</titulo>
     <autor>Wilson Oliveira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4qdhUC9jlwAqlysF9NcDhA&amp;width=150</capaURL>
-    <classificacao>Internet</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2003</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Internet</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -992,12 +1221,15 @@
     <titulo>O Guia Prático do Visual Basic 2008</titulo>
     <autor>Vítor Pereira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4AjGPuIRvHFfPV%2BQcD3n2b&amp;width=150</capaURL>
-    <classificacao>Programação</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2008</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Internet</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -1005,12 +1237,15 @@
     <titulo>O Guia Prático do Dreamweaver CS3 com PHP, JavaScript e Ajax</titulo>
     <autor>Pedro Remoaldo</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6f0EK3qwNRrxoQJTymgBaG&amp;width=150</capaURL>
-    <classificacao>Programação</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2008</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Internet</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -1018,12 +1253,15 @@
     <titulo>O Guia Prático do Dreamweaver 8 com PHP, MySQL e Apache</titulo>
     <autor>Pedro Remoaldo</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5eiaP3xbo0giDBRzCQEmCj&amp;width=150</capaURL>
-    <classificacao>Programação</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2006</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Informática</categoria>
+      <subcategoria xmlns="http://bertand.pt">Internet</subcategoria>
+    </tema>
     <pontosBertrand>209.9</pontosBertrand>
     <preco moeda="€">20.99</preco>
   </ebook>
@@ -1031,12 +1269,15 @@
     <titulo>Windows Movie Maker</titulo>
     <autor>António Eduardo Marques</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5KTxmbYrAfdZYJ7XdzwOAL&amp;width=150</capaURL>
-    <classificacao>Cinema</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2005</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Arte</categoria>
+      <subcategoria xmlns="http://bertand.pt">Cinema</subcategoria>
+    </tema>
     <pontosBertrand>74.9</pontosBertrand>
     <preco moeda="€">7.49</preco>
   </ebook>
@@ -1044,12 +1285,15 @@
     <titulo>A Mentira Sagrada</titulo>
     <autor>Luís Miguel Rocha</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5wGQCPht2qIKJCaNZJBMN%2B&amp;width=150</capaURL>
-    <classificacao>Policial e Espionagem</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Policial e Espionagem</subcategoria>
+    </tema>
     <pontosBertrand>145.0</pontosBertrand>
     <preco moeda="€">14.5</preco>
   </ebook>
@@ -1057,12 +1301,15 @@
     <titulo>A Escrava de Córdova</titulo>
     <autor>Alberto S. Santos</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7q8U9xG4NTy8Z%2FAC1uDAvQ&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>149.0</pontosBertrand>
     <preco moeda="€">14.9</preco>
   </ebook>
@@ -1070,12 +1317,15 @@
     <titulo>A Questão Finkler</titulo>
     <autor>Howard Jacobson</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7K9%2BNwAXQhnBZv%2FuisxLg3&amp;width=150</capaURL>
-    <classificacao>Ficção</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ficção</subcategoria>
+    </tema>
     <pontosBertrand>145.0</pontosBertrand>
     <preco moeda="€">14.5</preco>
   </ebook>
@@ -1083,12 +1333,15 @@
     <titulo>As Esquinas do Tempo</titulo>
     <autor>Rosa Lobato de Faria</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7H3v64pp4rYlTitxPiabLz&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -1096,12 +1349,15 @@
     <titulo>Mensagem</titulo>
     <autor>Fernando Pessoa</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Ut%2FBo3KckX9s3d1paGcxQ&amp;width=150</capaURL>
-    <classificacao>Poesia</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Poesia</subcategoria>
+    </tema>
     <pontosBertrand>45.0</pontosBertrand>
     <preco moeda="€">4.5</preco>
   </ebook>
@@ -1109,12 +1365,15 @@
     <titulo>A mão esquerda de Deus</titulo>
     <autor>Pedro Almeida Vieira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5W85YkGEz9DOwPUa9vw2il&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sextante Editora,Lda</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
@@ -1122,12 +1381,15 @@
     <titulo>Matteo perdeu o emprego</titulo>
     <autor>Gonçalo M. Tavares</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5%2BJNGjHEnprLB64FHOs%2FpA&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>129.0</pontosBertrand>
     <preco moeda="€">12.9</preco>
   </ebook>
@@ -1135,12 +1397,15 @@
     <titulo>O velho que lia romances de amor</titulo>
     <autor>Luis Sepúlveda</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6L8MF4YvyF3cFxq%2Foy%2BD%2B5&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>105.0</pontosBertrand>
     <preco moeda="€">10.5</preco>
   </ebook>
@@ -1148,12 +1413,15 @@
     <titulo>Os Maias</titulo>
     <autor>Eça de Queirós</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5BdwUxdaAGVW1ldo0KzP6D&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>69.0</pontosBertrand>
     <preco moeda="€">6.9</preco>
   </ebook>
@@ -1161,12 +1429,15 @@
     <titulo>Amor de Perdição</titulo>
     <autor>Camilo Castelo Branco</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5vxmymYMK36VbM8HJUCi3R&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>45.0</pontosBertrand>
     <preco moeda="€">4.5</preco>
   </ebook>
@@ -1174,12 +1445,15 @@
     <titulo>A Lucidez do Amor</titulo>
     <autor>Tânia Ganho</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6%2Bt4UCxQGZtEWcCqaKwlSc&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
@@ -1187,12 +1461,15 @@
     <titulo>Inverno em Madrid</titulo>
     <autor>C. J. Sansom</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7YhHB7kcQbWtArVYyrgrII&amp;width=150</capaURL>
-    <classificacao>Ficção</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ficção</subcategoria>
+    </tema>
     <pontosBertrand>155.0</pontosBertrand>
     <preco moeda="€">15.5</preco>
   </ebook>
@@ -1200,12 +1477,15 @@
     <titulo>O Sangue da Terra</titulo>
     <autor>Sofia Marrecas Ferreira</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5xCx0%2Bmcnv4t7UcGeJGg4B&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -1213,12 +1493,15 @@
     <titulo>Por Trás do Silêncio</titulo>
     <autor>Heather Gudenkauf</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Vg6K43G8Ir01UmY%2BxqiV%2F&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>135.0</pontosBertrand>
     <preco moeda="€">13.5</preco>
   </ebook>
@@ -1226,12 +1509,15 @@
     <titulo>Cinco de Outubro</titulo>
     <autor>Lourenço Pereira Coutinho</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5GdwI%2Fn8kzgtTB92JHFRBa&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sextante Editora,Lda</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
@@ -1239,12 +1525,15 @@
     <titulo>A Terra Toda</titulo>
     <autor>José Manuel Saraiva</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4HmHl7CUeDvFkKZNM6JB1a&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>129.0</pontosBertrand>
     <preco moeda="€">12.9</preco>
   </ebook>
@@ -1252,12 +1541,15 @@
     <titulo>Como o Ar que Respiras</titulo>
     <autor>Maria João Martins</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6P%2FWWL6vKIpHnZx95oG2mP&amp;width=150</capaURL>
-    <classificacao>Ficção</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ficção</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -1265,12 +1557,15 @@
     <titulo>Lisboa aos seus amores</titulo>
     <autor>Abel Neves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6E6FM6n0xKyFizSuMIjAVm&amp;width=150</capaURL>
-    <classificacao>Ficção</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sextante Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ficção</subcategoria>
+    </tema>
     <pontosBertrand>139.0</pontosBertrand>
     <preco moeda="€">13.9</preco>
   </ebook>
@@ -1278,12 +1573,15 @@
     <titulo>1822</titulo>
     <autor>Laurentino Gomes</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw63PDXtbE982RF9FqaVLg4q&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>155.0</pontosBertrand>
     <preco moeda="€">15.5</preco>
   </ebook>
@@ -1291,12 +1589,15 @@
     <titulo>333</titulo>
     <autor>Pedro Sena-Lino</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7xHnghNnZBUZ46WieKxu26&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>135.0</pontosBertrand>
     <preco moeda="€">13.5</preco>
   </ebook>
@@ -1304,12 +1605,15 @@
     <titulo>O Manicómio Dr. Heribaldo Raposo</titulo>
     <autor>Pedro Afonso</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7ezO5gMWiPzIbYo9iLgFI2&amp;width=150</capaURL>
-    <classificacao>Psiquiatria</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Sopa de Letras</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Medicina e Saúde</categoria>
+      <subcategoria xmlns="http://bertand.pt">Psiquiatria</subcategoria>
+    </tema>
     <pontosBertrand>122.6</pontosBertrand>
     <preco moeda="€">12.26</preco>
   </ebook>
@@ -1317,12 +1621,15 @@
     <titulo>Três Olhares Sobre o Futuro da Saúde em Portugal</titulo>
     <autor>Pedro Pita Barros</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>80.8</pontosBertrand>
     <preco moeda="€">8.08</preco>
   </ebook>
@@ -1330,12 +1637,15 @@
     <titulo>Será Depressão ou Simplesmente Tristeza...?</titulo>
     <autor>Pedro Afonso</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4tDyPb5nNqJmWy2DzqByIM&amp;width=150</capaURL>
-    <classificacao>Medicina Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Medicina e Saúde</categoria>
+      <subcategoria xmlns="http://bertand.pt">Medicina Geral</subcategoria>
+    </tema>
     <pontosBertrand>112.8</pontosBertrand>
     <preco moeda="€">11.28</preco>
   </ebook>
@@ -1343,12 +1653,15 @@
     <titulo>Esquizofrenia</titulo>
     <autor>Pedro Afonso</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5G%2BxENn20qhovGHVDd%2B7tA&amp;width=150</capaURL>
-    <classificacao>Psiquiatria</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Medicina e Saúde</categoria>
+      <subcategoria xmlns="http://bertand.pt">Saúde e Bem-Estar</subcategoria>
+    </tema>
     <pontosBertrand>118.9</pontosBertrand>
     <preco moeda="€">11.89</preco>
   </ebook>
@@ -1356,12 +1669,15 @@
     <titulo>O velho que lia romances de amor</titulo>
     <autor>Luis Sepúlveda</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6L8MF4YvyF3cFxq%2Foy%2BD%2B5&amp;width=150</capaURL>
-    <classificacao>Romance</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Romance</subcategoria>
+    </tema>
     <pontosBertrand>105.0</pontosBertrand>
     <preco moeda="€">10.5</preco>
   </ebook>
@@ -1369,12 +1685,15 @@
     <titulo>Carta dos Direitos Fundamentais da União Europeia</titulo>
     <autor>António Vitorino</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7%2BhFLvXBTd5cYbxH8bMuQr&amp;width=150</capaURL>
-    <classificacao>Política Europeia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política Europeia</subcategoria>
+    </tema>
     <pontosBertrand>0.0</pontosBertrand>
     <preco moeda="€">8.0</preco>
   </ebook>
@@ -1382,12 +1701,15 @@
     <titulo>Três Olhares Sobre o Futuro da Saúde em Portugal</titulo>
     <autor>Pedro Pita Barros</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6BOjdY1pFshYr1ggHsYADd&amp;width=150</capaURL>
-    <classificacao>Economia</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Economia, Finanças e Contabilidade</categoria>
+      <subcategoria xmlns="http://bertand.pt">Economia</subcategoria>
+    </tema>
     <pontosBertrand>80.8</pontosBertrand>
     <preco moeda="€">8.08</preco>
   </ebook>
@@ -1395,12 +1717,15 @@
     <titulo>O Estado e a Igreja em Portugal no Início do Século XX</titulo>
     <autor>João Seabra</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7GSkuAdLiUaU%2BMGJpRRohc&amp;width=150</capaURL>
-    <classificacao>Ciência e Hist. das Religiões</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ciência e Hist. das Religiões</subcategoria>
+    </tema>
     <pontosBertrand>179.6</pontosBertrand>
     <preco moeda="€">17.96</preco>
   </ebook>
@@ -1408,12 +1733,15 @@
     <titulo>A Tradição Anglo-Americana da Liberdade</titulo>
     <autor>João Carlos Espada</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Jd1SRekWv21EmupVHmfb2&amp;width=150</capaURL>
-    <classificacao>Política em Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política em Geral</subcategoria>
+    </tema>
     <pontosBertrand>151.7</pontosBertrand>
     <preco moeda="€">15.17</preco>
   </ebook>
@@ -1421,12 +1749,15 @@
     <titulo>As Farpas</titulo>
     <autor>Eca De Queiroz</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw46dPuB7YrfOdqarnfo7JYF&amp;width=150</capaURL>
-    <classificacao>Política em Geral</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Política</categoria>
+      <subcategoria xmlns="http://bertand.pt">Política em Geral</subcategoria>
+    </tema>
     <pontosBertrand>225.0</pontosBertrand>
     <preco moeda="€">22.5</preco>
   </ebook>
@@ -1434,12 +1765,15 @@
     <titulo>Ética, Valores Humanos e Responsabilidade Social das Empresas</titulo>
     <autor>Filipe Almeida</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6v65kP7ubyTOBRVSkXWWG3&amp;width=150</capaURL>
-    <classificacao>Organizações de Empresas</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Gestão</categoria>
+      <subcategoria xmlns="http://bertand.pt">Organizações de Empresas</subcategoria>
+    </tema>
     <pontosBertrand>163.5</pontosBertrand>
     <preco moeda="€">16.35</preco>
   </ebook>
@@ -1447,12 +1781,15 @@
     <titulo>Compêndio da Doutrina Social da Igreja</titulo>
     <autor>Vários</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6GXRnzIEhtb%2Fm4UEqlbGix&amp;width=150</capaURL>
-    <classificacao>Catolicismo</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Catolicismo</subcategoria>
+    </tema>
     <pontosBertrand>203.4</pontosBertrand>
     <preco moeda="€">20.34</preco>
   </ebook>
@@ -1460,12 +1797,15 @@
     <titulo>O Conto do Vigário</titulo>
     <autor>António Bagão Félix</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6UA3RpDRVq8hZ5JkmerCj2&amp;width=150</capaURL>
-    <classificacao>Contos</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Edições Centro Atlântico</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Literatura</categoria>
+      <subcategoria xmlns="http://bertand.pt">Contos</subcategoria>
+    </tema>
     <pontosBertrand>49.9</pontosBertrand>
     <preco moeda="€">4.99</preco>
   </ebook>
@@ -1473,12 +1813,15 @@
     <titulo>Pensamentos Para os Jovens</titulo>
     <autor>Bento XVI</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7Z7D0IC%2FB1vM1z2PBTae9p&amp;width=150</capaURL>
-    <classificacao>Catolicismo</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Lucerna</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Catolicismo</subcategoria>
+    </tema>
     <pontosBertrand>39.8</pontosBertrand>
     <preco moeda="€">3.98</preco>
   </ebook>
@@ -1486,12 +1829,15 @@
     <titulo>Os Santos de Portugal</titulo>
     <autor>João César das Neves</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6pQhJpyOBvv22uqu8ba2oI&amp;width=150</capaURL>
-    <classificacao>História de Portugal</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Lucerna</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">História</categoria>
+      <subcategoria xmlns="http://bertand.pt">História de Portugal</subcategoria>
+    </tema>
     <pontosBertrand>117.3</pontosBertrand>
     <preco moeda="€">11.73</preco>
   </ebook>
@@ -1499,12 +1845,15 @@
     <titulo>Homem Mulher - O Caso Decisivo do Amor</titulo>
     <autor>Angelo Scola</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6ORSAjmUgVd3vAGXvQqa9y&amp;width=150</capaURL>
-    <classificacao>Estudos Teológicos</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Estudos Teológicos</subcategoria>
+    </tema>
     <pontosBertrand>118.9</pontosBertrand>
     <preco moeda="€">11.89</preco>
   </ebook>
@@ -1512,12 +1861,15 @@
     <titulo>O Estado e a Igreja em Portugal no Início do Século XX</titulo>
     <autor>João Seabra</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7GSkuAdLiUaU%2BMGJpRRohc&amp;width=150</capaURL>
-    <classificacao>Ciência e Hist. das Religiões</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Ciência e Hist. das Religiões</subcategoria>
+    </tema>
     <pontosBertrand>179.6</pontosBertrand>
     <preco moeda="€">17.96</preco>
   </ebook>
@@ -1525,12 +1877,15 @@
     <titulo>Jesus de Nazaré</titulo>
     <autor>Bento XVI</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4YZi2fypUbt3%2BYID5fezIl&amp;width=150</capaURL>
-    <classificacao>Catolicismo</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Catolicismo</subcategoria>
+    </tema>
     <pontosBertrand>120.1</pontosBertrand>
     <preco moeda="€">12.01</preco>
   </ebook>
@@ -1538,12 +1893,15 @@
     <titulo>Luz do Mundo</titulo>
     <autor>Bento XVI</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw4J%2F0QmDlfvk%2FVHXERTWrVg&amp;width=150</capaURL>
-    <classificacao>Catolicismo</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Lucerna</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Catolicismo</subcategoria>
+    </tema>
     <pontosBertrand>128.7</pontosBertrand>
     <preco moeda="€">12.87</preco>
   </ebook>
@@ -1551,12 +1909,15 @@
     <titulo>Léxico da Família</titulo>
     <autor>Conselho Pontifício para a Família</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw5Fhxh8awg5vMDZbhk9F8c5&amp;width=150</capaURL>
-    <classificacao>Moral e Ética</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Moral e Ética</subcategoria>
+    </tema>
     <pontosBertrand>323.9</pontosBertrand>
     <preco moeda="€">32.39</preco>
   </ebook>
@@ -1564,12 +1925,15 @@
     <titulo>Gestão do Tempo para mulheres (muito) ocupadas</titulo>
     <autor>Maria José Silveira Núncio</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw7M697t65ySsV629oE3Yccu&amp;width=150</capaURL>
-    <classificacao>Desenvolvimento Pessoal</classificacao>
     <formato>E-pub</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Porto Editora</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Autoajuda</categoria>
+      <subcategoria xmlns="http://bertand.pt">Desenvolvimento Pessoal</subcategoria>
+    </tema>
     <pontosBertrand>125.0</pontosBertrand>
     <preco moeda="€">12.5</preco>
   </ebook>
@@ -1577,12 +1941,15 @@
     <titulo>Homem Mulher - O Caso Decisivo do Amor</titulo>
     <autor>Angelo Scola</autor>
     <capaURL>http://images.portoeditora.pt/getresourcesservlet/image?EBbDj3QnkSUjgBOkfaUbsOO1PkcorE7ouH4GdCRFtw6ORSAjmUgVd3vAGXvQqa9y&amp;width=150</capaURL>
-    <classificacao>Estudos Teológicos</classificacao>
     <formato>Pdf</formato>
     <edicao>
       <anoEdicao>2011</anoEdicao>
       <editor>Principia</editor>
     </edicao>
+    <tema xmlns="">
+      <categoria xmlns="http://bertand.pt">Religião e Moral</categoria>
+      <subcategoria xmlns="http://bertand.pt">Estudos Teológicos</subcategoria>
+    </tema>
     <pontosBertrand>118.9</pontosBertrand>
     <preco moeda="€">11.89</preco>
   </ebook>
