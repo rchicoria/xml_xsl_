@@ -10,20 +10,31 @@ xmlns:b="http://bertrand.pt">
   	<title>Colecção de Ebooks Bertrand</title>
   	<style>
   		td {
-  			font-size: 14px;
+  			font-size: 16px;
+  			vertical-align: top;
+  			font-family: Arial;
+  		}
+  		body {
+  			text-align: center;
+  			background: #fff7c2;
+  		}
+  		div {
+  			text-align: left;
+  		}
+  		h2, h3 {
+  			font-family: Arial;
   		}
   	</style>
   </head>
-  <body style="background: #fff7c2">
-  	<p align="center">
-    	<h2 style="color: #cc904a">Colecção de Ebooks Bertrand</h2>
-    </p>
+  <body>
+  	<div style="margin: 0 auto 0 auto; text-align: center">
+  	<h2 style="color: #cc904a">Colecção de Ebooks Bertrand</h2>
     <xsl:for-each select="b:list/b:ebook">
-      <div style="display: inline; width: 550px; height: 340px; float: left; word-wrap: break-word; background-color: #ffc37d; border: 1px solid #cc904a; margin: 20px; padding: 10px; border-radius: 10px; box-shadow: 5px 2px 10px #999;">
+      <div style="display: inline-block; width: 550px; height: 340px; background-color: #ffc37d; border: 1px solid #cc904a; margin: 20px; padding: 10px; border-radius: 10px; box-shadow: 5px 2px 10px #999;">
       	<h3><xsl:value-of select="b:titulo"/></h3>
         <table width="100%">
           <tr>
-          	<td valign="top" width="180" align="center">
+          	<td width="180" align="center">
               <img style="border: 1px solid #cc904a" >
                 <xsl:attribute name="src">
                   <xsl:value-of select="b:capaURL"/>
@@ -79,6 +90,7 @@ xmlns:b="http://bertrand.pt">
         </table>
       </div>
     </xsl:for-each>
+    </div>
   </body>
   </html>
 </xsl:template>
