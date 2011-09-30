@@ -1587,4 +1587,6 @@
     <preco moeda="€">11.89</preco>
   </ebook>
 </list>
+<?xml-stylesheet type="text/xsl" href="ebooks.xslt"?>
+<!--Information from bertrand.pt-->
 

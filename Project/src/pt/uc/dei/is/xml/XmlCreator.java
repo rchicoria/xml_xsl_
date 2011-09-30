@@ -13,6 +13,10 @@ public class XmlCreator {
 		Element listElement = new Element("list");
 		Document document = new Document(listElement);
 		
+		ProcessingInstruction pi = new ProcessingInstruction("xml-stylesheet", "type=\"text/xsl\" href=\"ebooks.xslt\"");
+		document.addContent(pi);
+		document.addContent(new Comment("Information from bertrand.pt"));
+		
 		//Namespace n = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
 		listElement.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 		//listElement.addNamespaceDeclaration(n);
