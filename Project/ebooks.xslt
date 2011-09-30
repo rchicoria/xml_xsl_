@@ -6,6 +6,14 @@ xmlns:b="http://bertrand.pt">
 
 <xsl:template match="/">
   <html>
+  <head>
+  	<title>Colecção de Ebooks Bertrand</title>
+  	<style>
+  		td {
+  			font-size: 14px;
+  		}
+  	</style>
+  </head>
   <body style="background: #fff7c2">
   	<p align="center">
     	<h2 style="color: #cc904a">Colecção de Ebooks Bertrand</h2>
@@ -25,7 +33,7 @@ xmlns:b="http://bertrand.pt">
             <td valign="top" style="line-height: 150%">
             <table width="100%">
             	<tr>
-	          		<td><b>ISBN</b></td>
+	          		<td width="40%"><b>ISBN</b></td>
 	          		<td><xsl:value-of select="@ISBN"/></td>
 	          	</tr>
 
