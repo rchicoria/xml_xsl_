@@ -11,7 +11,7 @@ public class XmlCreator {
 	
 	private static Document createXML(ArrayList<Ebook> ebooks)
 	{
-		Element listElement = new Element("list");
+		Element listElement = new Element("list",Namespace.getNamespace("b","http://bertrand.pt"));
 		Document document = new Document(listElement);
 		
 		HashMap piMap = new HashMap( 2 );
@@ -22,7 +22,7 @@ public class XmlCreator {
 		document.getContent().add( 0, pi );
 		
 		//Namespace n = Namespace.getNamespace("xsi", "http://www.w3.org/2001/XMLSchema-instance");
-		listElement.setNamespace(Namespace.getNamespace("http://bertand.pt"));
+		//listElement.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 		//listElement.addNamespaceDeclaration(n);
 		//listElement.setAttribute(new Attribute("schemaLocation", "http://google.com ebooks.xsd", n));
 		
@@ -30,54 +30,56 @@ public class XmlCreator {
 		while (iterator.hasNext())
 		{
 			Ebook currentEbook = iterator.next();
-			Element ebook = new Element("ebook");
-			ebook.setNamespace(Namespace.getNamespace("http://bertand.pt"));
+			Element ebook = new Element("ebook",Namespace.getNamespace("b","http://bertrand.pt"));
 			ebook.setAttribute("ISBN", currentEbook.getISBN());
 			
-			Element titulo = new Element("titulo");
+			Element titulo = new Element("titulo",Namespace.getNamespace("b","http://bertrand.pt"));
 			titulo.addContent(currentEbook.getTitulo());
-			titulo.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(titulo);
 			
-			Element autor = new Element("autor");
+			Element autor = new Element("autor",Namespace.getNamespace("b","http://bertrand.pt"));
 			autor.addContent(currentEbook.getAutor());
-			autor.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(autor);
 			
-			Element capaURL = new Element("capaURL");
+			Element capaURL = new Element("capaURL",Namespace.getNamespace("b","http://bertrand.pt"));
 			capaURL.addContent(currentEbook.getCapaURL());
-			capaURL.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(capaURL);
 			
-			Element formato = new Element("formato");
+			Element formato = new Element("formato",Namespace.getNamespace("b","http://bertrand.pt"));
 			formato.addContent(currentEbook.getFormato());
-			formato.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(formato);
 			
-			Element edicao = new Element("edicao");
-			edicao.setNamespace(Namespace.getNamespace("http://bertand.pt"));
+			Element edicao = new Element("edicao",Namespace.getNamespace("b","http://bertrand.pt"));
 			
-			Element anoEdicao = new Element("anoEdicao");
+			Element anoEdicao = new Element("anoEdicao",Namespace.getNamespace("b","http://bertrand.pt"));
 			anoEdicao.addContent(Integer.toString(currentEbook.getAnoEdicao()));
-			anoEdicao.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			edicao.addContent(anoEdicao);
 			
-			Element editor = new Element("editor");
+			Element editor = new Element("editor",Namespace.getNamespace("b","http://bertrand.pt"));
 			editor.addContent(currentEbook.getEditor());
-			editor.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			edicao.addContent(editor);
 			
 			ebook.addContent(edicao);
 			
-			Element pontosBertrand = new Element("pontosBertrand");
+			Element tema = new Element("tema", Namespace.getNamespace("b","http://bertrand.pt"));
+			
+			Element categoria = new Element("categoria", Namespace.getNamespace("b","http://bertrand.pt"));
+			categoria.addContent(currentEbook.getCategoria());
+			tema.addContent(categoria);
+			
+			Element subcategoria = new Element("subcategoria", Namespace.getNamespace("b","http://bertrand.pt"));
+			subcategoria.addContent(currentEbook.getSubcategoria());
+			tema.addContent(subcategoria);
+			
+			ebook.addContent(tema);
+			
+			Element pontosBertrand = new Element("pontosBertrand",Namespace.getNamespace("b","http://bertrand.pt"));
 			pontosBertrand.addContent(Float.toString(currentEbook.getPontosBertrand()));
-			pontosBertrand.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(pontosBertrand);
 			
-			Element preco = new Element("preco");
+			Element preco = new Element("preco",Namespace.getNamespace("b","http://bertrand.pt"));
 			preco.addContent(Float.toString(currentEbook.getPreco()));
 			preco.setAttribute("moeda", "€");
-			preco.setNamespace(Namespace.getNamespace("http://bertand.pt"));
 			ebook.addContent(preco);
 			
 			listElement.addContent(ebook);
