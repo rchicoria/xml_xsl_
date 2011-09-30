@@ -43,6 +43,31 @@ public class RegEx {
 	}
 	
 	/**
+	 * Extrai do HTML da página que lista as categorias na sidebar
+	 * os links para cada uma das categorias
+	 * @param html
+	 * @return lista de urls
+	 */
+	public static ArrayList<String> getCategoriesURL(String html)
+	{
+		ArrayList<String> urls = new ArrayList<String>();
+		Pattern pattern = Pattern.compile("<a[ ]+href=\"(/home/index/[^\"]+)\">");
+		Matcher matcher = pattern.matcher(html);
+		
+        while (matcher.find())
+        {
+        	try {
+        		String url = matcher.group(1);
+        		urls.add(url);
+        	}
+        	catch (IllegalStateException e) {
+        		XML.debug(e.toString());
+        	}
+        }
+		return urls; 
+	}
+	
+	/**
 	 * Extrai do HTML da página que lista os produtos o link
 	 * para a página seguinte
 	 * @param html
