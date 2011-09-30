@@ -13,9 +13,18 @@
 
 package pt.uc.dei.is.xml;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
+
+import org.jdom.Document;
+import org.jdom.JDOMException;
+import org.jdom.input.SAXBuilder;
+import org.jdom.output.Format;
+import org.jdom.output.XMLOutputter;
+import org.jdom.transform.XSLTransformException;
+import org.jdom.transform.XSLTransformer;
 
 public class XML {
 	
@@ -97,6 +106,28 @@ public class XML {
 		while(iterator.hasNext())
 		{
 			System.out.println(iterator.next());
+		}
+		
+		SAXBuilder builder = new SAXBuilder();
+        Document doc2 = null;
+        try{
+            Document doc = builder.build("ebooks.xml");
+            XSLTransformer transformer = new XSLTransformer("ebooks.xsl");
+            doc2 = transformer.transform(doc);
+        }
+        catch(XSLTransformException e){
+        }
+        catch(JDOMException e){
+        }
+        catch(IOException e){}
+
+        // Write the resulting document to file 'dvds.htm'
+        XMLOutputter out = new XMLOutputter(Format.getPrettyFormat());
+        try {
+			out.output(doc2, new FileWriter("ebooks.html"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		
 	}

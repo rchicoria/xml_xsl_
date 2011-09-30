@@ -16,7 +16,7 @@ public class XmlCreator {
 		
 		HashMap piMap = new HashMap( 2 );
 		piMap.put( "type", "text/xsl" );
-		piMap.put( "href", "ebooks.xslt" );
+		piMap.put( "href", "ebooks.xsl" );
 		ProcessingInstruction pi = new ProcessingInstruction( "xml-stylesheet", piMap );
 
 		document.getContent().add( 0, pi );

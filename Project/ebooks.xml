@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="ebooks.xslt"?>
+<?xml-stylesheet type="text/xsl" href="ebooks.xsl"?>
 <b:list xmlns:b="http://bertrand.pt">
   <b:ebook ISBN="9789896151232">
     <b:titulo>Casas Inteligentes</b:titulo>
