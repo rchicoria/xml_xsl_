@@ -22,26 +22,27 @@ xmlns:b="http://bertrand.pt">
   			text-align: left;
   		}
   		h2, h3 {
-  			font-family: Arial;
+  			font-family: Serif;
+  			color: #390000;
   		}
   	</style>
   </head>
   <body>
   	<div style="margin: 0 auto 0 auto; text-align: center">
-  	<h2 style="color: #cc904a">Colecção de Ebooks Bertrand</h2>
+  	<h2>Colecção de Ebooks Bertrand</h2>
     <xsl:for-each select="b:list/b:ebook">
-      <div style="display: inline-block; width: 550px; height: 340px; background-color: #ffc37d; border: 1px solid #cc904a; margin: 20px; padding: 10px; border-radius: 10px; box-shadow: 5px 2px 10px #999;">
-      	<h3><xsl:value-of select="b:titulo"/></h3>
+      <div style="display: inline-block; width: 550px; height: 360px; background-color: #ffc37d; border: 1px solid #cc904a; margin: 20px; padding: 10px; border-radius: 10px; box-shadow: 5px 2px 10px #999;">
         <table width="100%">
           <tr>
           	<td width="180" align="center">
-              <img style="border: 1px solid #cc904a" >
+              <img style="border: 1px solid #cc904a; margin-top: 20px" >
                 <xsl:attribute name="src">
                   <xsl:value-of select="b:capaURL"/>
                 </xsl:attribute>
               </img>
             </td>
-            <td valign="top" style="line-height: 150%">
+            <td style="line-height: 150%">
+            <h3><xsl:value-of select="b:titulo"/></h3>
             <table width="100%">
             	<tr>
 	          		<td width="40%"><b>ISBN</b></td>
